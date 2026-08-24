@@ -1,0 +1,201 @@
+product_id,product_name,category,unit_cost_USD,unit_price_USD,gross_margin_pct,stock_qty,is_active
+PROD-0001,Wireless Headphones,Electronics,,438.78,77.8,-43,No
+PROD-0002,Smart Watch,Electronics,748.55,"1,070.87",30.1,1147,Yes
+PROD-0003,Bluetooth Speaker,ELECTRONICS,44.48,117.98,62.3,2847,Yes
+PROD-0004,USB-C Hub,Electronics,,"2,263.48",70.7,-46,Yes
+PROD-0005,Webcam HD,ELECTRONICS,227.29,695.37,67.3,3039,Yes
+PROD-0006,Mechanical Keyboard,Electronics,370.65,"1,517.09",75.6,,Yes
+PROD-0007,Gaming Mouse,Electronics,678.99,"1,421.71",52.2,3833,Yes
+PROD-0008,Monitor 27in,Electronics,55.49,142.16,61,4437,Yes
+PROD-0009,Laptop Stand,Electronics,33.35,$43.95,24.1,3280,No
+PROD-0010,Portable Charger,Electronics,175.15,334.02,47.6,654,Yes
+PROD-0011,Project Management Suite,Software,325.02,947.94,65.7,2770,Yes
+PROD-0012,CRM Platform,Software,361.03,558.51,35.4,3212,Yes
+PROD-0013,Analytics Tool,Software,579.07,"2,148.49",73,3932,No
+PROD-0014,Accounting Software,Software,182.76,435.63,58,1729,Yes
+PROD-0015,Email Marketing Tool,Softwre,292.56,997.69,70.7,4297,Yes
+PROD-0016,HR Management System,Software ,621.74,"1,658.34",62.5,3929,No
+PROD-0017,Design Software,Software,600.37,819.73,26.8,2448,No
+PROD-0018,Cloud Storage,Software,365.87,"1,471.32",75.1,1808,No
+PROD-0019,Security Suite,Softwre,396.54,"1,657.49",,2185,Yes
+PROD-0020,Video Conferencing,Software,632.91,"1,857.53",65.9,2393,Yes
+PROD-0021,Running Shoes,Apparel,149.72,467.63,68,,Yes
+PROD-0022,Casual T-Shirt,Apparel,174.05,263.25,33.9,2481,Yes
+PROD-0023,Business Jacket,Apparel,285.96,"1,140.19",74.9,4726,Yes
+PROD-0024,Winter Coat,Apparel,562.37,"1,531.64",63.3,969,No
+PROD-0025,Sports Leggings,Apparel,341.92,"1,270.62",73.1,4391,No
+PROD-0026,Polo Shirt,Apparel,136.39,247.26,44.8,3123,Yes
+PROD-0027,Dress Shoes,Apparel ,309.95,632.94,51,3958,Yes
+PROD-0028,Backpack,Apparel,379.14,621.89,39,-13,Yes
+PROD-0029,Baseball Cap,Apparel,674.52,"1,309.55",48.5,1847,No
+PROD-0030,Sunglasses,Apparel,290.69,685.18,57.6,4397,Yes
+PROD-0031,Coffee Maker,home & garden,651.77,"1,966.81",66.9,1016,Yes
+PROD-0032,Air Purifier,Home & Garden,573.42,"2,282.93",74.9,849,No
+PROD-0033,Robot Vacuum,Home & Garden,434.61,"1,014.56",57.2,1683,Yes
+PROD-0034,Smart Thermostat,Home & Garden,278.41,669.46,58.4,2448,Yes
+PROD-0035,Garden Hose,Home & Garden,98.89,249.63,60.4,1931,Yes
+PROD-0036,Cookware Set,HOME & GARDEN,104.11,265.41,,43,No
+PROD-0037,Bed Sheets,Home&Garden,719.04,"1,097.50",34.5,2021,No
+PROD-0038,Wall Art,Home & Garden,673.01,"1,162.29",42.1,1407,No
+PROD-0039,Desk Lamp,home & garden,9.44,37.13,74.6,2398,Yes
+PROD-0040,Storage Ottoman,Home & Garden,479.07,"2,043.74",76.6,1654,No
+PROD-0041,Yoga Mat,Sports,371.65,$1505.03,75.3,3998,Yes
+PROD-0042,Resistance Bands,Sports,669.01,"1,478.09",54.7,1674,Yes
+PROD-0043,Protein Powder,Sports,222.39,345.71,35.7,2922,Yes
+PROD-0044,Jump Rope,Sports,62.67,129.09,51.5,3488,Yes
+PROD-0045,Foam Roller,Sports,768.67,"3,167.91",75.7,,Yes
+PROD-0046,Water Bottle,Sports,529.42,"1,267.26",58.2,1675,No
+PROD-0047,Gym Bag,Sports,118.73,247.22,52,2899,No
+PROD-0048,Fitness Tracker,Sports,500.16,"1,613.68",69,3098,Yes
+PROD-0049,Tennis Racket,Sports,42.30,64.18,34.1,1041,Yes
+PROD-0050,Cycling Helmet,Sports,417.65,"1,184.49",64.7,4197,Yes
+PROD-0051,Moisturiser SPF50,Beauty,664.12,"1,404.40",52.7,775,Yes
+PROD-0052,Vitamin C Serum,Beauty,,$726.02,29.7,1338,No
+PROD-0053,Hair Dryer,Beauty,441.50,"1,169.24",62.2,4782,Yes
+PROD-0054,Electric Toothbrush,Beauty ,577.89,"1,315.46",56.1,3293,Yes
+PROD-0055,Perfume 50ml,Beauty,497.53,$1469.34,66.1,2801,Yes
+PROD-0056,Lip Balm Set,Beauty,145.64,238.66,39,2746,Yes
+PROD-0057,Face Mask Kit,Beauty,561.81,"1,233.52",54.5,1503,No
+PROD-0058,Nail Polish Set,Beauty ,151.70,372.61,59.3,1261,Yes
+PROD-0059,Shampoo & Conditioner,Beauty,634.19,"1,389.29",54.4,2062,Yes
+PROD-0060,Makeup Brush Set,Beauty,733.80,"2,450.90",70.1,4795,Yes
+PROD-0061,Data Analytics Guide,Books,461.54,706.17,34.6,31,Yes
+PROD-0062,Python for Beginners,Books ,262.42,997.77,73.7,,Yes
+PROD-0063,Marketing Mastery,Books,543.53,"2,080.85",73.9,33,Yes
+PROD-0064,Leadership Principles,BOOKS,454.31,806.00,43.6,,Yes
+PROD-0065,Financial Freedom,Books,594.51,"1,469.98",59.6,3921,No
+PROD-0066,SQL Deep Dive,Books,686.95,"2,840.66",75.8,-23,Yes
+PROD-0067,Design Thinking,Books,,866.02,33.5,642,Yes
+PROD-0068,Product Management,Books,176.95,406.78,56.5,812,No
+PROD-0069,Growth Hacking,Books,249.89,910.45,72.6,250,Yes
+PROD-0070,AI Fundamentals,Books,48.31,198.30,75.6,4786,Yes
+PROD-0071,Premium Coffee Beans,Food & Beverage ,145.31,$332.96,56.4,1146,Yes
+PROD-0072,Protein Bars 12pk,Food & Beverage,663.13,"1,658.51",60,4886,Yes
+PROD-0073,Green Tea Collection,Food & Beverage,219.84,$482.30,54.4,4531,Yes
+PROD-0074,Organic Honey,Food & Beverage,266.13,"1,181.07",77.5,3300,Yes
+PROD-0075,Hot Sauce Bundle,Food and Beverage,368.54,"1,052.52",65,1390,No
+PROD-0076,Smoothie Mix,Food & Beverage,291.43,643.37,54.7,3320,Yes
+PROD-0077,Nuts & Seeds Mix,Food & Beverage,586.72,"1,002.34",41.5,2377,Yes
+PROD-0078,Dark Chocolate Box,Food & Beverage,,538.02,50.6,3947,Yes
+PROD-0079,Energy Drink Pack,Food & Beverage,550.68,"1,871.84",70.6,681,No
+PROD-0080,Herbal Tea Set,Food & Beverage,614.87,"1,313.91",53.2,1414,Yes
+PROD-0081,Webcam HD Pro,Electronics,226.51,846.49,73.2,3039,Yes
+PROD-0082,Dark Chocolate Box Pro,Food & Beverage,304.47,472.75,35.6,3947,Yes
+PROD-0083,Lip Balm Set Pro,Beauty,170.38,$310.69,45.2,2746,Yes
+PROD-0084,SQL Deep Dive Pro,Books,565.12,"3,859.71",85.4,4776,Yes
+PROD-0085,Data Analytics Guide Pro,Books,448.25,861.20,48,31,Yes
+PROD-0086,Running Shoes Pro,Apparel,165.08,392.61,58,2473,Yes
+PROD-0087,Hair Dryer Pro,Beauty,401.19,957.33,58.1,4782,Yes
+PROD-0088,Leadership Principles Pro,Books,442.24,805.36,45.1,3395,Yes
+PROD-0089,Design Software Pro,Software,705.91,820.64,14,,No
+PROD-0090,Winter Coat Pro,Apparel,519.57,"1,531.24",66.1,969,No
+PROD-0091,Wall Art Pro,Home & Garden,649.88,"1,457.61",55.4,1407,No
+PROD-0092,Vitamin C Serum Pro,Beuty,581.33,630.20,,1338,No
+PROD-0093,Financial Freedom Pro,Books,549.70,"1,358.05",59.5,3921,No
+PROD-0094,Growth Hacking Pro,BOOKS,219.51,"1,026.12",78.6,250,Yes
+PROD-0095,Bed Sheets Pro,Home & Garden,834.65,"1,260.77",33.8,2021,No
+PROD-0096,Robot Vacuum Pro,Home & Garden,438.87,"1,308.53",66.5,1683,Yes
+PROD-0097,Hot Sauce Bundle Pro,Food & Beverage,367.35,"1,311.29",,1390,No
+PROD-0098,Moisturiser SPF50 Pro,Beauty ,712.57,"1,270.72",43.9,775,Yes
+PROD-0099,Premium Coffee Beans Pro,Food & Beverage,157.03,424.25,63,1146,Yes
+PROD-0100,Dark Chocolate Box Pro,Food & Beverage,318.90,594.75,46.4,,Yes
+PROD-0101,Yoga Mat Pro,Sports,417.26,"1,956.47",78.7,3998,Yes
+PROD-0102,Smart Thermostat Pro,Home & Garden,326.42,842.50,61.3,2448,Yes
+PROD-0103,Analytics Tool Pro,Software ,641.19,"2,266.75",71.7,3932,No
+PROD-0104,Hot Sauce Bundle Pro,Food & Beverage,400.34,"1,314.76",69.6,1390,No
+PROD-0105,Sunglasses Pro,Apparel,,814.10,57.9,4397,Yes
+PROD-0106,Cycling Helmet Pro,Sports,427.35,"1,257.89",66,4197,Yes
+PROD-0107,Dress Shoes Pro,Apparel,248.36,821.85,69.8,3958,Yes
+PROD-0108,Analytics Tool Pro,Software,494.70,"1,922.02",74.3,3932,No
+PROD-0109,Financial Freedom Pro,Books,,"1,601.89",69.8,3921,No
+PROD-0110,Design Software Pro,Software,584.12,847.18,31.1,2448,No
+PROD-0111,Product Management v2,Books,142.63,327.73,56.5,812,No
+PROD-0112,Nuts & Seeds Mix Pro,Food & Beverage,583.48,"1,330.62",56.1,2377,Yes
+PROD-0113,Protein Powder v2,Sports,242.24,447.28,45.8,,Yes
+PROD-0114,Moisturiser SPF50 Pro,Beauty,643.98,"1,899.07",66.1,775,Yes
+PROD-0115,Smart Thermostat Pro,home & garden,306.33,$618.21,50.4,,Yes
+PROD-0116,Email Marketing Tool Pro,Software,273.75,938.94,70.8,4297,Yes
+PROD-0117,Running Shoes Pro,Apparel,138.32,493.75,,2473,Yes
+PROD-0118,Foam Roller Pro,Sports,889.37,"4,306.63",79.3,2788,Yes
+PROD-0119,Baseball Cap Pro,Apparel,,"1,471.39",58.5,1847,No
+PROD-0120,Foam Roller Pro,Sports,748.94,"3,490.02",78.5,2788,Yes
+PROD-0121,Analytics Tool Pro,Software,644.85,"2,845.63",77.3,3932,No
+PROD-0122,Video Conferencing Pro,Software,735.37,$2447.65,70,2393,Yes
+PROD-0123,Laptop Stand Pro,Electronics,29.03,55.29,47.5,3280,No
+PROD-0124,Growth Hacking Pro,Books,207.90,855.22,,250,Yes
+PROD-0125,Python for Beginners Pro,Books,282.01,935.12,69.8,777,Yes
+PROD-0126,Wireless Headphones Pro,Electronics,,425.58,72.6,,No
+PROD-0127,Desk Lamp Pro,Home & Garden,,$50.58,,2398,Yes
+PROD-0128,Leadership Principles Pro,Books,385.98,934.40,58.7,3395,Yes
+PROD-0129,Baseball Cap Pro,Apparel,571.45,"1,239.92",53.9,1847,No
+PROD-0130,Storage Ottoman Pro,Home & Garden,428.64,"1,867.26",77,1654,No
+PROD-0131,Design Thinking Pro,Books,645.90,880.31,26.6,642,Yes
+PROD-0132,Business Jacket Pro,Apparel,258.29,"1,511.13",82.9,4726,Yes
+PROD-0133,Financial Freedom Pro,Books,699.65,"1,802.74",61.2,3921,No
+PROD-0134,Nuts & Seeds Mix Pro,Food & Beverage,688.31,"1,261.60",45.4,2377,Yes
+PROD-0135,Bed Sheets Pro,Home & Garden,844.24,$1103.72,23.5,2021,No
+PROD-0136,Cycling Helmet Pro,Sports,358.82,"1,098.60",67.3,4197,Yes
+PROD-0137,Air Purifier Pro,Home & Garden,469.25,"2,331.88",79.9,849,No
+PROD-0138,Perfume 50ml Pro,BEAUTY,535.54,"1,325.71",59.6,2801,Yes
+PROD-0139,Moisturiser SPF50 Pro,Beauty,,"1,862.50",64.7,775,Yes
+PROD-0140,Bed Sheets Pro,Home&Garden,631.07,"1,071.89",41.1,2021,No
+PROD-0141,Design Thinking Pro,Books,540.99,"1,078.56",49.8,642,Yes
+PROD-0142,Cycling Helmet Pro,Sports,450.59,"1,066.85",57.8,4197,Yes
+PROD-0143,Smoothie Mix Pro,Food & Beverage,310.93,841.22,63,3320,Yes
+PROD-0144,Protein Bars 12pk v2,food & beverage,557.12,"1,597.60",65.1,4886,Yes
+PROD-0145,Premium Coffee Beans Pro,Food & Beverage,143.16,$464.46,,1146,Yes
+PROD-0146,Design Software Pro,Software,528.40,$723.98,,2448,No
+PROD-0147,Monitor 27in Pro,Electronics,60.86,114.25,46.7,4437,Yes
+PROD-0148,Wall Art Pro,HOME & GARDEN,596.82,"1,318.36",,1407,No
+PROD-0149,Lip Balm Set Pro,Beauty,138.45,231.82,40.3,2746,Yes
+PROD-0150,Mechanical Keyboard Pro,Electronics,316.17,"1,592.88",80.2,2648,Yes
+PROD-0151,Bluetooth Speaker Pro,Electronics,44.46,118.53,,2847,Yes
+PROD-0152,Marketing Mastery Pro,Books,,"2,538.42",78.8,33,Yes
+PROD-0153,Analytics Tool Pro,Software,641.18,$2914.31,,3932,No
+PROD-0154,Dress Shoes Pro,Apparel,279.13,559.43,50.1,3958,Yes
+PROD-0155,CRM Platform Pro,Software,319.74,509.71,37.3,3212,Yes
+PROD-0156,Protein Powder v2,Sports,,335.04,,2922,Yes
+PROD-0157,Analytics Tool Pro,Software,641.61,"1,897.69",66.2,3932,No
+PROD-0158,Wall Art Pro,Home & Garden,759.18,"1,235.81",38.6,1407,No
+PROD-0159,USB-C Hub Pro,Electronics,,"2,734.41",79.9,2816,Yes
+PROD-0160,AI Fundamentals Pro,BOOKS,,225.00,81.3,4786,Yes
+PROD-0161,Hot Sauce Bundle Pro,Food & Beverage,,"1,006.11",67.1,1390,No
+PROD-0162,Mechanical Keyboard Pro,Electronics,352.69,"1,226.74",71.2,2648,Yes
+PROD-0163,Smart Thermostat Pro,Home & Garden,333.29,820.19,,2448,Yes
+PROD-0164,Jump Rope Pro,Sports,,$131.56,57.5,3488,Yes
+PROD-0165,Energy Drink Pack Pro,Food & Beverage,462.13,"1,670.16",72.3,681,No
+PROD-0166,Product Management v2,Books,198.58,557.83,64.4,812,No
+PROD-0167,Makeup Brush Set Pro,BEAUTY,875.33,"2,625.63",66.7,4795,Yes
+PROD-0168,Security Suite Pro,Softwre,439.90,"1,329.27",66.9,2185,Yes
+PROD-0169,Portable Charger Pro,Electronics ,205.74,410.99,49.9,654,Yes
+PROD-0170,Vitamin C Serum Pro,Beauty,563.01,$862.09,34.7,1338,No
+PROD-0171,HR Management System Pro,Software,,"1,930.86",61.5,3929,No
+PROD-0172,Desk Lamp Pro,HOME & GARDEN,11.02,46.39,76.2,2398,Yes
+PROD-0173,Wireless Headphones Pro,Electronics,87.04,581.83,85,2956,No
+PROD-0174,Gym Bag Pro,Sports ,135.70,335.66,59.6,2899,No
+PROD-0175,Moisturiser SPF50 Pro,Beauty,733.86,"1,344.19",45.4,775,Yes
+PROD-0176,Video Conferencing Pro,Software,587.82,$2262.72,74,2393,Yes
+PROD-0177,Jump Rope Pro,Sports,54.49,135.15,59.7,3488,Yes
+PROD-0178,Gym Bag Pro,SPORTS,99.85,229.12,56.4,2899,No
+PROD-0179,Growth Hacking Pro,Books,257.18,"1,274.57",79.8,250,Yes
+PROD-0180,Sunglasses Pro,Apparel,287.47,683.34,57.9,,Yes
+PROD-0181,Cloud Storage Pro,Software,369.18,$1691.68,78.2,1808,No
+PROD-0182,Coffee Maker Pro,Home & Garden,779.42,$1789.99,56.5,1016,Yes
+PROD-0183,Mechanical Keyboard Pro,Electronics,391.69,"1,366.91",71.3,2648,Yes
+PROD-0184,Smart Watch Pro,Electronics,890.80,984.86,9.6,1147,Yes
+PROD-0185,Green Tea Collection Pro,Food & Beverage,,653.88,,4531,Yes
+PROD-0186,Security Suite Pro,Softwre,393.79,"2,016.16",80.5,2185,Yes
+PROD-0187,SQL Deep Dive Pro,Books,,"3,875.59",80.2,,Yes
+PROD-0188,CRM Platform Pro,Software,426.36,504.65,15.5,3212,Yes
+PROD-0189,Coffee Maker Pro,Home & Garden,671.18,"2,619.56",74.4,1016,Yes
+PROD-0190,Foam Roller Pro,Sports,901.50,"2,998.27",69.9,2788,Yes
+PROD-0191,Garden Hose Pro,Home & Garden,95.68,338.86,71.8,-30,Yes
+PROD-0192,Nail Polish Set Pro,Beauty,123.10,469.83,73.8,1261,Yes
+PROD-0193,Bed Sheets Pro,Home & Garden,750.64,"1,439.66",47.9,2021,No
+PROD-0194,Robot Vacuum Pro,Home & Garden,521.41,"1,067.17",51.1,1683,Yes
+PROD-0195,Robot Vacuum Pro,Home & Garden,360.97,"1,006.15",64.1,1683,Yes
+PROD-0196,Jump Rope Pro,Sports ,68.49,148.45,53.9,3488,Yes
+PROD-0197,Tennis Racket Pro,Sports,43.88,70.96,38.2,1041,Yes
+PROD-0198,Vitamin C Serum Pro,Beauty,498.23,$826.67,39.7,,No
+PROD-0199,Makeup Brush Set Pro,Beauty,606.54,$3414.28,82.2,4795,Yes
+PROD-0200,Data Analytics Guide Pro,Books,408.22,672.78,39.3,31,Yes
