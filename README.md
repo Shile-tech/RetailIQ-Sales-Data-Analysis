@@ -31,6 +31,7 @@ The project begins with comprehensive **data cleaning and quality validation** a
 **SQL Server (SSMS)**
 
 **Power BI**
+
 ---
 
 ## 🔎 **Focus**
