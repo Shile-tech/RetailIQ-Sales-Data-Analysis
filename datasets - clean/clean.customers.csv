@@ -1,0 +1,481 @@
+﻿customer_id,first_name,last_name,email,segment,region,country,industry,acquisition_channel,acquisition_date,last_purchase_date,activity_status,lifetime_value_USD
+CUST-0001,Kofi,Thomas,kofi.thomas1@email.com,SMB,Latin America,Argentina,Hospitality,Direct,2023-03-31,2023-12-27,Churned,45439.17
+CUST-0002,Zara,Nwosu,zara.nwosu2@email.com,Government,Middle East,Qatar,Unknown,Paid Ads,2022-01-18,2023-11-25,Churned,44240.94
+CUST-0003,Melissa,Mensah,melissa.mensah3@email.com,Government,Latin America,Colombia,Unknown,Paid Ads,2019-04-30,2023-03-31,Churned,53511.31
+CUST-0004,Kwame,Davis,kwame.davis4@email.com,Startup,Latin America,Colombia,Manufacturing,Social Media,2020-12-08,2022-01-23,Churned,27800.94
+CUST-0005,Priya,Adeleke,priya.adeleke5@email.com,Individual,Africa,South Africa,Finance,Paid Ads,2019-03-24,2021-10-01,Churned,64810.65
+CUST-0006,Charles,Mueller,charles.mueller6@email.com,Individual,Asia Pacific,South Korea,Retail,Email Campaign,2020-11-09,2024-07-07,At Risk,51648.07
+CUST-0007,Thomas,Martin,thomas.martin7@email.com,SMB,Middle East,Saudi Arabia,Manufacturing,Paid Ads,2021-10-07,2022-07-23,Churned,22411.91
+CUST-0008,Chukwuemeka,Okafor,chukwuemeka.okafor8@email.com,SMB,Latin America,Chile,Healthcare,Direct,2020-11-10,2022-01-07,Churned,49470.58
+CUST-0009,David,Miller,david.miller9@email.com,SMB,Europe,United Kingdom,Finance,Social Media,2020-12-18,2022-03-31,Churned,7106.01
+CUST-0010,Daniel,Martin,daniel.martin10@email.com,Government,Latin America,Chile,Logistics,Referral,2021-12-08,2024-05-18,At Risk,56495.94
+CUST-0011,Priya,Jackson,priya.jackson11@email.com,Startup,North America,Canada,Healthcare,Referral,2022-03-02,2023-07-27,Churned,44916.24
+CUST-0012,Zara,White,zara.white12@email.com,SMB,Europe,Netherlands,Unknown,Email Campaign,2020-10-17,2022-10-13,Churned,63810.81
+CUST-0013,Michael,Yamamoto,michael.yamamoto13@email.com,Enterprise,Latin America,Brazil,Technology,Paid Ads,2021-11-26,2022-09-08,Churned,80352.67
+CUST-0014,Melissa,Garcia,melissa.garcia14@email.com,SMB,Africa,South Africa,Healthcare,Social Media,2019-11-28,2020-05-23,Churned,10826.71
+CUST-0015,Robert,Smith,robert.smith15@email.com,Government,Africa,Nigeria,Manufacturing,Paid Ads,2019-01-01,2020-05-18,Churned,24025.42
+CUST-0016,Stephanie,Brown,stephanie.brown16@email.com,Government,North America,Mexico,Finance,Direct,2022-04-01,2022-10-30,Churned,54857.94
+CUST-0017,Kwame,Thomas,kwame.thomas17@email.com,Startup,Middle East,Saudi Arabia,Logistics,Direct,2022-07-23,2023-10-15,Churned,70975.90
+CUST-0018,Melissa,Li,melissa.li18@email.com,Individual,Africa,Ghana,Healthcare,Email Campaign,2020-03-05,2021-01-27,Churned,26627.85
+CUST-0019,Richard,Thomas,richard.thomas19@email.com,Enterprise,Asia Pacific,India,Manufacturing,Organic Search,2022-10-13,2022-10-15,Churned,65735.74
+CUST-0020,Ibrahim,Singh,ibrahim.singh20@email.com,SMB,Latin America,Brazil,Logistics,Email Campaign,2022-02-09,2024-11-21,Active,46603.70
+CUST-0021,Emily,Kim,emily.kim21@email.com,Government,Asia Pacific,Australia,Education,Referral,2022-09-26,2024-10-15,Active,13569.02
+CUST-0022,Robert,Kim,robert.kim22@email.com,SMB,North America,United States,Manufacturing,Organic Search,2020-09-21,2022-02-19,Churned,42176.94
+CUST-0023,Omar,Mensah,omar.mensah23@email.com,Government,Middle East,Saudi Arabia,Healthcare,Referral,2019-03-18,2020-07-28,Churned,10312.00
+CUST-0024,Arjun,Thomas,arjun.thomas24@email.com,Enterprise,Africa,Nigeria,Hospitality,Direct,2019-02-23,2022-03-18,Churned,19781.22
+CUST-0025,Fatima,Wilson,fatima.wilson25@email.com,Government,Europe,Sweden,Hospitality,Organic Search,2019-07-30,2024-11-11,Active,50925.93
+CUST-0026,Elizabeth,Kim,elizabeth.kim26@email.com,SMB,Africa,South Africa,Retail,Organic Search,2020-02-12,2022-03-26,Churned,45599.15
+CUST-0027,Priya,Diallo,priya.diallo27@email.com,SMB,Africa,South Africa,Education,Email Campaign,2020-07-20,2023-11-13,Churned,30460.90
+CUST-0028,Ashley,Li,ashley.li28@email.com,Startup,Middle East,Saudi Arabia,Finance,Email Campaign,2020-05-02,2024-12-11,Active,66307.89
+CUST-0029,Aisha,Harris,aisha.harris29@email.com,Government,Middle East,Saudi Arabia,Education,Referral,2022-10-15,2024-09-15,At Risk,78527.53
+CUST-0030,Kwame,Brown,kwame.brown30@email.com,SMB,Asia Pacific,India,Hospitality,Referral,2021-11-26,2022-08-28,Churned,55523.03
+CUST-0031,Daniel,Wilson,daniel.wilson31@email.com,SMB,North America,Mexico,Education,Social Media,2020-08-30,2022-01-18,Churned,55140.62
+CUST-0032,Yuki,Allen,yuki.allen32@email.com,Startup,Europe,Netherlands,Hospitality,Organic Search,2022-11-24,2023-01-28,Churned,64286.94
+CUST-0033,William,Miller,william.miller33@email.com,Startup,Middle East,Qatar,Retail,Paid Ads,2023-04-03,2024-11-15,Active,21761.55
+CUST-0034,Charles,Jackson,charles.jackson34@email.com,SMB,Middle East,UAE,Logistics,Direct,2020-06-29,2020-11-17,Churned,39374.95
+CUST-0035,Robert,Moore,robert.moore35@email.com,Individual,Europe,Spain,Retail,Partner,2020-04-01,2024-06-25,At Risk,49723.30
+CUST-0036,John,Allen,john.allen36@email.com,Individual,Latin America,Colombia,Retail,Direct,2019-09-25,2021-08-18,Churned,35168.72
+CUST-0037,Chukwuemeka,Martin,chukwuemeka.martin37@email.com,Startup,North America,Mexico,Healthcare,Social Media,2022-03-12,2023-09-10,Churned,14700.30
+CUST-0038,Charles,White,charles.white38@email.com,Individual,Africa,South Africa,Finance,Direct,2019-09-15,2024-04-06,At Risk,11269.84
+CUST-0039,Thomas,Thompson,thomas.thompson39@email.com,Government,North America,Mexico,Unknown,Direct,2021-05-17,2024-05-08,At Risk,35849.55
+CUST-0040,Kofi,Taylor,kofi.taylor40@email.com,Individual,Asia Pacific,Singapore,Education,Referral,2021-09-14,2024-12-18,Active,38182.46
+CUST-0041,Michael,Allen,michael.allen41@email.com,Individual,Europe,Netherlands,Manufacturing,Direct,2021-10-27,2024-07-18,At Risk,31045.57
+CUST-0042,John,Jones,john.jones42@email.com,SMB,Africa,Kenya,Logistics,Paid Ads,2021-08-13,2023-06-12,Churned,52881.95
+CUST-0043,Amanda,Davis,amanda.davis43@email.com,Startup,Middle East,UAE,Retail,Partner,2022-12-22,2023-03-16,Churned,57104.79
+CUST-0044,Kwame,White,kwame.white44@email.com,Startup,Africa,South Africa,Education,Direct,2021-09-26,2023-05-19,Churned,49316.00
+CUST-0045,Melissa,Osei,melissa.osei45@email.com,Startup,Latin America,Colombia,Manufacturing,Unknown,2020-05-28,2022-04-02,Churned,3516.55
+CUST-0046,Charles,Nwosu,charles.nwosu46@email.com,Enterprise,Asia Pacific,Japan,Technology,Referral,2022-06-25,2023-05-14,Churned,63853.74
+CUST-0047,Richard,Thomas,richard.thomas47@email.com,Government,Asia Pacific,India,Healthcare,Organic Search,2019-07-24,2023-12-19,Churned,41190.09
+CUST-0048,Charles,Li,charles.li48@email.com,SMB,North America,Canada,Unknown,Direct,2019-10-03,2021-10-16,Churned,1327.61
+CUST-0049,Omar,Singh,omar.singh49@email.com,Startup,Europe,United Kingdom,Logistics,Partner,2020-11-01,2020-11-15,Churned,62598.39
+CUST-0050,Lena,Singh,lena.singh50@email.com,SMB,Latin America,Chile,Retail,Paid Ads,2021-11-07,2024-02-22,Churned,42194.53
+CUST-0051,Chen,Hassan,chen.hassan51@email.com,SMB,Middle East,Qatar,Logistics,Organic Search,2022-09-13,2024-06-29,At Risk,44763.85
+CUST-0052,David,Moore,david.moore52@email.com,Government,North America,Canada,Manufacturing,Partner,2019-05-24,2023-01-23,Churned,75629.53
+CUST-0053,Kofi,Osei,kofi.osei53@email.com,Individual,Latin America,Argentina,Hospitality,Direct,2021-10-22,2023-04-02,Churned,76670.81
+CUST-0054,Sarah,Martin,sarah.martin54@email.com,SMB,Africa,Ghana,Healthcare,Partner,2020-01-22,2020-02-21,Churned,68220.81
+CUST-0055,Elizabeth,Brown,elizabeth.brown55@email.com,SMB,North America,Canada,Finance,Paid Ads,2021-11-22,2023-06-05,Churned,66299.45
+CUST-0056,Amanda,Williams,amanda.williams56@email.com,Enterprise,Asia Pacific,Singapore,Manufacturing,Email Campaign,2022-02-18,2023-02-01,Churned,9367.86
+CUST-0057,Charles,Johnson,charles.johnson57@email.com,Individual,Africa,Ghana,Finance,Email Campaign,2023-05-22,2023-06-27,Churned,57548.48
+CUST-0058,Amanda,Nwosu,amanda.nwosu58@email.com,Enterprise,Asia Pacific,South Korea,Finance,Social Media,2021-01-21,2023-07-08,Churned,5116.05
+CUST-0059,Melissa,Okafor,melissa.okafor59@email.com,Enterprise,North America,Mexico,Retail,Social Media,2023-05-25,2023-08-20,Churned,19640.61
+CUST-0060,Jessica,Anderson,jessica.anderson60@email.com,SMB,Latin America,Chile,Unknown,Direct,2020-04-18,2022-12-08,Churned,70463.29
+CUST-0061,Jessica,Singh,jessica.singh61@email.com,Government,Africa,Ghana,Healthcare,Referral,2020-05-11,2022-05-20,Churned,63091.07
+CUST-0062,Amanda,Osei,amanda.osei62@email.com,SMB,North America,Mexico,Hospitality,Referral,2022-10-23,2023-06-25,Churned,58102.76
+CUST-0063,Chen,Anderson,chen.anderson63@email.com,Individual,Middle East,Saudi Arabia,Retail,Email Campaign,2023-01-30,2023-11-02,Churned,46245.02
+CUST-0064,Amanda,Adeleke,amanda.adeleke64@email.com,Startup,North America,Mexico,Manufacturing,Organic Search,2021-10-07,2022-06-15,Churned,49430.51
+CUST-0065,William,Wilson,william.wilson65@email.com,Government,Middle East,UAE,Hospitality,Email Campaign,2021-08-10,2024-10-08,Active,48733.72
+CUST-0066,Amara,Hassan,amara.hassan66@email.com,Startup,Asia Pacific,South Korea,Finance,Partner,2019-12-21,2021-03-20,Churned,52223.45
+CUST-0067,Priya,Smith,priya.smith67@email.com,Government,Africa,Ghana,Technology,Unknown,2020-09-17,2024-11-17,Active,83347.88
+CUST-0068,Elizabeth,Harris,elizabeth.harris68@email.com,Government,Europe,Sweden,Logistics,Social Media,2020-12-08,2023-11-06,Churned,77179.66
+CUST-0069,Jessica,Mensah,jessica.mensah69@email.com,Startup,Latin America,Argentina,Finance,Organic Search,2023-03-14,2024-07-13,At Risk,81673.31
+CUST-0070,Daniel,Diallo,daniel.diallo70@email.com,Enterprise,Middle East,Qatar,Logistics,Paid Ads,2022-08-27,2024-03-21,Churned,35701.65
+CUST-0071,Elizabeth,Mueller,elizabeth.mueller71@email.com,Enterprise,Latin America,Argentina,Finance,Paid Ads,2019-06-20,2022-06-30,Churned,82420.58
+CUST-0072,Michael,Hassan,michael.hassan72@email.com,SMB,Latin America,Colombia,Retail,Paid Ads,2020-06-11,2022-09-05,Churned,13017.15
+CUST-0073,Fatima,Walker,fatima.walker73@email.com,Startup,Latin America,Argentina,Healthcare,Social Media,2021-06-21,2022-10-27,Churned,64901.45
+CUST-0074,Amara,Garcia,amara.garcia74@email.com,Enterprise,Africa,Nigeria,Education,Unknown,2019-12-11,2023-10-16,Churned,17485.12
+CUST-0075,Michael,Miller,michael.miller75@email.com,SMB,Africa,South Africa,Healthcare,Organic Search,2019-08-31,2020-03-27,Churned,28889.98
+CUST-0076,Robert,Harris,robert.harris76@email.com,SMB,Africa,Ghana,Finance,Social Media,2019-01-24,2022-06-26,Churned,62406.31
+CUST-0077,Aisha,Yamamoto,aisha.yamamoto77@email.com,Enterprise,Asia Pacific,Australia,Logistics,Partner,2021-01-29,2022-11-10,Churned,34706.81
+CUST-0078,Richard,Mensah,richard.mensah78@email.com,Startup,Europe,United Kingdom,Retail,Direct,2019-12-01,2023-09-10,Churned,57288.28
+CUST-0079,Thomas,Patel,thomas.patel79@email.com,Individual,Africa,South Africa,Manufacturing,Paid Ads,2023-03-24,2023-10-30,Churned,11355.76
+CUST-0080,David,Thomas,david.thomas80@email.com,Startup,Europe,United Kingdom,Finance,Organic Search,2021-10-14,2023-09-10,Churned,56649.64
+CUST-0081,Priya,White,priya.white81@email.com,Enterprise,North America,Mexico,Finance,Referral,2023-03-12,2024-01-27,Churned,38067.80
+CUST-0082,Melissa,Johnson,melissa.johnson82@email.com,Enterprise,Africa,South Africa,Finance,Email Campaign,2021-10-06,2023-03-09,Churned,64232.46
+CUST-0083,Lena,Thomas,lena.thomas83@email.com,Enterprise,Latin America,Argentina,Technology,Email Campaign,2021-07-12,2023-10-30,Churned,27271.37
+CUST-0084,Chen,Jones,chen.jones84@email.com,Startup,North America,United States,Education,Partner,2023-04-16,2023-08-27,Churned,69670.33
+CUST-0085,Robert,Patel,robert.patel85@email.com,Enterprise,Middle East,UAE,Healthcare,Social Media,2022-10-26,2023-11-15,Churned,31965.12
+CUST-0086,Emily,Yamamoto,emily.yamamoto86@email.com,Startup,Europe,Spain,Retail,Email Campaign,2020-04-04,2021-08-01,Churned,56081.74
+CUST-0087,Elizabeth,Wilson,elizabeth.wilson87@email.com,Individual,Asia Pacific,Australia,Hospitality,Referral,2021-05-12,2023-05-14,Churned,52112.62
+CUST-0088,James,Moore,james.moore88@email.com,Enterprise,North America,Canada,Unknown,Partner,2021-11-29,2022-12-20,Churned,52198.55
+CUST-0089,Ibrahim,Osei,ibrahim.osei89@email.com,Government,Europe,Sweden,Retail,Organic Search,2019-07-20,2019-09-08,Churned,9871.80
+CUST-0090,Emily,Walker,emily.walker90@email.com,Government,Asia Pacific,India,Technology,Email Campaign,2023-04-17,2024-12-09,At Risk,84544.68
+CUST-0091,Ashley,Martin,ashley.martin91@email.com,Enterprise,Africa,Ghana,Retail,Organic Search,2020-12-04,2021-05-23,Churned,8465.74
+CUST-0092,Arjun,Thompson,arjun.thompson92@email.com,Enterprise,Latin America,Brazil,Hospitality,Partner,2021-10-29,2022-01-26,Churned,75822.38
+CUST-0093,Kofi,Mensah,kofi.mensah93@email.com,Individual,North America,Canada,Healthcare,Email Campaign,2020-01-23,2024-04-29,At Risk,32443.84
+CUST-0094,Zara,Taylor,zara.taylor94@email.com,Enterprise,Europe,Germany,Education,Referral,2021-03-17,2021-04-30,Churned,74074.34
+CUST-0095,Omar,Smith,omar.smith95@email.com,Enterprise,Africa,Ghana,Technology,Partner,2020-08-09,2022-03-06,Churned,73348.08
+CUST-0096,Omar,White,omar.white96@email.com,SMB,Middle East,UAE,Finance,Unknown,2022-06-12,2023-07-23,Churned,22986.60
+CUST-0097,Amara,White,amara.white97@email.com,Enterprise,Europe,Netherlands,Technology,Partner,2019-08-01,2021-10-20,Churned,51174.54
+CUST-0098,Emily,Johnson,emily.johnson98@email.com,SMB,Middle East,UAE,Hospitality,Referral,2022-05-13,2023-09-22,Churned,67479.89
+CUST-0099,Charles,Brown,charles.brown99@email.com,Enterprise,Latin America,Chile,Logistics,Paid Ads,2020-12-24,2024-04-10,At Risk,9250.13
+CUST-0100,Arjun,Jackson,arjun.jackson100@email.com,Individual,Europe,United Kingdom,Retail,Referral,2020-11-02,2024-10-15,Active,47348.31
+CUST-0101,Arjun,Allen,arjun.allen101@email.com,Government,Middle East,Qatar,Retail,Direct,2023-04-02,2024-02-15,Churned,76520.13
+CUST-0102,David,Nwosu,david.nwosu102@email.com,Individual,Latin America,Chile,Education,Organic Search,2023-04-18,2024-08-02,At Risk,29508.34
+CUST-0103,Emily,Garcia,emily.garcia103@email.com,Government,North America,Canada,Logistics,Referral,2023-05-29,2023-12-31,Churned,1128.82
+CUST-0104,Jessica,Garcia,jessica.garcia104@email.com,Startup,North America,Canada,Finance,Unknown,2019-07-31,2019-10-08,Churned,69286.62
+CUST-0105,David,Jones,david.jones105@email.com,Enterprise,North America,Canada,Technology,Email Campaign,2020-01-26,2023-05-20,Churned,23754.15
+CUST-0106,Elizabeth,Johnson,elizabeth.johnson106@email.com,Individual,Latin America,Chile,Hospitality,Organic Search,2021-08-21,2023-06-02,Churned,61247.18
+CUST-0107,Omar,Martin,omar.martin107@mail.com,Enterprise,Middle East,Saudi Arabia,Retail,Social Media,2023-05-29,2023-07-19,Churned,40185.55
+CUST-0108,Ashley,Diallo,ashley.diallo108@email.com,SMB,North America,United States,Healthcare,Direct,2019-12-23,2021-01-17,Churned,7014.44
+CUST-0109,Michael,Harris,michael.harris109@email.com,Enterprise,Latin America,Chile,Retail,Partner,2021-06-25,2021-08-20,Churned,33482.44
+CUST-0110,Aisha,Patel,aisha.patel110@email.com,Startup,Middle East,Saudi Arabia,Finance,Direct,2021-09-20,2024-01-12,Churned,55922.73
+CUST-0111,Amanda,Johnson,amanda.johnson111@email.com,Government,Latin America,Colombia,Education,Referral,2021-01-30,2023-05-09,Churned,60248.12
+CUST-0112,Lena,Singh,lena.singh112@email.com,SMB,Africa,Kenya,Healthcare,Direct,2019-06-11,2022-05-31,Churned,33108.64
+CUST-0113,Daniel,Li,daniel.li113@email.com,Startup,North America,United States,Technology,Social Media,2022-07-19,2023-09-04,Churned,49225.44
+CUST-0114,Yuki,Adeleke,yuki.adeleke114@email.com,Startup,Europe,United Kingdom,Finance,Organic Search,2021-07-10,2021-09-30,Churned,28405.09
+CUST-0115,Chukwuemeka,Diallo,chukwuemeka.diallo115@email.com,Startup,Middle East,UAE,Hospitality,Partner,2022-06-11,2023-07-12,Churned,32538.72
+CUST-0116,Aisha,Davis,aisha.davis116@email.com,SMB,Latin America,Chile,Manufacturing,Unknown,2020-01-22,2023-10-17,Churned,19482.26
+CUST-0117,Chukwuemeka,Patel,chukwuemeka.patel117@email.com,Government,Europe,Germany,Logistics,Paid Ads,2022-07-14,2023-03-07,Churned,30548.47
+CUST-0118,Omar,Taylor,omar.taylor118@email.com,Individual,Latin America,Brazil,Unknown,Paid Ads,2020-12-19,2022-01-25,Churned,21371.27
+CUST-0119,Fatima,Okafor,fatima.okafor119@email.com,Individual,North America,Canada,Logistics,Email Campaign,2021-03-13,2021-04-22,Churned,12859.49
+CUST-0120,Nicole,Johnson,nicole.johnson120@email.com,Government,Middle East,Saudi Arabia,Education,Paid Ads,2019-04-21,2023-03-04,Churned,73660.58
+CUST-0121,Daniel,Moore,daniel.moore121@email.com,Startup,Europe,Germany,Finance,Referral,2022-12-14,2023-05-25,Churned,76126.19
+CUST-0122,Sarah,Garcia,sarah.garcia122@email.com,Enterprise,Africa,Nigeria,Manufacturing,Organic Search,2022-08-01,2023-07-09,Churned,39013.96
+CUST-0123,Amara,Davis,amara.davis123@email.com,SMB,Asia Pacific,Singapore,Hospitality,Social Media,2022-05-07,2022-06-18,Churned,11888.74
+CUST-0124,Jessica,Okafor,jessica.okafor124@email.com,Enterprise,Latin America,Argentina,Healthcare,Paid Ads,2022-09-25,2023-05-01,Churned,8142.21
+CUST-0125,Arjun,Davis,arjun.davis125@mail.com,Startup,Africa,Ghana,Technology,Direct,2019-08-06,2021-03-08,Churned,79536.53
+CUST-0126,Nicole,Okafor,nicole.okafor126@email.com,Enterprise,Latin America,Argentina,Technology,Direct,2019-06-17,2022-09-24,Churned,9896.46
+CUST-0127,Michael,Allen,michael.allen127@email.com,Enterprise,North America,United States,Logistics,Unknown,2022-06-08,2023-10-09,Churned,16159.42
+CUST-0128,Robert,Patel,robert.patel128@email.com,SMB,North America,United States,Unknown,Referral,2019-08-05,2021-04-11,Churned,23454.67
+CUST-0129,Yuki,Thompson,yuki.thompson129@email.com,Enterprise,North America,Mexico,Finance,Referral,2022-10-24,2023-01-09,Churned,54497.27
+CUST-0130,Ibrahim,Miller,ibrahim.miller130@email.com,Government,Middle East,UAE,Education,Social Media,2022-10-04,2023-02-25,Churned,54497.15
+CUST-0131,Michael,Li,michael.li131@email.com,Startup,North America,Canada,Hospitality,Email Campaign,2020-01-23,2023-04-03,Churned,81520.45
+CUST-0132,Arjun,Williams,arjun.williams132@email.com,Startup,Africa,South Africa,Technology,Direct,2022-09-18,2024-03-15,Churned,42365.72
+CUST-0133,William,Kim,william.kim133@email.com,Individual,Africa,Ghana,Logistics,Email Campaign,2023-05-27,2023-10-23,Churned,43560.25
+CUST-0134,Chukwuemeka,Thompson,chukwuemeka.thompson134@email.com,Government,North America,United States,Finance,Organic Search,2023-05-19,2024-07-23,At Risk,53713.08
+CUST-0135,Chen,Johnson,chen.johnson135@email.com,Enterprise,North America,Mexico,Hospitality,Partner,2023-04-06,2024-01-06,Churned,29608.71
+CUST-0136,Kofi,Taylor,kofi.taylor136@email.com,Startup,Europe,Sweden,Finance,Partner,2022-05-04,2024-07-05,At Risk,32708.40
+CUST-0137,Sarah,Kim,sarah.kim137@email.com,Government,Latin America,Colombia,Finance,Organic Search,2023-04-09,2023-05-30,Churned,43329.72
+CUST-0138,Stephanie,Harris,stephanie.harris138@email.com,Startup,Middle East,UAE,Logistics,Organic Search,2020-10-09,2022-04-29,Churned,6051.87
+CUST-0139,Chukwuemeka,White,chukwuemeka.white139@email.com,Individual,Europe,Netherlands,Finance,Email Campaign,2020-02-16,2023-03-01,Churned,55864.36
+CUST-0140,Omar,Thompson,omar.thompson140@email.com,Enterprise,Latin America,Brazil,Logistics,Organic Search,2019-06-04,2024-07-22,At Risk,36511.44
+CUST-0141,Charles,Anderson,charles.anderson141@email.com,Individual,North America,United States,Retail,Unknown,2022-04-04,2022-08-29,Churned,16670.90
+CUST-0142,Daniel,Martin,daniel.martin142@email.com,Enterprise,Asia Pacific,Singapore,Manufacturing,Unknown,2022-01-12,2023-02-03,Churned,29048.25
+CUST-0143,Kofi,Taylor,kofi.taylor143@email.com,Individual,Europe,Spain,Technology,Direct,2020-11-23,2022-03-14,Churned,21596.23
+CUST-0144,Michael,Hassan,michael.hassan144@email.com,Startup,Asia Pacific,Japan,Technology,Organic Search,2022-01-26,2024-07-30,At Risk,17738.10
+CUST-0145,Michael,Miller,michael.miller145@email.com,Enterprise,Europe,Germany,Healthcare,Organic Search,2021-04-22,2021-11-12,Churned,51013.12
+CUST-0146,Daniel,Johnson,daniel.johnson146@email.com,Startup,Africa,Kenya,Manufacturing,Partner,2021-11-07,2022-04-13,Churned,48114.19
+CUST-0147,Jessica,Moore,jessica.moore147@email.com,Individual,Latin America,Brazil,Logistics,Email Campaign,2019-08-15,2021-12-03,Churned,52114.22
+CUST-0148,Omar,Davis,omar.davis148@email.com,Government,Middle East,UAE,Logistics,Unknown,2022-07-07,2024-11-24,Active,39800.14
+CUST-0149,James,Miller,james.miller149@email.com,SMB,Europe,Germany,Technology,Partner,2023-03-05,2023-04-25,Churned,42099.24
+CUST-0150,Amanda,Yamamoto,amanda.yamamoto150@email.com,SMB,North America,Mexico,Manufacturing,Referral,2022-08-09,2022-12-08,Churned,73190.28
+CUST-0151,Kofi,Thomas,kofi.thomas151@email.com,SMB,Europe,Sweden,Retail,Email Campaign,2020-03-14,2021-01-13,Churned,70259.58
+CUST-0152,James,Osei,james.osei152@email.com,Individual,Middle East,Saudi Arabia,Education,Direct,2019-06-11,2024-08-28,At Risk,60216.40
+CUST-0153,Yuki,Diallo,yuki.diallo153@email.com,Government,North America,United States,Manufacturing,Partner,2023-03-10,2023-07-28,Churned,32256.07
+CUST-0154,Robert,Allen,robert.allen154@email.com,SMB,Africa,Nigeria,Technology,Email Campaign,2021-07-16,2022-02-27,Churned,9239.21
+CUST-0155,Robert,Jackson,robert.jackson155@email.com,SMB,North America,Mexico,Education,Paid Ads,2020-08-11,2023-01-09,Churned,12474.45
+CUST-0156,Aisha,Harris,aisha.harris156@email.com,Enterprise,Africa,Nigeria,Retail,Unknown,2022-12-24,2024-02-20,Churned,16013.06
+CUST-0157,James,Li,james.li157@email.com,SMB,Latin America,Chile,Retail,Paid Ads,2019-04-27,2024-01-28,Churned,78008.47
+CUST-0158,Ashley,Wilson,ashley.wilson158@email.com,Government,Middle East,Saudi Arabia,Education,Paid Ads,2019-09-01,2022-08-21,Churned,60979.85
+CUST-0159,Emily,Okafor,emily.okafor159@email.com,Individual,North America,Mexico,Logistics,Paid Ads,2020-09-27,2021-05-26,Churned,35395.67
+CUST-0160,Daniel,Davis,daniel.davis160@email.com,Government,Latin America,Colombia,Logistics,Social Media,2022-10-19,2023-04-19,Churned,65633.59
+CUST-0161,Charles,Adeleke,charles.adeleke161@email.com,Individual,North America,Mexico,Hospitality,Partner,2022-04-09,2022-07-21,Churned,65827.26
+CUST-0162,John,Harris,john.harris162@email.com,Individual,Middle East,Qatar,Retail,Email Campaign,2019-10-01,2024-03-06,Churned,4596.32
+CUST-0163,Omar,Yamamoto,omar.yamamoto163@email.com,SMB,Asia Pacific,Singapore,Logistics,Organic Search,2019-02-22,2022-07-04,Churned,19905.30
+CUST-0164,Nicole,Diallo,nicole.diallo164@email.com,Individual,North America,Mexico,Technology,Unknown,2020-08-30,2023-04-04,Churned,66494.25
+CUST-0165,Jessica,Adeleke,jessica.adeleke165@email.com,Government,Europe,Germany,Retail,Paid Ads,2019-06-01,2022-11-21,Churned,49556.01
+CUST-0166,Kwame,Williams,kwame.williams166@email.com,SMB,Latin America,Argentina,Education,Social Media,2020-01-20,2023-12-19,Churned,602.71
+CUST-0167,Fatima,Kim,fatima.kim167@email.com,Individual,North America,United States,Manufacturing,Email Campaign,2020-08-04,2021-05-29,Churned,44169.44
+CUST-0168,Chen,Walker,chen.walker168@email.com,SMB,North America,Canada,Retail,Social Media,2019-02-11,2024-09-06,At Risk,55125.34
+CUST-0169,Ibrahim,Osei,ibrahim.osei169@email.com,SMB,Asia Pacific,South Korea,Education,Direct,2023-04-17,2023-07-31,Churned,10971.60
+CUST-0170,Lena,Wilson,lena.wilson170@email.com,SMB,North America,Mexico,Unknown,Direct,2023-02-27,2023-12-22,Churned,67486.09
+CUST-0171,Zara,Kim,zara.kim171@email.com,Enterprise,Europe,Netherlands,Retail,Partner,2020-11-10,2024-05-21,At Risk,8319.26
+CUST-0172,Lena,Jackson,lena.jackson172@email.com,SMB,Latin America,Argentina,Finance,Organic Search,2022-03-12,2022-05-14,Churned,53484.74
+CUST-0173,Priya,Johnson,priya.johnson173@email.com,Startup,Europe,United Kingdom,Finance,Email Campaign,2020-09-21,2023-08-16,Churned,33657.73
+CUST-0174,Ashley,Osei,ashley.osei174@email.com,SMB,Europe,Spain,Logistics,Partner,2019-03-04,2023-06-22,Churned,8955.56
+CUST-0175,John,Anderson,john.anderson175@email.com,Enterprise,Africa,Ghana,Logistics,Social Media,2021-09-16,2022-07-23,Churned,37261.06
+CUST-0176,Sarah,Williams,sarah.williams176@email.com,Startup,Europe,Spain,Manufacturing,Paid Ads,2020-12-21,2023-04-05,Churned,78044.54
+CUST-0177,Aisha,Miller,aisha.miller177@email.com,Individual,Asia Pacific,India,Logistics,Email Campaign,2021-07-18,2022-09-07,Churned,4025.82
+CUST-0178,Amanda,Allen,amanda.allen178@email.com,Individual,Latin America,Argentina,Technology,Paid Ads,2021-04-24,2021-08-25,Churned,71197.36
+CUST-0179,Emily,Allen,emily.allen179@email.com,SMB,Middle East,Qatar,Logistics,Direct,2023-05-04,2024-09-06,At Risk,47595.49
+CUST-0180,Aisha,Brown,aisha.brown180@email.com,Government,North America,Mexico,Technology,Organic Search,2022-03-21,2022-05-21,Churned,26161.96
+CUST-0181,Aisha,Martin,aisha.martin181@email.com,Government,North America,Mexico,Technology,Organic Search,2022-02-27,2024-07-23,At Risk,33431.93
+CUST-0182,Kwame,Thompson,kwame.thompson182@email.com,SMB,Latin America,Colombia,Logistics,Organic Search,2022-01-07,2023-10-30,Churned,64112.76
+CUST-0183,Arjun,Mensah,arjun.mensah183@email.com,Enterprise,Latin America,Chile,Education,Organic Search,2019-06-21,2024-05-01,At Risk,39372.25
+CUST-0184,Fatima,Mensah,fatima.mensah184@email.com,SMB,Africa,South Africa,Education,Unknown,2021-03-19,2024-07-20,At Risk,6206.28
+CUST-0185,Elizabeth,Anderson,elizabeth.anderson185@email.com,SMB,Europe,Netherlands,Logistics,Organic Search,2022-08-25,2022-12-04,Churned,65352.68
+CUST-0186,Lena,Singh,lena.singh186@email.com,Startup,Asia Pacific,Singapore,Finance,Organic Search,2019-06-03,2023-06-04,Churned,39682.62
+CUST-0187,Sarah,Yamamoto,sarah.yamamoto187@email.com,Individual,North America,Canada,Manufacturing,Partner,2021-08-09,2024-12-22,Active,36347.90
+CUST-0188,Daniel,Johnson,daniel.johnson188@email.com,SMB,Africa,South Africa,Finance,Social Media,2023-05-13,2024-12-31,Active,42144.68
+CUST-0189,Thomas,Smith,thomas.smith189@email.com,Individual,Africa,Nigeria,Technology,Direct,2021-04-11,2024-12-20,Active,59095.23
+CUST-0190,Arjun,Diallo,arjun.diallo190@email.com,Individual,Africa,South Africa,Retail,Email Campaign,2020-10-27,2021-10-02,Churned,83822.32
+CUST-0191,Robert,Allen,robert.allen191@email.com,Government,North America,Canada,Finance,Partner,2020-11-10,2021-03-18,Churned,75192.75
+CUST-0192,David,Jones,david.jones192@email.com,Enterprise,Latin America,Argentina,Hospitality,Social Media,2021-02-12,2022-04-10,Churned,40990.43
+CUST-0193,Chukwuemeka,Li,chukwuemeka.li193@email.com,SMB,North America,Canada,Unknown,Unknown,2022-03-19,2023-04-14,Churned,42703.78
+CUST-0194,Yuki,Davis,yuki.davis194@email.com,Government,Asia Pacific,Australia,Logistics,Paid Ads,2019-10-28,2022-09-07,Churned,64531.60
+CUST-0195,Omar,Adeleke,omar.adeleke195@email.com,Enterprise,Africa,Nigeria,Technology,Paid Ads,2021-07-19,2023-04-26,Churned,23558.75
+CUST-0196,Emily,Mensah,emily.mensah196@email.com,Individual,Africa,Ghana,Hospitality,Email Campaign,2022-06-17,2024-01-17,Churned,77991.50
+CUST-0197,Thomas,Thompson,thomas.thompson197@email.com,Government,Latin America,Colombia,Logistics,Paid Ads,2022-05-05,2024-11-08,Active,57216.83
+CUST-0198,John,Osei,john.osei198@email.com,Startup,North America,United States,Hospitality,Direct,2022-08-27,2023-03-15,Churned,57237.30
+CUST-0199,Ashley,Smith,ashley.smith199@email.com,Startup,Europe,United Kingdom,Manufacturing,Referral,2021-08-25,2021-12-23,Churned,84267.50
+CUST-0200,Aisha,Kim,aisha.kim200@email.com,SMB,North America,United States,Education,Referral,2020-03-22,2024-07-30,At Risk,12705.53
+CUST-0201,Kofi,Singh,kofi.singh201@email.com,Startup,Africa,Nigeria,Retail,Email Campaign,2020-05-19,2021-10-06,Churned,52900.30
+CUST-0202,Daniel,Moore,daniel.moore202@email.com,Individual,Middle East,UAE,Logistics,Direct,2022-06-26,2023-06-20,Churned,42330.69
+CUST-0203,Chukwuemeka,Jones,chukwuemeka.jones203@email.com,SMB,North America,Mexico,Retail,Paid Ads,2021-03-01,2022-09-13,Churned,77202.16
+CUST-0204,Charles,Kim,charles.kim204@email.com,Startup,Africa,South Africa,Unknown,Direct,2022-03-31,2023-07-19,Churned,15756.58
+CUST-0205,David,Osei,david.osei205@email.com,Government,Europe,Spain,Logistics,Partner,2019-03-16,2022-02-25,Churned,55612.20
+CUST-0206,James,Jones,james.jones206@email.com,SMB,Europe,Netherlands,Unknown,Email Campaign,2022-11-05,2023-11-19,Churned,2615.59
+CUST-0207,Chukwuemeka,Jones,chukwuemeka.jones207@email.com,Government,Europe,United Kingdom,Manufacturing,Paid Ads,2019-11-05,2024-12-28,Active,12433.72
+CUST-0208,Amara,Allen,amara.allen208@email.com,Individual,Europe,Germany,Hospitality,Direct,2020-10-11,2024-12-28,Active,4074.33
+CUST-0209,Aisha,Williams,aisha.williams209@email.com,Individual,Europe,France,Hospitality,Social Media,2023-03-21,2024-02-20,Churned,15418.72
+CUST-0210,Lena,Garcia,lena.garcia210@email.com,Individual,Europe,Germany,Finance,Social Media,2020-12-11,2024-12-15,Active,20440.83
+CUST-0211,Nicole,White,nicole.white211@email.com,Startup,Middle East,UAE,Retail,Paid Ads,2022-09-23,2023-12-31,Churned,35845.72
+CUST-0212,Richard,Garcia,richard.garcia212@email.com,SMB,Middle East,Saudi Arabia,Manufacturing,Direct,2022-09-29,2024-03-11,Churned,55474.99
+CUST-0213,Chen,Thompson,chen.thompson213@email.com,Individual,Middle East,Qatar,Education,Partner,2020-11-01,2024-12-16,Active,35031.00
+CUST-0214,Fatima,Adeleke,fatima.adeleke214@email.com,Startup,Middle East,UAE,Hospitality,Partner,2022-06-18,2024-05-11,At Risk,41408.58
+CUST-0215,Kofi,Thomas,kofi.thomas215@email.com,SMB,Europe,United Kingdom,Finance,Partner,2019-06-15,2019-06-29,Churned,31189.12
+CUST-0216,Omar,Mueller,omar.mueller216@email.com,SMB,Africa,Kenya,Retail,Direct,2022-05-29,2023-01-06,Churned,56494.96
+CUST-0217,Jessica,Martin,jessica.martin217@email.com,SMB,Middle East,UAE,Retail,Unknown,2021-08-19,2022-02-11,Churned,81602.05
+CUST-0218,Zara,Wilson,zara.wilson218@email.com,Startup,Africa,South Africa,Healthcare,Paid Ads,2023-04-14,2023-10-17,Churned,33083.35
+CUST-0219,Daniel,Miller,daniel.miller219@email.com,Individual,Asia Pacific,Australia,Healthcare,Partner,2020-05-04,2020-05-24,Churned,72080.62
+CUST-0220,Melissa,White,melissa.white220@email.com,SMB,North America,United States,Healthcare,Paid Ads,2019-02-05,2020-08-15,Churned,81684.39
+CUST-0221,Michael,Jackson,michael.jackson221@email.com,Startup,Asia Pacific,Japan,Unknown,Unknown,2022-03-09,2022-09-19,Churned,18268.06
+CUST-0222,Daniel,Yamamoto,daniel.yamamoto222@email.com,Government,Asia Pacific,India,Unknown,Partner,2021-05-17,2023-08-24,Churned,82491.92
+CUST-0223,Amara,Williams,amara.williams223@email.com,Enterprise,Asia Pacific,South Korea,Logistics,Email Campaign,2023-02-08,2024-07-10,At Risk,64814.19
+CUST-0224,William,Brown,william.brown224@email.com,Government,Europe,Germany,Technology,Paid Ads,2019-12-28,2021-12-17,Churned,52090.22
+CUST-0225,Fatima,Allen,fatima.allen225@email.com,Startup,North America,Canada,Finance,Partner,2022-06-10,2023-12-14,Churned,50536.48
+CUST-0226,Melissa,Nwosu,melissa.nwosu226@email.com,Government,Africa,Nigeria,Retail,Referral,2019-12-25,2021-12-29,Churned,66669.21
+CUST-0227,Sarah,Patel,sarah.patel227@email.com,Enterprise,North America,Mexico,Manufacturing,Email Campaign,2021-03-12,2023-08-08,Churned,5873.78
+CUST-0228,Elizabeth,Okafor,elizabeth.okafor228@email.com,Enterprise,Europe,Spain,Finance,Partner,2022-11-24,2023-11-17,Churned,16397.13
+CUST-0229,Robert,Taylor,robert.taylor229@email.com,SMB,Middle East,Qatar,Hospitality,Email Campaign,2021-11-16,2023-07-04,Churned,22205.24
+CUST-0230,Ashley,Anderson,ashley.anderson230@email.com,Startup,Latin America,Colombia,Healthcare,Unknown,2023-03-12,2024-06-27,At Risk,46484.03
+CUST-0231,Kwame,Williams,kwame.williams231@email.com,Government,Asia Pacific,India,Retail,Email Campaign,2019-10-06,2023-05-24,Churned,65268.62
+CUST-0232,Emily,Thompson,emily.thompson232@email.com,SMB,Middle East,Saudi Arabia,Manufacturing,Direct,2019-12-25,2023-08-25,Churned,59046.68
+CUST-0233,Michael,Taylor,michael.taylor233@email.com,Enterprise,Europe,Germany,Unknown,Organic Search,2022-06-25,2023-08-30,Churned,57812.03
+CUST-0234,Chukwuemeka,Johnson,chukwuemeka.johnson234@email.com,Enterprise,Europe,Germany,Education,Organic Search,2021-10-05,2023-08-12,Churned,66062.56
+CUST-0235,Robert,Williams,robert.williams235@email.com,SMB,Middle East,UAE,Retail,Organic Search,2020-08-28,2024-05-11,At Risk,67711.27
+CUST-0236,Arjun,Wilson,arjun.wilson236@email.com,Enterprise,Middle East,Qatar,Retail,Referral,2019-04-26,2023-03-19,Churned,77951.09
+CUST-0237,James,Jones,james.jones237@email.com,Startup,Latin America,Brazil,Hospitality,Paid Ads,2020-07-26,2021-12-29,Churned,72747.06
+CUST-0238,Aisha,Davis,aisha.davis238@email.com,SMB,Latin America,Argentina,Hospitality,Email Campaign,2020-10-19,2022-07-18,Churned,5922.32
+CUST-0239,Melissa,Mueller,melissa.mueller239@email.com,SMB,Africa,Kenya,Finance,Email Campaign,2020-08-25,2022-05-23,Churned,38880.84
+CUST-0240,Thomas,Wilson,thomas.wilson240@email.com,SMB,Europe,United Kingdom,Technology,Unknown,2022-07-27,2022-12-11,Churned,80840.73
+CUST-0241,Thomas,Davis,thomas.davis241@email.com,Startup,Europe,Germany,Education,Paid Ads,2019-04-09,2024-02-12,Churned,69580.72
+CUST-0242,Zara,Hassan,zara.hassan242@email.com,SMB,Asia Pacific,India,Unknown,Email Campaign,2020-06-04,2022-05-29,Churned,2130.64
+CUST-0243,Hannah,Thomas,hannah.thomas243@email.com,Enterprise,Europe,Netherlands,Retail,Direct,2022-07-29,2024-01-28,Churned,42770.49
+CUST-0244,Chukwuemeka,White,chukwuemeka.white244@email.com,Government,North America,Mexico,Education,Email Campaign,2022-11-27,2023-10-25,Churned,7613.58
+CUST-0245,Fatima,Taylor,fatima.taylor245@email.com,Individual,Europe,Sweden,Healthcare,Paid Ads,2022-08-14,2024-08-04,At Risk,4133.41
+CUST-0246,Thomas,Thompson,thomas.thompson246@email.com,Startup,Asia Pacific,Singapore,Technology,Partner,2019-05-04,2022-10-09,Churned,51918.30
+CUST-0247,Richard,Hassan,richard.hassan247@email.com,Enterprise,Middle East,UAE,Healthcare,Direct,2020-12-31,2022-11-29,Churned,27899.28
+CUST-0248,Nicole,Harris,nicole.harris248@email.com,Individual,Europe,Netherlands,Logistics,Social Media,2019-04-27,2020-02-02,Churned,78213.85
+CUST-0249,Nicole,Hassan,nicole.hassan249@email.com,SMB,Africa,Kenya,Retail,Partner,2019-09-18,2021-02-04,Churned,5933.37
+CUST-0250,Melissa,Hassan,melissa.hassan250@email.com,SMB,Europe,Sweden,Technology,Paid Ads,2020-11-28,2021-04-29,Churned,78762.42
+CUST-0251,Robert,Harris,robert.harris251@email.com,Startup,North America,Canada,Manufacturing,Social Media,2023-02-11,2024-08-06,At Risk,60474.32
+CUST-0252,Michael,Smith,michael.smith252@email.com,SMB,North America,Mexico,Education,Referral,2021-11-28,2023-06-21,Churned,531.28
+CUST-0253,Ashley,Adeleke,ashley.adeleke253@email.com,Government,Africa,Nigeria,Technology,Organic Search,2021-09-12,2024-05-11,At Risk,77520.40
+CUST-0254,Emily,Davis,emily.davis254@email.com,Government,Asia Pacific,Singapore,Retail,Direct,2022-06-04,2024-10-13,Active,39839.47
+CUST-0255,Chen,Martin,chen.martin255@email.com,Government,Africa,Nigeria,Retail,Paid Ads,2021-04-23,2021-06-25,Churned,30224.81
+CUST-0256,Priya,Singh,priya.singh256@email.com,SMB,Europe,Netherlands,Retail,Direct,2023-06-12,2023-08-21,Churned,452.65
+CUST-0257,John,Li,john.li257@email.com,Startup,Europe,France,Retail,Referral,2021-01-18,2021-09-07,Churned,29613.19
+CUST-0258,Nicole,Wilson,nicole.wilson258@mail.com,SMB,Asia Pacific,Singapore,Education,Referral,2020-04-21,2021-05-21,Churned,71431.72
+CUST-0259,Nicole,Smith,nicole.smith259@email.com,Startup,North America,Mexico,Healthcare,Social Media,2019-09-22,2022-03-29,Churned,25267.54
+CUST-0260,Melissa,Okafor,melissa.okafor260@email.com,Government,Latin America,Argentina,Technology,Unknown,2023-05-30,2024-04-05,Churned,10149.84
+CUST-0261,Daniel,Davis,daniel.davis261@email.com,Enterprise,Africa,Ghana,Finance,Partner,2021-11-28,2024-02-24,Churned,13319.68
+CUST-0262,Zara,Garcia,zara.garcia262@email.com,Enterprise,North America,Canada,Education,Direct,2019-11-06,2024-09-02,At Risk,40766.31
+CUST-0263,Emily,Wilson,emily.wilson263@email.com,Enterprise,Asia Pacific,Singapore,Hospitality,Direct,2019-01-03,2020-07-25,Churned,29249.84
+CUST-0264,Fatima,Brown,fatima.brown264@email.com,Government,Europe,United Kingdom,Healthcare,Organic Search,2023-05-19,2024-01-04,Churned,54757.29
+CUST-0265,Charles,White,charles.white265@email.com,Startup,North America,United States,Unknown,Direct,2019-12-14,2021-11-26,Churned,77541.09
+CUST-0266,Stephanie,Li,stephanie.li266@email.com,Individual,Asia Pacific,Japan,Hospitality,Unknown,2020-08-16,2023-06-23,Churned,68351.95
+CUST-0267,Sarah,Wilson,sarah.wilson267@email.com,Startup,Europe,Netherlands,Technology,Paid Ads,2022-04-11,2024-07-18,At Risk,29010.63
+CUST-0268,Stephanie,Thompson,stephanie.thompson268@email.com,Government,Europe,France,Finance,Direct,2021-02-03,2021-05-09,Churned,49250.00
+CUST-0269,Robert,Kim,robert.kim269@email.com,Startup,Africa,Ghana,Education,Unknown,2020-06-26,2023-02-12,Churned,78074.87
+CUST-0270,Thomas,Diallo,thomas.diallo270@email.com,Government,Middle East,Qatar,Education,Direct,2023-02-15,2023-03-05,Churned,58217.36
+CUST-0271,John,Williams,john.williams271@email.com,SMB,Latin America,Chile,Manufacturing,Email Campaign,2021-02-24,2023-10-22,Churned,72853.80
+CUST-0272,Thomas,White,thomas.white272@email.com,SMB,Africa,South Africa,Hospitality,Partner,2021-02-10,2024-03-03,Churned,18918.52
+CUST-0273,Hannah,Jones,hannah.jones273@email.com,Enterprise,Latin America,Brazil,Hospitality,Organic Search,2021-01-03,2021-07-29,Churned,7981.44
+CUST-0274,Lena,Li,lena.li274@email.com,Individual,North America,Canada,Manufacturing,Paid Ads,2022-04-11,2023-06-11,Churned,82755.80
+CUST-0275,Priya,Mensah,priya.mensah275@email.com,Enterprise,Africa,South Africa,Finance,Partner,2021-09-21,2022-10-21,Churned,23237.60
+CUST-0276,Thomas,Martin,thomas.martin276@email.com,Startup,Asia Pacific,India,Manufacturing,Referral,2020-09-29,2024-10-28,Active,40922.78
+CUST-0277,William,Adeleke,william.adeleke277@email.com,Startup,Middle East,Saudi Arabia,Logistics,Direct,2019-05-21,2022-08-18,Churned,30565.80
+CUST-0278,Amanda,Martin,amanda.martin278@email.com,Startup,North America,United States,Unknown,Social Media,2020-04-10,2023-11-16,Churned,47948.51
+CUST-0279,Hannah,Moore,hannah.moore279@email.com,Government,Latin America,Chile,Hospitality,Email Campaign,2022-04-19,2022-06-08,Churned,34313.89
+CUST-0280,Chukwuemeka,Kim,chukwuemeka.kim280@email.com,Individual,Latin America,Colombia,Finance,Email Campaign,2021-06-19,2023-08-26,Churned,58654.79
+CUST-0281,Ashley,Jones,ashley.jones281@email.com,Individual,Latin America,Colombia,Hospitality,Partner,2020-01-31,2020-07-02,Churned,82314.42
+CUST-0282,Amara,Adeleke,amara.adeleke282@email.com,SMB,Latin America,Argentina,Finance,Paid Ads,2020-06-03,2020-06-21,Churned,73947.54
+CUST-0283,Elizabeth,Singh,elizabeth.singh283@email.com,Enterprise,Middle East,Saudi Arabia,Logistics,Referral,2019-05-03,2021-05-13,Churned,13572.57
+CUST-0284,Lena,Hassan,lena.hassan284@email.com,Startup,North America,United States,Hospitality,Organic Search,2021-09-22,2021-10-21,Churned,37787.49
+CUST-0285,Ibrahim,White,ibrahim.white285@email.com,Individual,Middle East,UAE,Healthcare,Organic Search,2020-04-22,2021-09-05,Churned,28589.49
+CUST-0286,Ibrahim,Smith,ibrahim.smith286@email.com,SMB,Africa,South Africa,Technology,Partner,2022-01-17,2023-03-29,Churned,4303.80
+CUST-0287,Hannah,Kim,hannah.kim287@email.com,SMB,North America,Canada,Logistics,Organic Search,2023-03-21,2023-12-05,Churned,11110.95
+CUST-0288,Kofi,Thomas,kofi.thomas288@email.com,SMB,Africa,Kenya,Retail,Social Media,2019-03-20,2021-02-10,Churned,9174.66
+CUST-0289,Amanda,Harris,amanda.harris289@email.com,Government,Europe,Netherlands,Retail,Organic Search,2021-11-05,2022-01-15,Churned,33790.50
+CUST-0290,Fatima,Thompson,fatima.thompson290@email.com,SMB,Europe,Netherlands,Logistics,Organic Search,2019-07-31,2019-12-06,Churned,33865.33
+CUST-0291,Priya,Anderson,priya.anderson291@email.com,Individual,Middle East,UAE,Finance,Referral,2023-05-18,2024-05-01,At Risk,7504.71
+CUST-0292,Ibrahim,Moore,ibrahim.moore292@email.com,Startup,Europe,France,Manufacturing,Partner,2020-08-20,2021-11-06,Churned,42404.54
+CUST-0293,Richard,Davis,richard.davis293@email.com,Government,Europe,Spain,Manufacturing,Social Media,2022-03-18,2022-05-03,Churned,82179.61
+CUST-0294,Omar,Allen,omar.allen294@email.com,Government,Africa,Nigeria,Technology,Paid Ads,2019-03-04,2021-08-13,Churned,52879.38
+CUST-0295,Nicole,Anderson,nicole.anderson295@email.com,SMB,Europe,France,Retail,Social Media,2023-05-06,2023-10-19,Churned,78904.44
+CUST-0296,Priya,Singh,priya.singh296@email.com,Individual,Europe,Germany,Education,Paid Ads,2023-02-06,2024-10-20,Active,47056.88
+CUST-0297,Emily,White,emily.white297@email.com,Enterprise,Middle East,Qatar,Hospitality,Partner,2019-03-13,2020-03-26,Churned,31618.55
+CUST-0298,Chukwuemeka,Patel,chukwuemeka.patel298@email.com,Individual,Africa,South Africa,Finance,Social Media,2022-10-21,2023-07-30,Churned,12613.35
+CUST-0299,Kofi,Harris,kofi.harris299@email.com,SMB,Latin America,Argentina,Logistics,Email Campaign,2022-10-02,2024-01-30,Churned,61769.92
+CUST-0300,Ibrahim,Patel,ibrahim.patel300@email.com,Enterprise,Africa,Nigeria,Finance,Unknown,2020-02-03,2021-01-21,Churned,17013.93
+CUST-0301,Melissa,Okafor,melissa.okafor301@email.com,Individual,North America,United States,Technology,Social Media,2020-04-12,2023-04-09,Churned,9652.38
+CUST-0302,Priya,Hassan,priya.hassan302@email.com,Startup,Asia Pacific,Australia,Finance,Referral,2020-03-21,2020-11-15,Churned,59439.40
+CUST-0303,Ashley,Moore,ashley.moore303@email.com,Government,Middle East,Qatar,Technology,Referral,2020-01-15,2020-08-19,Churned,24121.26
+CUST-0304,James,Osei,james.osei304@email.com,SMB,North America,Mexico,Logistics,Direct,2022-08-14,2023-02-22,Churned,68480.94
+CUST-0305,John,Singh,john.singh305@email.com,Government,North America,United States,Logistics,Referral,2020-10-30,2021-08-21,Churned,3662.41
+CUST-0306,Michael,Patel,michael.patel306@email.com,Startup,Europe,Spain,Logistics,Partner,2021-10-12,2022-06-15,Churned,12117.15
+CUST-0307,Ibrahim,Yamamoto,ibrahim.yamamoto307@email.com,Individual,North America,Canada,Education,Partner,2022-01-01,2024-12-21,Active,5190.01
+CUST-0308,Yuki,Anderson,yuki.anderson308@email.com,Individual,Europe,Sweden,Logistics,Email Campaign,2020-05-18,2020-08-27,Churned,59039.65
+CUST-0309,Daniel,Thompson,daniel.thompson309@email.com,SMB,Africa,South Africa,Retail,Referral,2021-07-06,2024-09-15,At Risk,56815.90
+CUST-0310,Daniel,Martin,daniel.martin310@email.com,SMB,Latin America,Chile,Education,Paid Ads,2021-10-10,2023-06-06,Churned,73772.89
+CUST-0311,Zara,Anderson,zara.anderson311@email.com,SMB,Asia Pacific,Japan,Unknown,Direct,2022-08-17,2024-02-25,Churned,2822.37
+CUST-0312,Stephanie,Moore,stephanie.moore312@email.com,Individual,Europe,Spain,Finance,Social Media,2022-01-09,2023-06-12,Churned,60323.35
+CUST-0313,Chen,Miller,chen.miller313@email.com,Government,Africa,Kenya,Retail,Direct,2022-09-24,2023-06-09,Churned,78267.34
+CUST-0314,Kofi,Johnson,kofi.johnson314@email.com,Startup,North America,United States,Hospitality,Paid Ads,2022-07-17,2024-10-12,Active,43653.61
+CUST-0315,John,Osei,john.osei315@email.com,Enterprise,Africa,Nigeria,Retail,Organic Search,2021-09-01,2022-01-03,Churned,61352.32
+CUST-0316,Ibrahim,Martin,ibrahim.martin316@email.com,SMB,Africa,Kenya,Logistics,Unknown,2022-01-23,2023-04-05,Churned,68468.82
+CUST-0317,Chen,Osei,chen.osei317@email.com,Government,Middle East,Qatar,Hospitality,Partner,2021-12-22,2023-10-20,Churned,34778.92
+CUST-0318,Richard,Williams,richard.williams318@email.com,Startup,Asia Pacific,South Korea,Manufacturing,Partner,2023-06-27,2024-06-07,At Risk,83198.11
+CUST-0319,Robert,Wilson,robert.wilson319@email.com,Individual,Middle East,UAE,Healthcare,Direct,2020-12-07,2024-03-07,Churned,55669.51
+CUST-0320,Amara,Mensah,amara.mensah320@mail.com,Individual,Middle East,UAE,Education,Social Media,2019-11-05,2023-10-21,Churned,37673.98
+CUST-0321,Chukwuemeka,Singh,chukwuemeka.singh321@email.com,SMB,Europe,United Kingdom,Technology,Direct,2022-07-18,2023-11-15,Churned,73295.44
+CUST-0322,Richard,Thompson,richard.thompson322@email.com,Startup,Africa,Ghana,Logistics,Paid Ads,2020-06-20,2024-03-24,Churned,75229.09
+CUST-0323,John,Johnson,john.johnson323@email.com,Enterprise,Europe,Spain,Healthcare,Unknown,2021-02-24,2024-03-10,Churned,65490.19
+CUST-0324,Priya,Mensah,priya.mensah324@email.com,Government,Europe,United Kingdom,Healthcare,Social Media,2021-09-02,2022-02-27,Churned,18482.53
+CUST-0325,Robert,Osei,robert.osei325@email.com,Startup,Latin America,Chile,Retail,Paid Ads,2022-02-15,2022-10-09,Churned,65000.58
+CUST-0326,Zara,Williams,zara.williams326@email.com,Enterprise,Europe,Netherlands,Hospitality,Social Media,2023-04-28,2023-07-18,Churned,3208.38
+CUST-0327,Kofi,Anderson,kofi.anderson327@email.com,Government,Middle East,Saudi Arabia,Retail,Email Campaign,2023-02-09,2024-06-13,At Risk,23550.60
+CUST-0328,Fatima,Okafor,fatima.okafor328@email.com,Enterprise,Middle East,UAE,Retail,Unknown,2022-10-29,2023-01-01,Churned,83105.36
+CUST-0329,Emily,Davis,emily.davis329@email.com,Startup,Latin America,Colombia,Retail,Paid Ads,2021-04-16,2021-08-20,Churned,29857.60
+CUST-0330,Charles,Johnson,charles.johnson330@email.com,Startup,North America,United States,Technology,Unknown,2023-03-14,2024-09-16,At Risk,50205.25
+CUST-0331,James,Mueller,james.mueller331@email.com,Enterprise,Africa,Kenya,Education,Direct,2022-12-18,2023-05-18,Churned,1221.44
+CUST-0332,Sarah,Okafor,sarah.okafor332@email.com,Individual,Africa,Nigeria,Finance,Email Campaign,2022-11-06,2023-04-01,Churned,34543.11
+CUST-0333,Elizabeth,Allen,elizabeth.allen333@email.com,Government,Asia Pacific,Singapore,Logistics,Organic Search,2020-02-01,2020-03-18,Churned,34451.08
+CUST-0334,Nicole,Kim,nicole.kim334@email.com,Startup,Asia Pacific,South Korea,Finance,Email Campaign,2022-07-31,2022-10-20,Churned,25990.78
+CUST-0335,Ashley,Diallo,ashley.diallo335@email.com,Government,Europe,Germany,Retail,Email Campaign,2021-06-29,2024-04-15,At Risk,59049.82
+CUST-0336,Michael,Smith,michael.smith336@email.com,Government,Latin America,Chile,Hospitality,Email Campaign,2020-07-19,2023-12-24,Churned,71379.87
+CUST-0337,Hannah,Johnson,hannah.johnson337@email.com,Startup,Middle East,UAE,Manufacturing,Paid Ads,2022-02-26,2023-07-01,Churned,36348.40
+CUST-0338,Lena,Harris,lena.harris338@email.com,SMB,Europe,Sweden,Logistics,Partner,2019-08-14,2020-04-15,Churned,51002.72
+CUST-0339,Charles,Walker,charles.walker339@email.com,Individual,Africa,South Africa,Technology,Social Media,2022-12-28,2024-12-08,Active,84667.62
+CUST-0340,Nicole,Walker,nicole.walker340@email.com,Individual,Africa,Ghana,Finance,Organic Search,2021-05-17,2022-04-21,Churned,41028.25
+CUST-0341,Charles,Taylor,charles.taylor341@email.com,Startup,Middle East,UAE,Logistics,Organic Search,2020-02-25,2022-10-31,Churned,56916.23
+CUST-0342,Charles,Mueller,charles.mueller342@email.com,Enterprise,Africa,South Africa,Technology,Paid Ads,2021-04-26,2022-01-05,Churned,11959.64
+CUST-0343,Melissa,Walker,melissa.walker343@email.com,Individual,Europe,France,Hospitality,Paid Ads,2023-01-12,2023-09-13,Churned,82561.43
+CUST-0344,Ibrahim,Allen,ibrahim.allen344@email.com,SMB,Africa,Nigeria,Logistics,Social Media,2021-04-03,2021-09-03,Churned,24776.85
+CUST-0345,Fatima,Allen,fatima.allen345@email.com,Individual,Latin America,Chile,Hospitality,Paid Ads,2021-03-20,2022-08-01,Churned,62235.90
+CUST-0346,Richard,Adeleke,richard.adeleke346@email.com,SMB,North America,Canada,Retail,Email Campaign,2022-04-18,2022-06-17,Churned,76647.31
+CUST-0347,Sarah,Diallo,sarah.diallo347@email.com,Government,North America,Mexico,Hospitality,Social Media,2021-05-31,2023-02-12,Churned,46157.50
+CUST-0348,Arjun,Jackson,arjun.jackson348@email.com,Individual,Middle East,UAE,Hospitality,Email Campaign,2019-02-15,2022-07-09,Churned,28622.32
+CUST-0349,Chukwuemeka,Yamamoto,chukwuemeka.yamamoto349@email.com,Government,Asia Pacific,South Korea,Healthcare,Paid Ads,2022-06-10,2024-12-21,Active,61326.14
+CUST-0350,John,Mueller,john.mueller350@email.com,Startup,Africa,Ghana,Education,Paid Ads,2022-08-16,2024-05-17,At Risk,11426.31
+CUST-0351,Michael,Garcia,michael.garcia351@email.com,Startup,Europe,Spain,Retail,Paid Ads,2020-02-13,2020-11-27,Churned,56368.05
+CUST-0352,Kofi,Miller,kofi.miller352@email.com,SMB,Europe,France,Healthcare,Unknown,2019-10-09,2024-08-07,At Risk,11004.03
+CUST-0353,Aisha,Thompson,aisha.thompson353@email.com,Enterprise,Europe,France,Manufacturing,Referral,2021-01-08,2024-08-24,At Risk,16823.92
+CUST-0354,Ashley,Thomas,ashley.thomas354@email.com,Startup,Europe,France,Unknown,Partner,2021-04-06,2024-08-20,At Risk,50152.04
+CUST-0355,Yuki,Jones,yuki.jones355@email.com,Individual,Africa,Ghana,Finance,Unknown,2022-07-03,2024-02-18,Churned,76364.46
+CUST-0356,Yuki,Miller,yuki.miller356@email.com,Enterprise,Europe,Sweden,Manufacturing,Social Media,2021-02-28,2023-02-20,Churned,2242.05
+CUST-0357,Lena,Thompson,lena.thompson357@email.com,SMB,North America,Mexico,Hospitality,Paid Ads,2019-08-25,2024-08-15,At Risk,32802.29
+CUST-0358,Thomas,Yamamoto,thomas.yamamoto358@email.com,SMB,Asia Pacific,India,Manufacturing,Partner,2019-09-18,2020-03-06,Churned,84934.26
+CUST-0359,Stephanie,Yamamoto,stephanie.yamamoto359@email.com,Enterprise,Europe,Netherlands,Finance,Direct,2019-05-28,2024-08-10,At Risk,83578.84
+CUST-0360,Zara,Miller,zara.miller360@email.com,Enterprise,Europe,Netherlands,Retail,Partner,2022-06-30,2022-11-12,Churned,6252.25
+CUST-0361,John,Mensah,john.mensah361@email.com,Government,Latin America,Brazil,Education,Email Campaign,2023-04-20,2024-06-17,At Risk,57638.37
+CUST-0362,Daniel,Adeleke,daniel.adeleke362@email.com,Government,Asia Pacific,India,Unknown,Social Media,2022-04-17,2023-11-03,Churned,69329.70
+CUST-0363,William,Anderson,william.anderson363@email.com,Government,Africa,Kenya,Healthcare,Unknown,2023-02-21,2023-02-22,Churned,17192.86
+CUST-0364,Amanda,Davis,amanda.davis364@email.com,Government,Africa,Nigeria,Retail,Referral,2021-10-13,2023-02-02,Churned,83406.91
+CUST-0365,Zara,Harris,zara.harris365@email.com,Government,Europe,United Kingdom,Unknown,Email Campaign,2021-05-04,2023-03-07,Churned,63723.70
+CUST-0366,Michael,Walker,michael.walker366@email.com,Enterprise,Europe,Spain,Logistics,Direct,2022-11-11,2023-09-24,Churned,83993.90
+CUST-0367,Melissa,Johnson,melissa.johnson367@email.com,SMB,Middle East,UAE,Healthcare,Referral,2022-12-09,2023-05-09,Churned,44163.37
+CUST-0368,Ibrahim,White,ibrahim.white368@email.com,Individual,Africa,Nigeria,Retail,Organic Search,2019-03-15,2022-09-04,Churned,80329.27
+CUST-0369,James,Walker,james.walker369@email.com,Startup,Middle East,Qatar,Healthcare,Paid Ads,2020-12-31,2024-10-22,Active,12812.58
+CUST-0370,Daniel,Li,daniel.li370@email.com,Government,North America,United States,Healthcare,Unknown,2021-07-10,2023-11-08,Churned,58870.54
+CUST-0371,Charles,Thompson,charles.thompson371@email.com,SMB,North America,United States,Hospitality,Partner,2022-11-07,2024-08-10,At Risk,66749.01
+CUST-0372,Arjun,Patel,arjun.patel372@email.com,SMB,Latin America,Chile,Retail,Social Media,2021-07-26,2021-08-18,Churned,12035.50
+CUST-0373,Ashley,Walker,ashley.walker373@email.com,Government,Europe,France,Education,Unknown,2022-06-28,2024-08-05,At Risk,65513.17
+CUST-0374,Omar,Harris,omar.harris374@email.com,Individual,Europe,France,Technology,Referral,2022-01-29,2023-12-11,Churned,31891.03
+CUST-0375,William,Miller,william.miller375@email.com,Enterprise,North America,United States,Manufacturing,Organic Search,2019-11-28,2022-05-14,Churned,79792.40
+CUST-0376,Kofi,Smith,kofi.smith376@email.com,SMB,Latin America,Brazil,Healthcare,Unknown,2022-08-16,2024-10-13,Active,28108.15
+CUST-0377,Robert,Jackson,robert.jackson377@email.com,Individual,Middle East,Qatar,Retail,Direct,2021-09-15,2023-07-05,Churned,41664.09
+CUST-0378,Michael,Garcia,michael.garcia378@email.com,Individual,Middle East,Saudi Arabia,Logistics,Social Media,2021-09-29,2023-10-26,Churned,82789.60
+CUST-0379,Amanda,Moore,amanda.moore379@email.com,Enterprise,Europe,United Kingdom,Education,Paid Ads,2020-09-07,2022-06-28,Churned,9076.23
+CUST-0380,Amara,Harris,amara.harris380@email.com,SMB,Asia Pacific,Singapore,Healthcare,Social Media,2023-05-23,2023-10-27,Churned,15130.10
+CUST-0381,Kofi,Walker,kofi.walker381@email.com,Startup,Middle East,UAE,Healthcare,Partner,2020-12-31,2024-10-08,Active,70498.20
+CUST-0382,John,Osei,john.osei382@email.com,Government,Latin America,Brazil,Technology,Paid Ads,2019-01-07,2021-05-31,Churned,22463.48
+CUST-0383,Emily,Williams,emily.williams383@email.com,Enterprise,Africa,Ghana,Manufacturing,Direct,2021-05-07,2021-12-05,Churned,14840.82
+CUST-0384,Arjun,Mensah,arjun.mensah384@email.com,SMB,Middle East,Qatar,Manufacturing,Social Media,2022-04-01,2023-11-16,Churned,59589.30
+CUST-0385,Priya,Hassan,priya.hassan385@email.com,Enterprise,Middle East,Saudi Arabia,Healthcare,Email Campaign,2019-11-24,2022-03-11,Churned,79438.74
+CUST-0386,Fatima,Jones,fatima.jones386@email.com,Enterprise,Latin America,Chile,Healthcare,Referral,2020-04-21,2023-07-08,Churned,30212.27
+CUST-0387,William,Mensah,william.mensah387@email.com,SMB,Middle East,Qatar,Education,Paid Ads,2022-10-06,2023-12-29,Churned,25071.56
+CUST-0388,Robert,White,robert.white388@email.com,SMB,Asia Pacific,South Korea,Hospitality,Partner,2022-07-18,2024-02-03,Churned,13166.96
+CUST-0389,Jessica,Thompson,jessica.thompson389@email.com,Individual,Latin America,Colombia,Hospitality,Direct,2021-05-17,2024-09-27,At Risk,577.50
+CUST-0390,Amara,Moore,amara.moore390@email.com,SMB,Middle East,Saudi Arabia,Education,Social Media,2020-04-30,2024-04-14,At Risk,47463.63
+CUST-0391,Chukwuemeka,Smith,chukwuemeka.smith391@email.com,Enterprise,Asia Pacific,South Korea,Logistics,Email Campaign,2023-01-07,2024-11-09,Active,55434.61
+CUST-0392,Kwame,Johnson,kwame.johnson392@email.com,Enterprise,Asia Pacific,Singapore,Finance,Organic Search,2022-11-27,2024-10-16,Active,22857.86
+CUST-0393,Chukwuemeka,Brown,chukwuemeka.brown393@email.com,Enterprise,Middle East,UAE,Hospitality,Direct,2019-09-24,2021-08-23,Churned,73471.77
+CUST-0394,Chukwuemeka,Jackson,chukwuemeka.jackson394@email.com,Enterprise,Latin America,Argentina,Retail,Referral,2019-05-14,2023-12-21,Churned,67121.07
+CUST-0395,James,Mensah,james.mensah395@email.com,Individual,Middle East,Qatar,Healthcare,Organic Search,2022-07-15,2023-04-20,Churned,51137.68
+CUST-0396,David,White,david.white396@email.com,Individual,Asia Pacific,India,Hospitality,Direct,2020-03-03,2022-03-08,Churned,50387.33
+CUST-0397,Richard,Garcia,richard.garcia397@email.com,SMB,Latin America,Argentina,Retail,Organic Search,2023-02-12,2023-07-23,Churned,64797.77
+CUST-0398,Emily,Hassan,emily.hassan398@email.com,Individual,Latin America,Brazil,Finance,Organic Search,2019-04-04,2024-06-17,At Risk,60488.08
+CUST-0399,Hannah,Brown,hannah.brown399@email.com,SMB,Latin America,Chile,Technology,Referral,2019-01-03,2022-09-15,Churned,24905.49
+CUST-0400,Elizabeth,Allen,elizabeth.allen400@email.com,Individual,Asia Pacific,Australia,Healthcare,Paid Ads,2020-07-02,2020-08-11,Churned,57640.44
+CUST-0401,Yuki,Singh,yuki.singh401@email.com,Individual,Middle East,Qatar,Unknown,Organic Search,2022-01-24,2023-07-01,Churned,59000.36
+CUST-0402,David,Miller,david.miller402@email.com,Enterprise,Africa,Nigeria,Healthcare,Partner,2022-03-24,2023-08-12,Churned,70717.68
+CUST-0403,Chen,Okafor,chen.okafor403@email.com,Government,Africa,Kenya,Hospitality,Direct,2019-09-17,2020-03-19,Churned,1447.73
+CUST-0404,Zara,Miller,zara.miller404@email.com,Government,Latin America,Colombia,Finance,Email Campaign,2019-05-13,2023-01-20,Churned,4262.62
+CUST-0405,David,Li,david.li405@email.com,Enterprise,Asia Pacific,Japan,Technology,Partner,2019-11-23,2022-02-03,Churned,35149.54
+CUST-0406,Michael,Johnson,michael.johnson406@email.com,Startup,North America,United States,Healthcare,Referral,2019-12-13,2021-09-29,Churned,4963.34
+CUST-0407,Daniel,Adeleke,daniel.adeleke407@email.com,Individual,Middle East,Qatar,Technology,Organic Search,2021-07-02,2022-03-11,Churned,61198.02
+CUST-0408,Chukwuemeka,Davis,chukwuemeka.davis408@email.com,SMB,Latin America,Colombia,Logistics,Organic Search,2019-06-22,2024-07-20,At Risk,66618.38
+CUST-0409,Nicole,Garcia,nicole.garcia409@email.com,Startup,North America,United States,Technology,Partner,2023-05-08,2024-07-29,At Risk,75167.77
+CUST-0410,Chen,Diallo,chen.diallo410@email.com,Enterprise,Latin America,Brazil,Manufacturing,Partner,2019-11-10,2023-06-22,Churned,84225.07
+CUST-0411,Amanda,Martin,amanda.martin411@email.com,Startup,Asia Pacific,Singapore,Technology,Paid Ads,2022-01-27,2023-04-25,Churned,22776.80
+CUST-0412,Omar,Miller,omar.miller412@email.com,Startup,Africa,South Africa,Retail,Referral,2020-10-15,2021-03-09,Churned,51641.50
+CUST-0413,Charles,Harris,charles.harris413@email.com,Startup,Europe,Germany,Education,Organic Search,2021-03-18,2022-09-13,Churned,39081.33
+CUST-0414,Amanda,Johnson,amanda.johnson414@email.com,Startup,North America,Canada,Education,Organic Search,2021-12-27,2022-08-16,Churned,38153.23
+CUST-0415,Robert,Hassan,robert.hassan415@email.com,Startup,Asia Pacific,South Korea,Finance,Partner,2020-05-17,2022-08-15,Churned,36277.49
+CUST-0416,Richard,Kim,richard.kim416@email.com,Startup,Middle East,Saudi Arabia,Retail,Partner,2021-10-31,2022-12-19,Churned,56150.72
+CUST-0417,Priya,Mueller,priya.mueller417@email.com,Startup,Middle East,UAE,Education,Referral,2021-02-18,2021-10-24,Churned,34285.73
+CUST-0418,Hannah,Li,hannah.li418@email.com,Enterprise,Asia Pacific,Singapore,Hospitality,Email Campaign,2022-11-12,2024-06-22,At Risk,2637.38
+CUST-0419,James,Mueller,james.mueller419@email.com,Startup,Africa,Ghana,Retail,Paid Ads,2021-07-25,2022-01-24,Churned,74382.94
+CUST-0420,Nicole,Yamamoto,nicole.yamamoto420@email.com,Individual,Europe,France,Manufacturing,Unknown,2020-08-01,2023-09-26,Churned,65195.08
+CUST-0421,Emily,Allen,emily.allen421@email.com,Enterprise,North America,Canada,Hospitality,Organic Search,2019-04-10,2022-03-06,Churned,19478.53
+CUST-0422,Omar,Davis,omar.davis422@email.com,Startup,North America,Canada,Technology,Organic Search,2020-06-25,2024-08-26,At Risk,6506.49
+CUST-0423,Michael,White,michael.white423@email.com,Startup,Latin America,Colombia,Logistics,Email Campaign,2021-03-30,2023-01-04,Churned,47963.05
+CUST-0424,Kofi,Johnson,kofi.johnson424@email.com,Government,Latin America,Chile,Healthcare,Email Campaign,2021-08-08,2022-10-20,Churned,44203.04
+CUST-0425,William,Yamamoto,william.yamamoto425@email.com,Enterprise,North America,Canada,Healthcare,Email Campaign,2020-10-17,2024-10-28,Active,50291.94
+CUST-0426,Chen,Diallo,chen.diallo426@email.com,Startup,Africa,Ghana,Hospitality,Organic Search,2023-06-30,2024-03-31,Churned,10694.71
+CUST-0427,Ashley,Li,ashley.li427@email.com,Enterprise,Europe,United Kingdom,Education,Social Media,2021-04-30,2024-05-29,At Risk,29109.95
+CUST-0428,Fatima,Williams,fatima.williams428@email.com,Government,Africa,Kenya,Unknown,Partner,2019-03-01,2021-08-17,Churned,30419.59
+CUST-0429,Arjun,Allen,arjun.allen429@email.com,Individual,Asia Pacific,India,Hospitality,Organic Search,2020-06-09,2023-10-22,Churned,56261.58
+CUST-0430,Elizabeth,Adeleke,elizabeth.adeleke430@email.com,Enterprise,Middle East,Saudi Arabia,Hospitality,Partner,2020-04-18,2023-10-03,Churned,20046.33
+CUST-0431,Arjun,Thomas,arjun.thomas431@email.com,Government,Asia Pacific,Singapore,Retail,Direct,2023-03-26,2023-10-12,Churned,34379.41
+CUST-0432,Priya,Johnson,priya.johnson432@email.com,Startup,North America,United States,Manufacturing,Email Campaign,2020-09-10,2020-11-03,Churned,55237.85
+CUST-0433,Amara,Smith,amara.smith433@email.com,Individual,Latin America,Argentina,Retail,Paid Ads,2019-03-07,2021-06-10,Churned,83006.38
+CUST-0434,Kwame,Brown,kwame.brown434@email.com,Enterprise,Europe,Sweden,Healthcare,Social Media,2021-12-13,2023-04-18,Churned,8260.46
+CUST-0435,Elizabeth,Davis,elizabeth.davis435@email.com,Individual,Asia Pacific,India,Education,Social Media,2019-02-23,2023-03-21,Churned,20292.28
+CUST-0436,John,Davis,john.davis436@email.com,Government,Middle East,Qatar,Technology,Unknown,2020-07-18,2023-06-04,Churned,25151.39
+CUST-0437,Sarah,Mueller,sarah.mueller437@email.com,Startup,North America,Canada,Retail,Referral,2023-01-01,2023-07-24,Churned,46416.10
+CUST-0438,Chen,Patel,chen.patel438@email.com,Government,Europe,Sweden,Education,Referral,2021-07-22,2024-07-31,At Risk,19137.26
+CUST-0439,Kwame,Allen,kwame.allen439@email.com,SMB,Europe,United Kingdom,Healthcare,Organic Search,2020-12-08,2024-07-08,At Risk,48869.83
+CUST-0440,Melissa,Wilson,melissa.wilson440@email.com,Individual,Asia Pacific,India,Healthcare,Email Campaign,2021-05-09,2021-11-21,Churned,58592.24
+CUST-0441,Sarah,Diallo,sarah.diallo441@email.com,Government,Latin America,Argentina,Unknown,Paid Ads,2022-08-28,2023-12-26,Churned,73968.24
+CUST-0442,Nicole,Moore,nicole.moore442@email.com,SMB,North America,United States,Education,Unknown,2021-04-06,2024-08-21,At Risk,54396.44
+CUST-0443,Omar,Allen,omar.allen443@email.com,Individual,Asia Pacific,Australia,Hospitality,Organic Search,2021-02-05,2021-09-22,Churned,34037.82
+CUST-0444,Elizabeth,Taylor,elizabeth.taylor444@email.com,Government,Asia Pacific,Singapore,Unknown,Organic Search,2022-05-08,2023-06-04,Churned,74716.32
+CUST-0445,Omar,Smith,omar.smith445@email.com,Government,Asia Pacific,India,Retail,Email Campaign,2022-12-04,2024-02-25,Churned,19419.74
+CUST-0446,Arjun,Yamamoto,arjun.yamamoto446@email.com,Enterprise,North America,Mexico,Healthcare,Direct,2022-05-26,2024-12-19,Active,24629.12
+CUST-0447,Chukwuemeka,Anderson,chukwuemeka.anderson447@email.com,Individual,Middle East,UAE,Finance,Email Campaign,2019-06-12,2021-11-26,Churned,50259.14
+CUST-0448,Robert,Miller,robert.miller448@email.com,Startup,Africa,South Africa,Education,Organic Search,2019-09-03,2024-06-12,At Risk,9416.05
+CUST-0449,Stephanie,Thomas,stephanie.thomas449@email.com,SMB,Europe,United Kingdom,Finance,Partner,2020-12-20,2022-10-17,Churned,66302.55
+CUST-0450,Aisha,Harris,aisha.harris450@email.com,Individual,Europe,France,Logistics,Organic Search,2020-02-13,2024-01-02,Churned,10158.50
+CUST-0451,Priya,Osei,priya.osei451@email.com,Enterprise,Middle East,Qatar,Technology,Direct,2020-06-28,2023-03-27,Churned,38548.76
+CUST-0452,Melissa,Johnson,melissa.johnson452@email.com,Government,Latin America,Brazil,Manufacturing,Social Media,2020-11-09,2021-08-21,Churned,15221.26
+CUST-0453,Charles,Jackson,charles.jackson453@email.com,Government,Latin America,Argentina,Retail,Unknown,2023-03-17,2023-05-26,Churned,47779.60
+CUST-0454,Daniel,Patel,daniel.patel454@email.com,Enterprise,Europe,Germany,Education,Social Media,2021-01-02,2022-07-11,Churned,75655.85
+CUST-0455,Chukwuemeka,Smith,chukwuemeka.smith455@email.com,Startup,Asia Pacific,Australia,Retail,Referral,2019-05-29,2021-03-30,Churned,40657.25
+CUST-0456,James,Wilson,james.wilson456@email.com,Enterprise,Europe,Sweden,Logistics,Direct,2022-12-30,2024-04-28,At Risk,55766.75
+CUST-0457,Richard,Patel,richard.patel457@email.com,Government,North America,Mexico,Logistics,Organic Search,2021-01-09,2021-12-08,Churned,81900.30
+CUST-0458,Thomas,Miller,thomas.miller458@email.com,Individual,Africa,Kenya,Unknown,Referral,2020-11-05,2023-08-23,Churned,56583.44
+CUST-0459,Thomas,Wilson,thomas.wilson459@email.com,Government,Europe,Spain,Technology,Unknown,2019-05-16,2024-06-06,At Risk,64536.21
+CUST-0460,Hannah,Allen,hannah.allen460@email.com,SMB,Europe,Netherlands,Unknown,Unknown,2021-12-23,2024-06-11,Active,10977.02
+CUST-0461,Priya,Thomas,priya.thomas461@email.com,Enterprise,Middle East,Qatar,Finance,Organic Search,2020-11-12,2024-01-19,Churned,50666.50
+CUST-0462,Emily,Smith,emily.smith462@email.com,Individual,Middle East,Saudi Arabia,Unknown,Unknown,2019-08-11,2021-06-06,Churned,32411.04
+CUST-0463,Arjun,Yamamoto,arjun.yamamoto463@email.com,Enterprise,Africa,South Africa,Finance,Unknown,2021-01-25,2021-09-05,Churned,79396.09
+CUST-0464,Lena,Garcia,lena.garcia464@email.com,Government,Europe,Netherlands,Healthcare,Unknown,2021-10-29,2024-11-30,Active,38732.00
+CUST-0465,Richard,Adeleke,richard.adeleke465@email.com,Startup,Asia Pacific,India,Education,Paid Ads,2021-11-10,2022-03-14,Churned,56263.10
+CUST-0466,Daniel,Taylor,daniel.taylor466@email.com,Individual,Europe,Spain,Retail,Partner,2021-02-10,2024-02-07,Churned,30489.45
+CUST-0467,Chukwuemeka,Wilson,chukwuemeka.wilson467@email.com,SMB,Middle East,Qatar,Hospitality,Paid Ads,2021-01-22,2023-04-22,Churned,27232.94
+CUST-0468,Chen,Thompson,chen.thompson468@email.com,Individual,North America,Canada,Healthcare,Paid Ads,2023-04-08,2024-06-06,At Risk,16422.55
+CUST-0469,Jessica,Moore,jessica.moore469@email.com,Government,Africa,Nigeria,Manufacturing,Organic Search,2021-07-02,2023-10-18,Churned,61268.29
+CUST-0470,Kwame,Adeleke,kwame.adeleke470@email.com,Startup,Asia Pacific,Japan,Healthcare,Email Campaign,2019-04-22,2019-04-25,Churned,25996.41
+CUST-0471,Nicole,Thomas,nicole.thomas471@email.com,SMB,Latin America,Brazil,Technology,Unknown,2023-05-19,2024-12-26,Active,15729.61
+CUST-0472,Sarah,Yamamoto,sarah.yamamoto472@email.com,Startup,Europe,Netherlands,Education,Email Campaign,2020-05-09,2024-12-31,Active,73254.27
+CUST-0473,Arjun,Johnson,arjun.johnson473@email.com,Enterprise,Europe,France,Finance,Referral,2020-06-25,2024-01-04,Churned,38387.62
+CUST-0474,Chukwuemeka,Adeleke,chukwuemeka.adeleke474@email.com,Enterprise,Europe,Germany,Healthcare,Paid Ads,2020-01-08,2023-05-07,Churned,44574.13
+CUST-0475,David,Jones,david.jones475@email.com,Startup,North America,Mexico,Finance,Organic Search,2019-05-26,2022-04-18,Churned,60121.44
+CUST-0476,Robert,Thomas,robert.thomas476@email.com,Enterprise,Africa,Kenya,Manufacturing,Paid Ads,2020-03-15,2023-07-28,Churned,40242.75
+CUST-0477,James,Li,james.li477@email.com,Government,Europe,Germany,Hospitality,Social Media,2020-11-09,2023-04-29,Churned,64394.91
+CUST-0478,Ashley,Brown,ashley.brown478@email.com,Government,North America,Mexico,Unknown,Social Media,2019-02-09,2022-03-27,Churned,81143.22
+CUST-0479,Chen,Jones,chen.jones479@email.com,Enterprise,Latin America,Argentina,Hospitality,Paid Ads,2021-03-20,2022-03-19,Churned,19353.47
+CUST-0480,Amara,Brown,amara.brown480@email.com,SMB,North America,Canada,Hospitality,Social Media,2019-04-10,2024-02-01,Churned,72682.37

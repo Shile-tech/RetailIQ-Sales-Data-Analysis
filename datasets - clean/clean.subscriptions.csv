@@ -1,0 +1,501 @@
+﻿subscription_id,customer_id,plan_name,monthly_fee_USD,subscription_start,subscription_end,derived_tenure_months,total_revenue_USD,subscription_status,cancellation_reason,payment_method
+SUB-0001,CUST-0001,Enterprise,499,2020-11-04,2022-04-11,17,8583,Cancelled,Company closure,Credit Card
+SUB-0002,CUST-0001,Enterprise,499,2021-09-29,2023-11-08,26,12625,Cancelled,Missing features,Crypto
+SUB-0003,CUST-0002,Enterprise,499,2021-07-11,2023-09-26,26,13224,Cancelled,Too expensive,Crypto
+SUB-0004,CUST-0003,Business,199,2019-08-21,2024-01-29,53,10607,Cancelled,Found alternative,PayPal
+SUB-0005,CUST-0004,Enterprise,499,2023-07-29,2023-10-09,3,1198,Cancelled,Found alternative,PayPal
+SUB-0006,CUST-0004,Starter,29,2022-01-01,2023-12-23,23,687,Cancelled,Missing features,Crypto
+SUB-0007,CUST-0005,Starter,29,2022-05-01,2022-11-09,6,183,Cancelled,Poor support,Bank Transfer
+SUB-0008,CUST-0006,Business,199,2021-03-27,2024-06-04,39,7622,Active,Unknown,Credit Card
+SUB-0009,CUST-0007,Professional,79,2019-09-07,2022-03-05,30,2362,Cancelled,Budget cuts,Credit Card
+SUB-0010,CUST-0008,Enterprise,499,2020-02-19,2021-05-27,15,7585,Cancelled,Found alternative,Bank Transfer
+SUB-0011,CUST-0009,Business,199,2020-05-18,2024-02-07,45,8895,Cancelled,Budget cuts,Crypto
+SUB-0012,CUST-0010,Starter,29,2019-11-19,2024-10-10,59,1702,Active,Unknown,Bank Transfer
+SUB-0013,CUST-0011,Starter,29,2023-01-17,2024-04-07,15,426,Cancelled,Switched to competitor,Bank Transfer
+SUB-0014,CUST-0012,Starter,29,2019-09-01,2022-02-21,29,861,Cancelled,Budget cuts,Crypto
+SUB-0015,CUST-0013,Business,199,2019-07-31,2024-03-24,56,11104,Cancelled,No longer needed,Bank Transfer
+SUB-0016,CUST-0014,Enterprise,499,2023-02-25,2024-04-04,14,6637,Cancelled,No longer needed,Credit Card
+SUB-0017,CUST-0015,Enterprise,499,2021-11-13,2023-12-17,25,12525,Cancelled,Poor support,Credit Card
+SUB-0018,CUST-0016,Professional,79,2021-09-07,2024-05-10,32,2536,Cancelled,Too expensive,Crypto
+SUB-0019,CUST-0017,Business,199,2021-05-29,2023-04-17,23,4497,Cancelled,No longer needed,Crypto
+SUB-0020,CUST-0018,Enterprise,499,2023-05-05,2024-01-17,8,4192,Cancelled,Switched to competitor,Bank Transfer
+SUB-0021,CUST-0019,Professional,79,2023-11-10,2024-05-13,6,482,Cancelled,Switched to competitor,PayPal
+SUB-0022,CUST-0019,Starter,29,2021-08-10,2023-05-18,21,615,Cancelled,Found alternative,Credit Card
+SUB-0023,CUST-0020,Enterprise,499,2021-05-02,2026-04-21,59,29740,Active,Unknown,Credit Card
+SUB-0024,CUST-0021,Business,199,2019-05-13,2025-01-25,68,13632,Active,Unknown,Crypto
+SUB-0025,CUST-0022,Enterprise,499,2023-11-16,2024-05-22,6,3094,Cancelled,Budget cuts,Credit Card
+SUB-0026,CUST-0023,Starter,29,2022-12-27,2023-08-02,8,209,Cancelled,No longer needed,Credit Card
+SUB-0027,CUST-0024,Business,199,2020-08-17,2022-01-25,17,3443,Cancelled,Found alternative,Bank Transfer
+SUB-0028,CUST-0025,Starter,29,2022-12-24,2025-12-19,36,1038,Active,Unknown,Bank Transfer
+SUB-0029,CUST-0026,Professional,79,2022-04-27,2022-10-21,6,458,Cancelled,No longer needed,Credit Card
+SUB-0030,CUST-0027,Business,199,2023-05-12,2024-01-08,8,1572,Cancelled,Switched to competitor,Credit Card
+SUB-0031,CUST-0028,Business,199,2020-01-31,2026-05-24,76,15064,Active,Unknown,Credit Card
+SUB-0032,CUST-0029,Professional,79,2020-06-07,2024-10-11,52,4116,Active,Unknown,Crypto
+SUB-0033,CUST-0030,Enterprise,499,2020-03-14,2022-08-09,29,14371,Cancelled,Company closure,PayPal
+SUB-0034,CUST-0031,Enterprise,499,2022-06-11,2022-08-01,2,848,Cancelled,Found alternative,Bank Transfer
+SUB-0035,CUST-0032,Professional,79,2021-06-08,2022-04-12,10,798,Cancelled,Found alternative,Crypto
+SUB-0036,CUST-0033,Starter,29,2022-02-21,2026-05-24,51,1479,Active,Unknown,Bank Transfer
+SUB-0037,CUST-0034,Business,199,2023-09-27,2024-02-08,5,876,Cancelled,Budget cuts,PayPal
+SUB-0038,CUST-0035,Professional,79,2019-02-23,2024-07-30,65,5151,Active,Unknown,Credit Card
+SUB-0039,CUST-0036,Business,199,2021-05-17,2023-11-08,30,5910,Cancelled,Found alternative,Crypto
+SUB-0040,CUST-0037,Starter,29,2021-06-13,2023-05-06,23,658,Cancelled,Missing features,Credit Card
+SUB-0041,CUST-0038,Business,199,2022-07-26,2024-12-27,29,5791,Active,Unknown,Credit Card
+SUB-0042,CUST-0039,Business,199,2021-03-26,2025-01-01,46,8995,Active,Unknown,Crypto
+SUB-0043,CUST-0040,Starter,29,2020-04-02,2026-01-04,69,2004,Active,Unknown,PayPal
+SUB-0044,CUST-0041,Enterprise,499,2023-09-19,2025-01-13,16,7884,Active,Unknown,PayPal
+SUB-0045,CUST-0042,Enterprise,499,2021-08-17,2023-09-14,25,12425,Cancelled,Company closure,Crypto
+SUB-0046,CUST-0043,Enterprise,499,2021-10-21,2023-06-09,20,9780,Cancelled,Budget cuts,Bank Transfer
+SUB-0047,CUST-0044,Starter,29,2019-03-10,2021-03-06,24,693,Cancelled,No longer needed,Bank Transfer
+SUB-0048,CUST-0045,Professional,79,2019-05-11,2023-12-20,55,4369,Cancelled,Too expensive,Crypto
+SUB-0049,CUST-0046,Starter,29,2021-01-04,2022-01-19,12,363,Cancelled,Too expensive,Bank Transfer
+SUB-0050,CUST-0047,Enterprise,499,2020-03-11,2023-07-07,40,19860,Cancelled,Company closure,PayPal
+SUB-0051,CUST-0048,Business,199,2020-09-29,2023-02-18,29,5691,Cancelled,Company closure,Bank Transfer
+SUB-0052,CUST-0049,Professional,79,2022-02-28,2023-04-29,14,1106,Cancelled,Missing features,Crypto
+SUB-0053,CUST-0049,Starter,29,2019-08-02,2021-06-15,22,650,Cancelled,No longer needed,Credit Card
+SUB-0054,CUST-0050,Enterprise,499,2019-04-20,2020-04-25,12,6088,Cancelled,Budget cuts,Credit Card
+SUB-0055,CUST-0051,Starter,29,2023-12-06,2024-06-22,6,189,Active,Unknown,Bank Transfer
+SUB-0056,CUST-0052,Starter,29,2021-06-19,2023-08-22,26,757,Cancelled,Budget cuts,Bank Transfer
+SUB-0057,CUST-0053,Business,199,2020-12-20,2021-03-28,3,637,Cancelled,Found alternative,Bank Transfer
+SUB-0058,CUST-0054,Enterprise,499,2022-12-11,2024-01-24,13,6687,Cancelled,Company closure,Crypto
+SUB-0059,CUST-0055,Enterprise,499,2022-01-10,2024-03-14,26,13024,Cancelled,Missing features,PayPal
+SUB-0060,CUST-0056,Professional,79,2020-05-31,2022-12-08,31,2086,Cancelled,Poor support,Bank Transfer
+SUB-0061,CUST-0057,Starter,29,2023-08-06,2023-12-31,4,197,Cancelled,Budget cuts,PayPal
+SUB-0062,CUST-0058,Enterprise,499,2022-02-20,2022-06-29,4,2096,Cancelled,Poor support,Credit Card
+SUB-0063,CUST-0059,Enterprise,499,2019-12-25,2023-02-10,38,18713,Cancelled,Poor support,Crypto
+SUB-0064,CUST-0060,Starter,29,2023-11-04,2024-05-21,6,189,Cancelled,Company closure,Crypto
+SUB-0065,CUST-0061,Enterprise,499,2022-06-11,2023-05-04,11,5339,Cancelled,Too expensive,Credit Card
+SUB-0066,CUST-0062,Business,199,2020-08-26,2021-06-21,10,1950,Cancelled,Too expensive,Bank Transfer
+SUB-0067,CUST-0063,Enterprise,499,2020-11-16,2022-09-18,22,10978,Cancelled,Company closure,Credit Card
+SUB-0068,CUST-0064,Enterprise,499,2023-11-23,2024-04-20,5,2445,Cancelled,Found alternative,Credit Card
+SUB-0069,CUST-0065,Professional,79,2023-07-31,2025-02-14,19,1462,Active,Unknown,Bank Transfer
+SUB-0070,CUST-0066,Enterprise,499,2023-09-23,2024-02-27,5,2595,Cancelled,Missing features,PayPal
+SUB-0071,CUST-0067,Professional,79,2021-03-31,2025-04-25,49,3855,Active,Unknown,Crypto
+SUB-0072,CUST-0068,Professional,79,2023-05-21,2023-12-07,7,521,Cancelled,Poor support,Crypto
+SUB-0073,CUST-0069,Enterprise,499,2023-11-10,2024-08-01,9,4341,Active,Unknown,Credit Card
+SUB-0074,CUST-0070,Professional,79,2021-02-19,2023-11-09,33,2575,Cancelled,No longer needed,Credit Card
+SUB-0075,CUST-0071,Business,199,2021-06-23,2024-04-12,34,6686,Cancelled,Budget cuts,Bank Transfer
+SUB-0076,CUST-0072,Professional,79,2021-04-10,2024-05-15,37,2939,Cancelled,Company closure,Credit Card
+SUB-0077,CUST-0073,Starter,29,2022-05-21,2023-07-19,14,403,Cancelled,Switched to competitor,PayPal
+SUB-0078,CUST-0074,Business,199,2021-04-03,2023-06-20,26,5274,Cancelled,Missing features,Crypto
+SUB-0079,CUST-0075,Starter,29,2022-11-20,2024-04-05,17,479,Cancelled,No longer needed,Bank Transfer
+SUB-0080,CUST-0076,Business,199,2021-10-16,2022-05-25,7,1453,Cancelled,Found alternative,Crypto
+SUB-0081,CUST-0077,Enterprise,499,2019-12-13,2022-08-05,32,15818,Cancelled,Poor support,Credit Card
+SUB-0082,CUST-0078,Business,199,2022-06-06,2024-05-10,23,4597,Cancelled,No longer needed,Bank Transfer
+SUB-0083,CUST-0079,Enterprise,499,2022-01-08,2023-04-21,15,7685,Cancelled,Found alternative,Crypto
+SUB-0084,CUST-0080,Enterprise,499,2019-12-22,2022-12-29,36,18064,Cancelled,Found alternative,PayPal
+SUB-0085,CUST-0081,Enterprise,499,2020-08-10,2022-02-18,18,9132,Cancelled,Missing features,Credit Card
+SUB-0086,CUST-0082,Professional,79,2022-09-22,2023-03-15,6,450,Cancelled,Budget cuts,Credit Card
+SUB-0087,CUST-0082,Professional,79,2022-01-04,2022-08-10,7,569,Cancelled,Poor support,Crypto
+SUB-0088,CUST-0083,Enterprise,499,2022-07-12,2023-03-26,8,4192,Cancelled,Found alternative,Crypto
+SUB-0089,CUST-0084,Starter,29,2019-12-10,2020-07-18,7,212,Cancelled,Company closure,Credit Card
+SUB-0090,CUST-0085,Starter,29,2021-11-07,2023-07-16,20,699,Cancelled,Company closure,Crypto
+SUB-0091,CUST-0086,Enterprise,499,2022-02-04,2024-03-08,25,12525,Cancelled,Poor support,Bank Transfer
+SUB-0092,CUST-0087,Enterprise,499,2020-01-01,2024-04-09,51,25549,Cancelled,Found alternative,Credit Card
+SUB-0093,CUST-0088,Business,199,2020-06-20,2021-01-29,7,1453,Cancelled,Found alternative,Credit Card
+SUB-0094,CUST-0089,Business,199,2020-01-15,2022-04-29,27,5453,Cancelled,Switched to competitor,Bank Transfer
+SUB-0095,CUST-0090,Professional,79,2020-08-25,2024-09-03,49,3816,Active,Unknown,PayPal
+SUB-0096,CUST-0091,Starter,29,2023-02-10,2024-05-28,15,450,Cancelled,Found alternative,Credit Card
+SUB-0097,CUST-0092,Business,199,2022-06-12,2023-08-11,14,2786,Cancelled,Missing features,PayPal
+SUB-0098,CUST-0092,Professional,79,2019-10-15,2021-02-12,16,1264,Cancelled,Company closure,PayPal
+SUB-0099,CUST-0093,Professional,79,2021-03-30,2024-12-24,45,3539,Active,Unknown,PayPal
+SUB-0100,CUST-0094,Enterprise,499,2019-02-20,2021-03-13,25,12325,Cancelled,No longer needed,PayPal
+SUB-0101,CUST-0095,Enterprise,499,2021-06-06,2024-02-24,32,16267,Cancelled,Poor support,Bank Transfer
+SUB-0102,CUST-0096,Enterprise,499,2021-09-23,2021-11-08,2,749,Cancelled,Poor support,Crypto
+SUB-0103,CUST-0097,Starter,29,2019-12-04,2021-02-03,14,406,Cancelled,Poor support,Credit Card
+SUB-0104,CUST-0098,Business,199,2020-03-10,2023-08-01,41,8099,Cancelled,Found alternative,PayPal
+SUB-0105,CUST-0099,Enterprise,499,2021-02-22,2024-07-27,41,20509,Active,Unknown,Credit Card
+SUB-0106,CUST-0100,Business,199,2019-08-26,2025-07-25,71,14129,Active,Unknown,Bank Transfer
+SUB-0107,CUST-0101,Enterprise,499,2022-11-16,2023-07-20,8,4042,Cancelled,Missing features,Bank Transfer
+SUB-0108,CUST-0102,Business,199,2022-08-15,2025-04-13,32,6348,Active,Unknown,Bank Transfer
+SUB-0109,CUST-0103,Enterprise,499,2020-11-01,2023-12-08,37,18563,Cancelled,Company closure,Credit Card
+SUB-0110,CUST-0104,Business,199,2019-04-14,2022-10-27,42,8438,Cancelled,Too expensive,Crypto
+SUB-0111,CUST-0105,Business,199,2023-02-24,2024-01-11,11,2090,Cancelled,Found alternative,PayPal
+SUB-0112,CUST-0106,Business,199,2023-01-10,2023-07-12,6,1194,Cancelled,Poor support,Credit Card
+SUB-0113,CUST-0107,Professional,79,2019-04-06,2024-02-13,58,4606,Cancelled,Switched to competitor,Crypto
+SUB-0114,CUST-0107,Professional,79,2019-07-26,2020-12-22,17,1335,Cancelled,Found alternative,PayPal
+SUB-0115,CUST-0108,Starter,29,2020-06-09,2021-10-22,16,476,Cancelled,Too expensive,Credit Card
+SUB-0116,CUST-0109,Business,199,2022-06-21,2024-01-31,19,3841,Cancelled,Switched to competitor,Crypto
+SUB-0117,CUST-0110,Enterprise,499,2020-09-28,2021-12-01,15,7036,Cancelled,Company closure,PayPal
+SUB-0118,CUST-0111,Business,199,2019-07-02,2020-12-27,17,3562,Cancelled,Found alternative,PayPal
+SUB-0119,CUST-0112,Enterprise,499,2022-10-30,2023-04-23,6,2844,Cancelled,Found alternative,Credit Card
+SUB-0120,CUST-0113,Starter,29,2023-08-06,2023-09-16,1,38,Cancelled,No longer needed,Crypto
+SUB-0121,CUST-0114,Enterprise,499,2021-08-15,2023-10-26,26,13124,Cancelled,Missing features,Credit Card
+SUB-0122,CUST-0115,Business,199,2022-08-14,2022-10-13,2,398,Cancelled,Missing features,Bank Transfer
+SUB-0123,CUST-0116,Starter,29,2022-06-18,2023-10-30,16,476,Cancelled,Company closure,PayPal
+SUB-0124,CUST-0117,Professional,79,2023-10-16,2024-06-07,8,608,Cancelled,Poor support,Crypto
+SUB-0125,CUST-0118,Business,199,2019-01-20,2020-12-31,23,4657,Cancelled,Found alternative,Crypto
+SUB-0126,CUST-0119,Enterprise,499,2021-05-06,2023-11-18,30,15170,Cancelled,Company closure,PayPal
+SUB-0127,CUST-0120,Enterprise,499,2023-02-13,2023-06-26,4,2196,Cancelled,Poor support,Crypto
+SUB-0128,CUST-0121,Starter,29,2019-09-08,2022-04-14,31,905,Cancelled,Budget cuts,PayPal
+SUB-0129,CUST-0122,Enterprise,499,2021-10-03,2023-11-17,25,12725,Cancelled,Budget cuts,Credit Card
+SUB-0130,CUST-0123,Business,199,2019-03-16,2019-08-08,5,955,Cancelled,Poor support,Bank Transfer
+SUB-0131,CUST-0124,Business,199,2021-09-07,2022-12-09,15,2985,Cancelled,Poor support,Crypto
+SUB-0132,CUST-0125,Starter,29,2021-01-18,2024-01-07,36,1032,Cancelled,Company closure,PayPal
+SUB-0133,CUST-0125,Enterprise,499,2019-07-21,2020-03-30,8,4142,Cancelled,Switched to competitor,Credit Card
+SUB-0134,CUST-0126,Business,199,2023-06-18,2024-06-17,12,2388,Cancelled,Missing features,PayPal
+SUB-0135,CUST-0127,Enterprise,499,2019-02-02,2022-07-18,41,20709,Cancelled,Too expensive,Crypto
+SUB-0136,CUST-0128,Business,199,2023-05-23,2023-08-22,3,597,Cancelled,Poor support,PayPal
+SUB-0137,CUST-0129,Starter,29,2023-08-18,2023-11-17,3,87,Cancelled,Budget cuts,Credit Card
+SUB-0138,CUST-0130,Enterprise,499,2020-05-10,2024-03-31,46,23303,Cancelled,No longer needed,Crypto
+SUB-0139,CUST-0131,Starter,29,2021-11-05,2024-01-30,26,777,Cancelled,Poor support,Crypto
+SUB-0140,CUST-0132,Professional,79,2021-04-21,2022-09-29,17,1367,Cancelled,Poor support,Credit Card
+SUB-0141,CUST-0133,Starter,29,2022-06-22,2022-10-21,4,116,Cancelled,Found alternative,Credit Card
+SUB-0142,CUST-0134,Business,199,2020-12-25,2024-10-29,46,9174,Active,Unknown,PayPal
+SUB-0143,CUST-0135,Starter,29,2022-03-27,2024-04-18,25,716,Cancelled,Company closure,Bank Transfer
+SUB-0144,CUST-0136,Business,199,2020-07-23,2025-04-07,57,11244,Active,Unknown,Bank Transfer
+SUB-0145,CUST-0137,Business,199,2019-11-20,2021-05-10,18,3502,Cancelled,Poor support,Crypto
+SUB-0146,CUST-0138,Business,199,2019-10-03,2022-03-09,29,5811,Cancelled,Missing features,Bank Transfer
+SUB-0147,CUST-0139,Professional,79,2023-11-06,2024-02-04,3,237,Cancelled,Switched to competitor,Bank Transfer
+SUB-0148,CUST-0140,Professional,79,2019-02-16,2025-01-26,71,5633,Active,Unknown,PayPal
+SUB-0149,CUST-0141,Enterprise,499,2020-03-09,2023-04-07,37,18413,Cancelled,Missing features,Bank Transfer
+SUB-0150,CUST-0142,Enterprise,499,2022-06-02,2022-07-08,1,599,Cancelled,Budget cuts,Bank Transfer
+SUB-0151,CUST-0143,Professional,79,2021-02-22,2021-04-01,2,95,Cancelled,Missing features,Credit Card
+SUB-0152,CUST-0144,Enterprise,499,2019-04-23,2024-10-05,66,32635,Active,Unknown,Crypto
+SUB-0153,CUST-0145,Professional,79,2021-12-23,2024-02-17,26,2038,Cancelled,Company closure,Credit Card
+SUB-0154,CUST-0146,Starter,29,2020-02-21,2022-12-10,34,974,Cancelled,Budget cuts,Bank Transfer
+SUB-0155,CUST-0147,Professional,79,2019-10-31,2020-01-08,3,711,Cancelled,Poor support,Credit Card
+SUB-0156,CUST-0148,Enterprise,499,2022-03-10,2026-05-25,50,25200,Active,Unknown,Crypto
+SUB-0157,CUST-0149,Enterprise,499,2020-06-10,2021-11-19,17,8633,Cancelled,Poor support,PayPal
+SUB-0158,CUST-0150,Enterprise,499,2023-03-27,2023-07-11,4,1747,Cancelled,Switched to competitor,PayPal
+SUB-0159,CUST-0151,Starter,29,2020-10-29,2023-11-02,37,1047,Cancelled,Budget cuts,PayPal
+SUB-0160,CUST-0152,Professional,79,2020-02-25,2024-06-27,52,4108,Active,Unknown,Bank Transfer
+SUB-0161,CUST-0153,Enterprise,499,2021-06-15,2023-08-18,26,13024,Cancelled,Switched to competitor,Bank Transfer
+SUB-0162,CUST-0154,Enterprise,499,2019-08-11,2024-06-06,58,28892,Cancelled,Missing features,Credit Card
+SUB-0163,CUST-0155,Starter,29,2021-05-27,2022-02-04,9,241,Cancelled,Missing features,Crypto
+SUB-0164,CUST-0156,Professional,79,2022-09-11,2023-07-15,10,798,Cancelled,Company closure,PayPal
+SUB-0165,CUST-0157,Professional,79,2019-03-22,2019-06-21,3,237,Cancelled,Poor support,Bank Transfer
+SUB-0166,CUST-0158,Professional,79,2022-04-07,2023-08-20,16,1296,Cancelled,No longer needed,Crypto
+SUB-0167,CUST-0159,Enterprise,499,2022-10-09,2022-11-18,1,649,Cancelled,Found alternative,Crypto
+SUB-0168,CUST-0160,Professional,79,2020-04-21,2020-10-21,6,474,Cancelled,Missing features,Credit Card
+SUB-0169,CUST-0161,Starter,29,2021-02-27,2021-05-26,3,84,Cancelled,Poor support,Bank Transfer
+SUB-0170,CUST-0162,Professional,79,2023-03-04,2023-05-09,2,174,Cancelled,Switched to competitor,Crypto
+SUB-0171,CUST-0163,Starter,29,2019-05-31,2022-12-07,43,1085,Cancelled,Budget cuts,Bank Transfer
+SUB-0172,CUST-0164,Professional,79,2023-02-06,2023-04-17,2,182,Cancelled,Poor support,Crypto
+SUB-0173,CUST-0165,Business,199,2020-04-02,2022-03-30,23,4756,Cancelled,Switched to competitor,Credit Card
+SUB-0174,CUST-0166,Starter,29,2023-07-28,2024-06-04,11,296,Cancelled,Company closure,Crypto
+SUB-0175,CUST-0167,Enterprise,499,2023-06-02,2024-02-07,8,4092,Cancelled,Too expensive,Credit Card
+SUB-0176,CUST-0168,Business,199,2020-07-18,2024-06-12,47,9313,Active,Unknown,Crypto
+SUB-0177,CUST-0169,Business,199,2021-07-08,2022-07-11,12,2408,Cancelled,Too expensive,Bank Transfer
+SUB-0178,CUST-0170,Business,199,2019-04-01,2021-04-07,24,5393,Cancelled,Switched to competitor,Crypto
+SUB-0179,CUST-0171,Starter,29,2023-09-03,2024-06-16,9,273,Active,Unknown,Bank Transfer
+SUB-0180,CUST-0172,Enterprise,499,2023-03-23,2024-01-28,10,5090,Cancelled,Missing features,PayPal
+SUB-0181,CUST-0173,Professional,79,2020-08-22,2022-06-20,22,1730,Cancelled,Too expensive,PayPal
+SUB-0182,CUST-0174,Enterprise,499,2019-06-06,2019-12-24,6,3293,Cancelled,Budget cuts,Crypto
+SUB-0183,CUST-0174,Starter,29,2023-11-11,2024-02-10,3,87,Cancelled,Too expensive,PayPal
+SUB-0184,CUST-0175,Business,199,2020-10-24,2023-12-16,38,7502,Cancelled,No longer needed,Bank Transfer
+SUB-0185,CUST-0176,Professional,79,2022-10-23,2023-05-03,7,498,Cancelled,Too expensive,Credit Card
+SUB-0186,CUST-0177,Enterprise,499,2023-07-30,2024-01-29,6,2994,Cancelled,No longer needed,Bank Transfer
+SUB-0187,CUST-0178,Starter,29,2019-08-06,2020-11-13,15,444,Cancelled,Poor support,Crypto
+SUB-0188,CUST-0179,Starter,29,2023-11-25,2025-04-13,17,481,Active,Unknown,Crypto
+SUB-0189,CUST-0180,Professional,79,2020-03-27,2024-05-18,50,3926,Cancelled,Company closure,PayPal
+SUB-0190,CUST-0181,Professional,79,2022-03-18,2024-06-04,27,2101,Active,Unknown,Credit Card
+SUB-0191,CUST-0182,Enterprise,499,2019-05-05,2022-06-29,37,18862,Cancelled,Missing features,Bank Transfer
+SUB-0192,CUST-0183,Professional,79,2022-01-16,2024-08-18,31,2449,Active,Unknown,PayPal
+SUB-0193,CUST-0184,Professional,79,2020-04-10,2024-11-13,55,4353,Active,Unknown,Bank Transfer
+SUB-0194,CUST-0185,Professional,79,2023-07-09,2023-08-20,1,111,Cancelled,Missing features,Credit Card
+SUB-0195,CUST-0186,Enterprise,499,2022-03-26,2023-06-21,15,7385,Cancelled,Company closure,PayPal
+SUB-0196,CUST-0187,Business,199,2020-01-24,2025-01-22,60,11940,Active,Unknown,Crypto
+SUB-0197,CUST-0188,Professional,79,2022-04-18,2026-10-29,54,4298,Active,Unknown,Credit Card
+SUB-0198,CUST-0189,Enterprise,499,2021-02-15,2025-03-18,49,24451,Active,Unknown,Crypto
+SUB-0199,CUST-0190,Professional,79,2019-05-08,2021-01-03,20,1572,Cancelled,Budget cuts,Crypto
+SUB-0200,CUST-0191,Enterprise,499,2019-05-01,2023-01-11,44,26946,Cancelled,No longer needed,Crypto
+SUB-0201,CUST-0192,Enterprise,499,2023-07-06,2023-10-30,3,1896,Cancelled,Found alternative,Credit Card
+SUB-0202,CUST-0193,Enterprise,499,2022-07-02,2023-02-17,7,3792,Cancelled,Found alternative,PayPal
+SUB-0203,CUST-0194,Enterprise,499,2021-06-02,2023-01-07,19,9581,Cancelled,Found alternative,Bank Transfer
+SUB-0204,CUST-0195,Enterprise,499,2022-11-24,2023-10-20,11,5389,Cancelled,Poor support,PayPal
+SUB-0205,CUST-0196,Business,199,2023-09-24,2024-06-05,9,1672,Cancelled,Switched to competitor,Credit Card
+SUB-0206,CUST-0197,Business,199,2022-05-27,2025-06-23,37,7343,Active,Unknown,Crypto
+SUB-0207,CUST-0198,Professional,79,2021-10-21,2022-07-23,9,711,Cancelled,Switched to competitor,Bank Transfer
+SUB-0208,CUST-0199,Business,199,2020-01-11,2024-01-18,48,9592,Cancelled,Company closure,Credit Card
+SUB-0209,CUST-0200,Business,199,2020-12-27,2025-02-16,50,9890,Active,Unknown,Crypto
+SUB-0210,CUST-0201,Starter,29,2019-12-11,2024-04-09,52,1505,Cancelled,Poor support,Bank Transfer
+SUB-0211,CUST-0202,Starter,29,2023-05-12,2023-10-09,5,116,Cancelled,No longer needed,Bank Transfer
+SUB-0212,CUST-0203,Professional,79,2023-08-28,2024-03-13,7,514,Cancelled,Company closure,Bank Transfer
+SUB-0213,CUST-0204,Enterprise,499,2023-12-13,2024-01-17,1,549,Cancelled,Company closure,Credit Card
+SUB-0214,CUST-0205,Business,199,2022-11-01,2023-03-29,4,975,Cancelled,Missing features,Bank Transfer
+SUB-0215,CUST-0206,Professional,79,2020-07-31,2024-01-01,42,3239,Cancelled,Poor support,Bank Transfer
+SUB-0216,CUST-0207,Enterprise,499,2022-09-24,2025-01-17,28,13872,Active,Unknown,Crypto
+SUB-0217,CUST-0208,Starter,29,2021-04-27,2025-02-02,46,1311,Active,Unknown,Credit Card
+SUB-0218,CUST-0209,Starter,29,2021-12-20,2024-01-13,25,719,Cancelled,Missing features,Bank Transfer
+SUB-0219,CUST-0210,Business,199,2020-12-28,2025-12-23,60,11900,Active,Unknown,Crypto
+SUB-0220,CUST-0211,Professional,79,2020-09-17,2023-10-19,37,2923,Cancelled,Poor support,Bank Transfer
+SUB-0221,CUST-0212,Professional,79,2023-07-13,2023-11-07,4,300,Cancelled,Missing features,Bank Transfer
+SUB-0222,CUST-0213,Enterprise,499,2020-03-01,2026-08-15,77,38673,Active,Unknown,Crypto
+SUB-0223,CUST-0214,Enterprise,499,2020-05-05,2024-07-26,50,25299,Active,Unknown,Crypto
+SUB-0224,CUST-0215,Enterprise,499,2023-02-22,2023-04-05,2,699,Cancelled,Found alternative,Bank Transfer
+SUB-0225,CUST-0216,Enterprise,499,2022-11-28,2023-11-25,12,5938,Cancelled,No longer needed,Credit Card
+SUB-0226,CUST-0217,Enterprise,499,2022-07-21,2024-04-13,21,10379,Cancelled,Company closure,Credit Card
+SUB-0227,CUST-0218,Professional,79,2019-11-29,2022-04-08,29,2236,Cancelled,No longer needed,Credit Card
+SUB-0228,CUST-0219,Business,199,2020-06-03,2022-11-15,29,5851,Cancelled,Found alternative,Crypto
+SUB-0229,CUST-0220,Starter,29,2022-01-25,2023-03-18,14,397,Cancelled,No longer needed,PayPal
+SUB-0230,CUST-0221,Starter,29,2020-06-15,2023-11-14,41,1189,Cancelled,Missing features,Bank Transfer
+SUB-0231,CUST-0222,Starter,29,2022-03-03,2023-01-16,10,305,Cancelled,Poor support,Crypto
+SUB-0232,CUST-0223,Starter,29,2019-10-08,2025-02-06,64,1856,Active,Unknown,Crypto
+SUB-0233,CUST-0224,Enterprise,499,2023-07-02,2023-08-12,1,3044,Cancelled,Missing features,Crypto
+SUB-0234,CUST-0225,Enterprise,499,2023-10-27,2024-01-08,3,1198,Cancelled,Poor support,PayPal
+SUB-0235,CUST-0225,Professional,79,2019-01-13,2022-04-29,39,3121,Cancelled,Found alternative,PayPal
+SUB-0236,CUST-0226,Business,199,2022-11-02,2022-12-26,1,358,Cancelled,Too expensive,Credit Card
+SUB-0237,CUST-0227,Enterprise,499,2023-03-30,2023-05-26,2,948,Cancelled,Switched to competitor,Bank Transfer
+SUB-0238,CUST-0228,Starter,29,2022-05-20,2022-09-26,4,122,Cancelled,Found alternative,Credit Card
+SUB-0239,CUST-0229,Professional,79,2019-04-17,2022-06-01,38,2963,Cancelled,Found alternative,Crypto
+SUB-0240,CUST-0230,Starter,29,2023-05-08,2024-09-30,16,487,Active,Unknown,PayPal
+SUB-0241,CUST-0231,Professional,79,2023-06-16,2024-02-28,8,664,Cancelled,Too expensive,Bank Transfer
+SUB-0242,CUST-0232,Professional,79,2022-05-27,2023-01-28,8,640,Cancelled,Found alternative,Crypto
+SUB-0243,CUST-0233,Business,199,2020-05-18,2024-04-18,47,9353,Cancelled,Poor support,PayPal
+SUB-0244,CUST-0234,Enterprise,499,2019-03-16,2021-02-14,23,11477,Cancelled,Missing features,Bank Transfer
+SUB-0245,CUST-0235,Professional,79,2019-04-07,2025-05-12,73,5783,Active,Unknown,Credit Card
+SUB-0246,CUST-0236,Enterprise,499,2023-05-19,2023-07-10,2,848,Cancelled,Too expensive,PayPal
+SUB-0247,CUST-0237,Professional,79,2022-07-19,2023-01-30,6,506,Cancelled,Too expensive,PayPal
+SUB-0248,CUST-0238,Business,199,2022-03-16,2023-02-17,11,2209,Cancelled,Budget cuts,Crypto
+SUB-0249,CUST-0239,Business,199,2022-09-08,2023-03-16,6,1234,Cancelled,Missing features,PayPal
+SUB-0250,CUST-0240,Professional,79,2021-02-19,2024-06-04,40,3121,Cancelled,Company closure,PayPal
+SUB-0251,CUST-0241,Enterprise,499,2020-05-24,2021-10-21,17,8433,Cancelled,Missing features,Bank Transfer
+SUB-0252,CUST-0242,Professional,79,2023-06-11,2023-07-15,1,87,Cancelled,Company closure,PayPal
+SUB-0253,CUST-0243,Enterprise,499,2019-05-23,2023-05-14,48,23802,Cancelled,Missing features,PayPal
+SUB-0254,CUST-0244,Business,199,2022-04-14,2023-04-02,12,2308,Cancelled,Company closure,Bank Transfer
+SUB-0255,CUST-0245,Starter,29,2020-09-23,2024-10-06,49,1404,Active,Unknown,Crypto
+SUB-0256,CUST-0246,Starter,29,2023-08-19,2023-11-11,3,81,Cancelled,Found alternative,Bank Transfer
+SUB-0257,CUST-0247,Starter,29,2022-03-04,2022-06-30,3,113,Cancelled,Switched to competitor,Bank Transfer
+SUB-0258,CUST-0248,Professional,79,2022-10-26,2023-06-01,8,569,Cancelled,Found alternative,PayPal
+SUB-0259,CUST-0249,Business,199,2023-01-10,2024-02-29,13,2706,Cancelled,Too expensive,PayPal
+SUB-0260,CUST-0250,Professional,79,2021-01-03,2022-06-13,17,1367,Cancelled,Found alternative,Crypto
+SUB-0261,CUST-0251,Business,199,2020-01-03,2024-06-12,53,10607,Active,Unknown,PayPal
+SUB-0262,CUST-0252,Starter,29,2021-03-16,2022-07-31,16,479,Cancelled,Company closure,Bank Transfer
+SUB-0263,CUST-0253,Professional,79,2023-02-04,2024-06-24,16,1311,Active,Unknown,Bank Transfer
+SUB-0264,CUST-0254,Starter,29,2023-12-12,2024-12-03,12,339,Active,Unknown,PayPal
+SUB-0265,CUST-0255,Professional,79,2019-04-27,2020-09-04,17,1288,Cancelled,Company closure,Credit Card
+SUB-0266,CUST-0256,Starter,29,2019-06-28,2021-02-08,20,563,Cancelled,Missing features,Crypto
+SUB-0267,CUST-0257,Starter,29,2020-12-31,2021-12-04,12,322,Cancelled,Found alternative,Bank Transfer
+SUB-0268,CUST-0258,Starter,29,2020-07-30,2023-12-14,41,1175,Cancelled,Missing features,Bank Transfer
+SUB-0269,CUST-0258,Business,199,2020-07-22,2022-06-15,23,4537,Cancelled,Company closure,Crypto
+SUB-0270,CUST-0259,Professional,79,2021-08-10,2021-09-13,1,87,Cancelled,Missing features,Crypto
+SUB-0271,CUST-0260,Business,199,2019-03-28,2022-08-02,41,8000,Cancelled,No longer needed,Crypto
+SUB-0272,CUST-0261,Professional,79,2023-12-11,2024-02-13,2,166,Cancelled,No longer needed,Crypto
+SUB-0273,CUST-0262,Business,199,2020-02-26,2024-08-11,54,11224,Active,Unknown,Bank Transfer
+SUB-0274,CUST-0263,Business,199,2023-03-14,2024-06-20,15,3025,Cancelled,Missing features,Crypto
+SUB-0275,CUST-0264,Professional,79,2020-11-23,2023-11-18,36,2828,Cancelled,Found alternative,Credit Card
+SUB-0276,CUST-0265,Starter,29,2019-04-22,2022-05-30,37,1082,Cancelled,Poor support,Credit Card
+SUB-0277,CUST-0266,Enterprise,499,2021-02-22,2022-11-12,21,10279,Cancelled,Budget cuts,Crypto
+SUB-0278,CUST-0267,Starter,29,2020-01-14,2024-06-03,53,1525,Active,Unknown,Bank Transfer
+SUB-0279,CUST-0268,Starter,29,2019-02-27,2020-03-27,13,374,Cancelled,Budget cuts,Crypto
+SUB-0280,CUST-0269,Business,199,2021-03-02,2024-02-11,35,7025,Cancelled,Company closure,Credit Card
+SUB-0281,CUST-0270,Professional,79,2019-05-07,2021-09-09,28,2220,Cancelled,Budget cuts,Credit Card
+SUB-0282,CUST-0271,Enterprise,499,2022-06-13,2024-02-23,20,10180,Cancelled,Too expensive,Credit Card
+SUB-0283,CUST-0272,Professional,79,2021-05-04,2024-02-07,33,2615,Cancelled,Too expensive,Credit Card
+SUB-0284,CUST-0273,Business,199,2019-06-20,2022-02-08,32,6308,Cancelled,Company closure,PayPal
+SUB-0285,CUST-0274,Professional,79,2023-12-28,2024-03-06,3,182,Cancelled,No longer needed,Credit Card
+SUB-0286,CUST-0275,Business,199,2020-11-10,2021-11-25,12,2488,Cancelled,Company closure,Crypto
+SUB-0287,CUST-0276,Business,199,2020-06-19,2026-07-19,73,14527,Active,Unknown,Crypto
+SUB-0288,CUST-0277,Enterprise,499,2019-04-20,2023-12-20,56,27944,Cancelled,Found alternative,Bank Transfer
+SUB-0289,CUST-0278,Enterprise,499,2019-02-17,2020-01-10,11,5339,Cancelled,Found alternative,Credit Card
+SUB-0290,CUST-0279,Professional,79,2022-04-28,2024-01-15,21,1627,Cancelled,Poor support,Credit Card
+SUB-0291,CUST-0280,Enterprise,499,2019-04-09,2024-05-14,61,30539,Cancelled,Poor support,Credit Card
+SUB-0292,CUST-0281,Starter,29,2019-05-09,2020-12-25,19,568,Cancelled,Missing features,Crypto
+SUB-0293,CUST-0282,Professional,79,2019-07-11,2023-06-06,47,3697,Cancelled,No longer needed,Bank Transfer
+SUB-0294,CUST-0283,Starter,29,2021-07-28,2022-02-17,7,194,Cancelled,Company closure,Crypto
+SUB-0295,CUST-0284,Enterprise,499,2021-07-16,2022-03-24,8,4092,Cancelled,Switched to competitor,Crypto
+SUB-0296,CUST-0285,Starter,29,2019-10-06,2023-12-06,50,1450,Cancelled,Company closure,PayPal
+SUB-0297,CUST-0286,Professional,79,2021-12-23,2023-07-08,19,1462,Cancelled,No longer needed,Credit Card
+SUB-0298,CUST-0287,Business,199,2022-01-06,2024-04-22,27,5473,Cancelled,Switched to competitor,Credit Card
+SUB-0299,CUST-0288,Starter,29,2019-06-19,2022-05-11,35,1006,Cancelled,No longer needed,PayPal
+SUB-0300,CUST-0289,Starter,29,2021-01-29,2021-03-22,2,49,Cancelled,Budget cuts,Crypto
+SUB-0301,CUST-0290,Business,199,2019-03-25,2022-01-13,34,6706,Cancelled,Too expensive,Credit Card
+SUB-0302,CUST-0291,Professional,79,2020-01-23,2024-12-21,59,4653,Active,Unknown,Credit Card
+SUB-0303,CUST-0292,Professional,79,2020-11-03,2022-07-19,20,2236,Cancelled,Company closure,PayPal
+SUB-0304,CUST-0292,Business,199,2022-10-08,2023-05-29,7,1532,Cancelled,Poor support,PayPal
+SUB-0305,CUST-0293,Business,199,2020-06-02,2024-03-12,45,9015,Cancelled,Missing features,PayPal
+SUB-0306,CUST-0294,Professional,79,2023-10-06,2024-01-23,3,284,Cancelled,No longer needed,Crypto
+SUB-0307,CUST-0295,Professional,79,2023-04-18,2023-09-19,5,403,Cancelled,Poor support,Bank Transfer
+SUB-0308,CUST-0296,Starter,29,2023-06-27,2026-04-24,34,983,Active,Unknown,Bank Transfer
+SUB-0309,CUST-0297,Starter,29,2023-04-07,2023-06-15,2,67,Cancelled,Company closure,Bank Transfer
+SUB-0310,CUST-0298,Starter,29,2020-01-25,2023-04-26,39,1131,Cancelled,Company closure,PayPal
+SUB-0311,CUST-0299,Enterprise,499,2019-06-01,2021-04-22,22,11327,Cancelled,Switched to competitor,Credit Card
+SUB-0312,CUST-0300,Professional,79,2020-12-01,2021-04-08,4,332,Cancelled,Budget cuts,Credit Card
+SUB-0313,CUST-0301,Starter,29,2019-10-07,2022-03-13,29,847,Cancelled,Found alternative,Crypto
+SUB-0314,CUST-0302,Starter,29,2021-06-12,2023-06-11,24,693,Cancelled,No longer needed,Bank Transfer
+SUB-0315,CUST-0303,Starter,29,2023-01-12,2024-01-12,12,348,Cancelled,Too expensive,Bank Transfer
+SUB-0316,CUST-0304,Starter,29,2021-03-07,2022-12-31,21,632,Cancelled,Budget cuts,Bank Transfer
+SUB-0317,CUST-0305,Professional,79,2023-09-01,2023-12-01,3,237,Cancelled,Missing features,Bank Transfer
+SUB-0318,CUST-0306,Business,199,2021-05-30,2022-03-18,10,1910,Cancelled,Switched to competitor,PayPal
+SUB-0319,CUST-0306,Business,199,2023-05-08,2024-05-06,12,2388,Cancelled,No longer needed,Credit Card
+SUB-0320,CUST-0307,Enterprise,499,2021-01-02,2026-01-16,60,30140,Active,Unknown,Crypto
+SUB-0321,CUST-0308,Enterprise,499,2019-04-03,2021-01-23,21,10828,Cancelled,Too expensive,PayPal
+SUB-0322,CUST-0308,Starter,29,2023-02-19,2023-11-14,9,255,Cancelled,Missing features,Crypto
+SUB-0323,CUST-0309,Starter,29,2020-06-15,2024-08-19,50,1453,Active,Unknown,Crypto
+SUB-0324,CUST-0310,Starter,29,2019-02-13,2024-05-23,63,1836,Cancelled,Switched to competitor,PayPal
+SUB-0325,CUST-0311,Professional,79,2020-02-14,2021-07-11,17,1335,Cancelled,Budget cuts,Crypto
+SUB-0326,CUST-0312,Professional,79,2021-06-24,2022-03-05,9,656,Cancelled,Found alternative,Bank Transfer
+SUB-0327,CUST-0313,Starter,29,2023-11-21,2024-06-25,7,206,Cancelled,Budget cuts,PayPal
+SUB-0328,CUST-0314,Business,199,2019-09-10,2025-10-31,73,14666,Active,Unknown,Bank Transfer
+SUB-0329,CUST-0315,Starter,29,2022-04-05,2023-01-06,9,403,Cancelled,Company closure,Credit Card
+SUB-0330,CUST-0316,Starter,29,2022-09-16,2023-05-11,8,226,Cancelled,Found alternative,Crypto
+SUB-0331,CUST-0317,Business,199,2023-04-19,2024-06-30,14,2866,Cancelled,No longer needed,Bank Transfer
+SUB-0332,CUST-0318,Starter,29,2021-08-08,2025-05-13,45,1308,Active,Unknown,Crypto
+SUB-0333,CUST-0319,Professional,79,2021-02-08,2023-01-29,23,1872,Cancelled,Too expensive,Bank Transfer
+SUB-0334,CUST-0320,Enterprise,499,2023-02-20,2023-06-19,4,1946,Cancelled,No longer needed,Bank Transfer
+SUB-0335,CUST-0320,Business,199,2021-06-08,2024-03-07,33,6567,Cancelled,Poor support,Crypto
+SUB-0336,CUST-0321,Starter,29,2021-12-28,2022-09-04,9,238,Cancelled,Switched to competitor,Bank Transfer
+SUB-0337,CUST-0322,Enterprise,499,2020-08-10,2021-11-14,15,7535,Cancelled,Company closure,Bank Transfer
+SUB-0338,CUST-0323,Enterprise,499,2022-03-27,2023-03-07,12,7585,Cancelled,Poor support,Crypto
+SUB-0339,CUST-0324,Starter,29,2021-12-17,2023-08-17,20,580,Cancelled,Found alternative,Credit Card
+SUB-0340,CUST-0325,Professional,79,2020-02-19,2021-12-18,22,1730,Cancelled,No longer needed,Crypto
+SUB-0341,CUST-0326,Starter,29,2020-01-08,2021-09-02,20,574,Cancelled,Missing features,Credit Card
+SUB-0342,CUST-0327,Professional,79,2020-07-18,2024-08-30,49,3903,Active,Unknown,Credit Card
+SUB-0343,CUST-0328,Starter,29,2019-05-01,2020-03-15,10,305,Cancelled,Poor support,PayPal
+SUB-0344,CUST-0329,Professional,79,2019-05-16,2023-06-29,49,3903,Cancelled,Switched to competitor,Crypto
+SUB-0345,CUST-0330,Starter,29,2023-09-21,2025-02-11,17,484,Active,Unknown,PayPal
+SUB-0346,CUST-0331,Professional,79,2021-06-26,2022-02-05,8,585,Cancelled,Missing features,Bank Transfer
+SUB-0347,CUST-0332,Business,199,2022-05-05,2022-07-03,2,378,Cancelled,Missing features,PayPal
+SUB-0348,CUST-0333,Business,199,2022-11-30,2024-03-20,16,3104,Cancelled,Missing features,PayPal
+SUB-0349,CUST-0334,Professional,79,2023-12-13,2024-04-11,4,308,Cancelled,Company closure,Bank Transfer
+SUB-0350,CUST-0335,Business,199,2020-10-19,2024-11-19,49,9751,Active,Unknown,Bank Transfer
+SUB-0351,CUST-0336,Enterprise,499,2023-01-14,2023-10-31,9,4741,Cancelled,Budget cuts,Crypto
+SUB-0352,CUST-0337,Business,199,2020-07-18,2022-02-01,19,3682,Cancelled,Company closure,PayPal
+SUB-0353,CUST-0338,Starter,29,2020-05-19,2021-10-20,17,493,Cancelled,Poor support,Crypto
+SUB-0354,CUST-0339,Business,199,2022-08-07,2026-11-22,51,10249,Active,Unknown,PayPal
+SUB-0355,CUST-0340,Professional,79,2020-06-12,2024-05-06,47,3697,Cancelled,Budget cuts,Crypto
+SUB-0356,CUST-0341,Starter,29,2019-03-25,2021-07-08,28,798,Cancelled,Poor support,Credit Card
+SUB-0357,CUST-0342,Enterprise,499,2019-11-09,2024-01-13,50,25000,Cancelled,Too expensive,Bank Transfer
+SUB-0358,CUST-0343,Starter,29,2020-06-22,2021-06-13,12,339,Cancelled,Missing features,Credit Card
+SUB-0359,CUST-0344,Business,199,2022-01-08,2022-05-27,4,915,Cancelled,Missing features,Crypto
+SUB-0360,CUST-0345,Business,199,2021-06-19,2023-11-22,29,5791,Cancelled,No longer needed,PayPal
+SUB-0361,CUST-0346,Professional,79,2022-10-15,2023-04-25,6,498,Cancelled,No longer needed,Credit Card
+SUB-0362,CUST-0347,Professional,79,2021-02-17,2024-01-07,35,2733,Cancelled,Missing features,Crypto
+SUB-0363,CUST-0348,Enterprise,499,2020-09-01,2022-11-12,26,13124,Cancelled,Poor support,PayPal
+SUB-0364,CUST-0349,Starter,29,2021-02-22,2026-05-27,63,1830,Active,Unknown,Crypto
+SUB-0365,CUST-0350,Business,199,2019-09-14,2024-10-13,61,12139,Active,Unknown,Crypto
+SUB-0366,CUST-0351,Enterprise,499,2020-02-24,2024-06-28,52,25998,Cancelled,Switched to competitor,Credit Card
+SUB-0367,CUST-0352,Enterprise,499,2021-09-09,2024-06-26,33,16717,Active,Unknown,PayPal
+SUB-0368,CUST-0353,Enterprise,499,2023-03-13,2024-07-26,16,8234,Active,Unknown,Credit Card
+SUB-0369,CUST-0354,Enterprise,499,2022-10-19,2024-10-15,24,11926,Active,Unknown,Crypto
+SUB-0370,CUST-0355,Professional,79,2023-12-29,2024-03-17,3,205,Cancelled,Found alternative,Bank Transfer
+SUB-0371,CUST-0356,Enterprise,499,2022-01-09,2022-12-09,11,5489,Cancelled,Budget cuts,PayPal
+SUB-0372,CUST-0357,Business,199,2023-01-25,2025-06-14,29,5691,Active,Unknown,Crypto
+SUB-0373,CUST-0358,Starter,29,2022-01-07,2023-06-21,17,505,Cancelled,Budget cuts,Bank Transfer
+SUB-0374,CUST-0359,Enterprise,499,2020-07-26,2025-05-06,58,28593,Active,Unknown,Credit Card
+SUB-0375,CUST-0360,Business,199,2023-09-09,2024-03-31,6,1333,Cancelled,Poor support,PayPal
+SUB-0376,CUST-0361,Enterprise,499,2022-02-07,2024-08-15,30,15070,Active,Unknown,Crypto
+SUB-0377,CUST-0361,Starter,29,2023-10-18,2025-01-29,15,447,Active,Unknown,PayPal
+SUB-0378,CUST-0362,Business,199,2023-02-16,2023-09-20,7,1413,Cancelled,Budget cuts,PayPal
+SUB-0379,CUST-0363,Enterprise,499,2020-01-05,2021-09-05,20,9980,Cancelled,Budget cuts,Credit Card
+SUB-0380,CUST-0364,Business,199,2023-11-12,2024-06-15,7,1413,Cancelled,Budget cuts,Bank Transfer
+SUB-0381,CUST-0365,Starter,29,2022-11-09,2024-01-06,14,403,Cancelled,Found alternative,Credit Card
+SUB-0382,CUST-0366,Professional,79,2020-08-18,2021-01-30,5,427,Cancelled,No longer needed,Crypto
+SUB-0383,CUST-0367,Business,199,2023-02-27,2023-11-17,9,1711,Cancelled,Too expensive,PayPal
+SUB-0384,CUST-0368,Business,199,2020-07-31,2021-02-02,7,1214,Cancelled,Switched to competitor,Crypto
+SUB-0385,CUST-0369,Professional,79,2019-08-16,2026-07-26,83,6581,Active,Unknown,Credit Card
+SUB-0386,CUST-0370,Business,199,2019-09-12,2021-10-26,25,5075,Cancelled,Budget cuts,Bank Transfer
+SUB-0387,CUST-0371,Professional,79,2023-01-15,2024-12-18,23,1825,Active,Unknown,Credit Card
+SUB-0388,CUST-0372,Starter,29,2023-05-26,2024-04-10,11,305,Cancelled,Poor support,PayPal
+SUB-0389,CUST-0372,Professional,79,2021-07-13,2024-06-18,35,2781,Cancelled,Switched to competitor,Bank Transfer
+SUB-0390,CUST-0373,Business,199,2020-08-11,2024-08-08,48,9532,Active,Unknown,PayPal
+SUB-0391,CUST-0374,Professional,79,2022-06-03,2023-06-05,12,956,Cancelled,Too expensive,PayPal
+SUB-0392,CUST-0375,Professional,79,2021-07-16,2023-08-03,25,1943,Cancelled,Too expensive,Credit Card
+SUB-0393,CUST-0376,Professional,79,2021-05-16,2025-02-08,45,3539,Active,Unknown,PayPal
+SUB-0394,CUST-0377,Professional,79,2023-11-25,2024-05-11,6,435,Cancelled,Switched to competitor,Credit Card
+SUB-0395,CUST-0378,Professional,79,2021-06-03,2024-02-18,32,2568,Cancelled,No longer needed,Bank Transfer
+SUB-0396,CUST-0379,Professional,79,2023-02-28,2023-12-20,10,766,Cancelled,No longer needed,Bank Transfer
+SUB-0397,CUST-0380,Starter,29,2023-11-22,2023-12-31,1,38,Cancelled,Poor support,Bank Transfer
+SUB-0398,CUST-0381,Starter,29,2022-04-13,2026-06-08,50,1444,Active,Unknown,Crypto
+SUB-0399,CUST-0382,Business,199,2019-07-07,2022-08-12,37,7403,Cancelled,Company closure,Crypto
+SUB-0400,CUST-0383,Starter,29,2020-07-03,2023-05-04,34,986,Cancelled,Poor support,Crypto
+SUB-0401,CUST-0384,Professional,79,2021-11-28,2022-03-09,4,261,Cancelled,Budget cuts,Credit Card
+SUB-0402,CUST-0385,Enterprise,499,2022-05-09,2023-06-30,13,6836,Cancelled,No longer needed,PayPal
+SUB-0403,CUST-0386,Enterprise,499,2021-05-18,2024-03-13,34,16866,Cancelled,Budget cuts,PayPal
+SUB-0404,CUST-0387,Starter,29,2021-06-15,2022-05-14,11,316,Cancelled,Missing features,PayPal
+SUB-0405,CUST-0388,Starter,29,2020-07-16,2021-02-28,7,218,Cancelled,Found alternative,PayPal
+SUB-0406,CUST-0389,Business,199,2021-04-30,2024-07-28,39,7741,Active,Unknown,Bank Transfer
+SUB-0407,CUST-0390,Business,199,2020-09-15,2025-04-27,55,11025,Active,Unknown,Credit Card
+SUB-0408,CUST-0391,Business,199,2020-09-18,2025-02-28,53,10627,Active,Unknown,Bank Transfer
+SUB-0409,CUST-0392,Professional,79,2023-08-13,2025-08-20,24,1912,Active,Unknown,Bank Transfer
+SUB-0410,CUST-0393,Enterprise,499,2020-12-24,2021-09-21,9,4441,Cancelled,Company closure,Bank Transfer
+SUB-0411,CUST-0394,Business,199,2019-04-06,2021-07-03,27,5353,Cancelled,Poor support,Bank Transfer
+SUB-0412,CUST-0395,Business,199,2023-01-24,2024-04-06,15,2866,Cancelled,Found alternative,Bank Transfer
+SUB-0413,CUST-0395,Professional,79,2021-02-10,2022-08-03,18,1398,Cancelled,Poor support,Bank Transfer
+SUB-0414,CUST-0396,Enterprise,499,2023-02-12,2023-03-28,1,699,Cancelled,Budget cuts,PayPal
+SUB-0415,CUST-0397,Professional,79,2021-07-22,2023-06-27,23,1833,Cancelled,Company closure,Credit Card
+SUB-0416,CUST-0397,Professional,79,2023-10-21,2024-02-11,4,292,Cancelled,Budget cuts,Crypto
+SUB-0417,CUST-0398,Starter,29,2023-09-16,2024-06-18,9,264,Active,Unknown,Credit Card
+SUB-0418,CUST-0399,Enterprise,499,2020-11-18,2023-09-30,34,17166,Cancelled,Company closure,PayPal
+SUB-0419,CUST-0400,Business,199,2022-09-07,2022-12-25,3,716,Cancelled,Budget cuts,Crypto
+SUB-0420,CUST-0401,Enterprise,499,2019-01-12,2022-09-10,44,21906,Cancelled,Missing features,Credit Card
+SUB-0421,CUST-0402,Enterprise,499,2020-06-09,2023-11-13,41,20509,Cancelled,Company closure,Crypto
+SUB-0422,CUST-0403,Enterprise,499,2020-08-14,2023-10-12,38,18912,Cancelled,Budget cuts,Bank Transfer
+SUB-0423,CUST-0404,Business,199,2023-04-16,2024-04-03,12,2308,Cancelled,Budget cuts,PayPal
+SUB-0424,CUST-0405,Business,199,2020-10-04,2024-02-17,40,8040,Cancelled,Missing features,PayPal
+SUB-0425,CUST-0406,Professional,79,2022-09-09,2023-09-05,12,940,Cancelled,Missing features,Bank Transfer
+SUB-0426,CUST-0407,Professional,79,2022-12-28,2023-08-15,8,600,Cancelled,Poor support,Bank Transfer
+SUB-0427,CUST-0408,Professional,79,2021-09-06,2024-07-28,34,2741,Active,Unknown,PayPal
+SUB-0428,CUST-0409,Enterprise,499,2019-12-29,2024-10-23,58,28842,Active,Unknown,Credit Card
+SUB-0429,CUST-0410,Professional,79,2019-10-09,2022-07-05,33,2670,Cancelled,Missing features,PayPal
+SUB-0430,CUST-0411,Professional,79,2021-05-22,2023-10-21,29,2291,Cancelled,Budget cuts,Credit Card
+SUB-0431,CUST-0412,Business,199,2019-01-05,2023-10-18,57,11423,Cancelled,No longer needed,PayPal
+SUB-0432,CUST-0413,Starter,29,2023-09-09,2024-06-11,9,264,Cancelled,Company closure,PayPal
+SUB-0433,CUST-0414,Enterprise,499,2023-06-08,2023-10-09,4,1996,Cancelled,No longer needed,Credit Card
+SUB-0434,CUST-0415,Business,199,2019-12-23,2024-06-27,54,10766,Cancelled,Missing features,Crypto
+SUB-0435,CUST-0416,Business,199,2021-12-30,2024-04-16,28,5473,Cancelled,Found alternative,Credit Card
+SUB-0436,CUST-0417,Enterprise,499,2023-02-02,2023-04-12,2,1148,Cancelled,Missing features,PayPal
+SUB-0437,CUST-0418,Business,199,2020-06-18,2024-09-16,51,10149,Active,Unknown,PayPal
+SUB-0438,CUST-0419,Business,199,2023-09-15,2024-03-02,6,1114,Cancelled,Switched to competitor,Credit Card
+SUB-0439,CUST-0420,Enterprise,499,2020-12-30,2023-02-28,26,12974,Cancelled,Missing features,Credit Card
+SUB-0440,CUST-0421,Professional,79,2023-07-22,2024-05-27,10,806,Cancelled,Company closure,Credit Card
+SUB-0441,CUST-0422,Business,199,2020-05-28,2024-08-28,51,10149,Active,Unknown,Bank Transfer
+SUB-0442,CUST-0423,Professional,79,2020-10-28,2021-05-12,7,506,Cancelled,Found alternative,PayPal
+SUB-0443,CUST-0424,Professional,79,2023-11-21,2024-06-10,7,521,Cancelled,Missing features,PayPal
+SUB-0444,CUST-0425,Business,199,2023-10-25,2025-09-04,23,4438,Active,Unknown,Bank Transfer
+SUB-0445,CUST-0426,Business,199,2021-07-07,2023-09-09,26,5194,Cancelled,Too expensive,Crypto
+SUB-0446,CUST-0427,Enterprise,499,2019-11-14,2025-05-18,66,32984,Active,Unknown,PayPal
+SUB-0447,CUST-0428,Business,199,2022-06-04,2024-03-05,21,4179,Cancelled,Too expensive,PayPal
+SUB-0448,CUST-0429,Professional,79,2023-01-15,2024-06-22,17,1359,Cancelled,Too expensive,Bank Transfer
+SUB-0449,CUST-0430,Professional,79,2023-11-21,2024-02-29,3,261,Cancelled,No longer needed,Credit Card
+SUB-0450,CUST-0431,Starter,29,2023-04-15,2023-10-29,6,189,Cancelled,Company closure,Crypto
+SUB-0451,CUST-0432,Enterprise,499,2020-12-08,2021-09-14,9,6537,Cancelled,Switched to competitor,Bank Transfer
+SUB-0452,CUST-0433,Business,199,2023-07-27,2024-05-01,10,1055,Cancelled,Switched to competitor,Crypto
+SUB-0453,CUST-0434,Professional,79,2020-02-15,2020-05-16,3,237,Cancelled,Company closure,Crypto
+SUB-0454,CUST-0435,Starter,29,2023-02-10,2023-03-26,1,41,Cancelled,Found alternative,Credit Card
+SUB-0455,CUST-0436,Enterprise,499,2019-04-10,2019-12-26,8,4242,Cancelled,Poor support,Credit Card
+SUB-0456,CUST-0437,Business,199,2020-12-04,2022-01-13,13,2647,Cancelled,Poor support,Bank Transfer
+SUB-0457,CUST-0438,Enterprise,499,2023-03-14,2024-09-10,18,8932,Active,Unknown,Bank Transfer
+SUB-0458,CUST-0439,Enterprise,499,2023-06-12,2025-01-01,19,9331,Active,Unknown,Credit Card
+SUB-0459,CUST-0440,Starter,29,2020-02-16,2021-12-06,22,626,Cancelled,Company closure,PayPal
+SUB-0460,CUST-0441,Starter,29,2021-04-11,2022-01-28,9,278,Cancelled,Company closure,Credit Card
+SUB-0461,CUST-0442,Starter,29,2023-05-07,2025-01-22,20,597,Active,Unknown,PayPal
+SUB-0462,CUST-0443,Business,199,2023-11-15,2024-06-15,7,1393,Cancelled,Found alternative,Bank Transfer
+SUB-0463,CUST-0444,Business,199,2023-06-30,2023-09-21,3,537,Cancelled,Company closure,PayPal
+SUB-0464,CUST-0445,Enterprise,499,2019-01-07,2023-08-23,55,27695,Cancelled,Budget cuts,Credit Card
+SUB-0465,CUST-0446,Professional,79,2022-05-25,2025-03-07,34,2639,Active,Unknown,Credit Card
+SUB-0466,CUST-0447,Enterprise,499,2019-01-07,2022-09-20,44,22156,Cancelled,Company closure,PayPal
+SUB-0467,CUST-0448,Professional,79,2023-03-16,2024-06-02,15,1153,Active,Unknown,Credit Card
+SUB-0468,CUST-0449,Starter,29,2022-08-13,2022-11-26,3,99,Cancelled,Found alternative,Bank Transfer
+SUB-0469,CUST-0450,Professional,79,2019-05-01,2024-05-14,60,4772,Cancelled,Missing features,Bank Transfer
+SUB-0470,CUST-0451,Enterprise,499,2022-09-14,2023-08-12,11,5439,Cancelled,Switched to competitor,Credit Card
+SUB-0471,CUST-0452,Enterprise,499,2022-08-30,2023-01-29,5,2495,Cancelled,Switched to competitor,PayPal
+SUB-0472,CUST-0453,Professional,79,2019-03-25,2020-08-07,17,1304,Cancelled,Switched to competitor,Bank Transfer
+SUB-0473,CUST-0454,Starter,29,2020-02-25,2021-09-03,19,531,Cancelled,Poor support,Credit Card
+SUB-0474,CUST-0455,Enterprise,499,2019-07-17,2020-01-10,6,2894,Cancelled,Company closure,Bank Transfer
+SUB-0475,CUST-0456,Professional,79,2022-01-12,2025-05-31,40,3207,Active,Unknown,PayPal
+SUB-0476,CUST-0457,Professional,79,2021-06-26,2024-05-13,35,2733,Cancelled,Found alternative,Bank Transfer
+SUB-0477,CUST-0458,Starter,29,2021-02-26,2022-11-09,21,537,Cancelled,No longer needed,PayPal
+SUB-0478,CUST-0459,Enterprise,499,2022-01-15,2025-04-11,39,19361,Active,Unknown,Bank Transfer
+SUB-0479,CUST-0460,Business,199,2022-08-28,2025-03-28,31,6169,Active,Unknown,PayPal
+SUB-0480,CUST-0461,Starter,29,2022-09-09,2024-05-23,20,592,Cancelled,Found alternative,Credit Card
+SUB-0481,CUST-0462,Enterprise,499,2020-01-28,2020-05-14,4,1747,Cancelled,Budget cuts,Credit Card
+SUB-0482,CUST-0463,Starter,29,2022-06-28,2024-01-15,19,539,Cancelled,Poor support,PayPal
+SUB-0483,CUST-0464,Starter,29,2022-10-27,2025-06-10,32,911,Active,Unknown,Credit Card
+SUB-0484,CUST-0465,Professional,79,2019-10-16,2023-05-30,43,3429,Cancelled,Found alternative,Crypto
+SUB-0485,CUST-0465,Enterprise,499,2019-10-07,2022-05-17,31,15619,Cancelled,Too expensive,PayPal
+SUB-0486,CUST-0466,Business,199,2019-03-25,2024-05-20,62,12318,Cancelled,Budget cuts,Crypto
+SUB-0487,CUST-0467,Professional,79,2020-06-25,2022-06-26,24,1896,Cancelled,Poor support,PayPal
+SUB-0488,CUST-0468,Professional,79,2019-02-13,2025-04-04,74,5822,Active,Unknown,Credit Card
+SUB-0489,CUST-0469,Enterprise,499,2021-09-27,2021-11-23,2,948,Cancelled,No longer needed,Crypto
+SUB-0490,CUST-0470,Enterprise,499,2023-03-30,2024-04-17,13,6287,Cancelled,Switched to competitor,Bank Transfer
+SUB-0491,CUST-0471,Business,199,2023-08-05,2026-11-21,39,7880,Active,Unknown,Crypto
+SUB-0492,CUST-0472,Starter,29,2023-06-10,2026-08-02,38,983,Active,Unknown,Crypto
+SUB-0493,CUST-0473,Professional,79,2021-12-23,2022-04-17,4,300,Cancelled,Found alternative,Credit Card
+SUB-0494,CUST-0474,Professional,79,2021-11-27,2022-11-24,12,940,Cancelled,Too expensive,Credit Card
+SUB-0495,CUST-0475,Business,199,2023-04-09,2023-12-06,8,1572,Cancelled,Found alternative,Credit Card
+SUB-0496,CUST-0476,Starter,29,2020-08-20,2022-04-30,20,589,Cancelled,Budget cuts,Credit Card
+SUB-0497,CUST-0477,Professional,79,2021-10-20,2024-04-25,30,2386,Cancelled,No longer needed,PayPal
+SUB-0498,CUST-0478,Enterprise,499,2023-07-12,2024-02-13,7,1098,Cancelled,No longer needed,Bank Transfer
+SUB-0499,CUST-0479,Starter,29,2023-03-22,2024-05-31,14,415,Cancelled,No longer needed,Credit Card
+SUB-0500,CUST-0480,Enterprise,499,2019-03-18,2022-05-17,38,18962,Cancelled,Too expensive,Credit Card

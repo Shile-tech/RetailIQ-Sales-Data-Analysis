@@ -1,0 +1,801 @@
+﻿return_id,order_id,order_id_flag,return_date,return_reason,refund_amount_USD,return_status
+RET-0729,ORD-00012,Valid FK,2023-10-09,Changed mind,431.68,Processed
+RET-0701,ORD-00013,Valid FK,2021-11-24,Product not as described,712.74,Rejected
+RET-0206,ORD-00030,Valid FK,2024-11-07,Wrong item received,444.62,Pending
+RET-0167,ORD-00047,Valid FK,2020-04-17,Wrong item received,18.68,Rejected
+RET-0133,ORD-00072,Valid FK,2020-07-25,Damaged in shipping,569.67,Rejected
+RET-0675,ORD-00076,Valid FK,2021-12-04,Quality issues,98.19,Pending
+RET-0259,ORD-00083,Valid FK,2023-04-02,Damaged in shipping,214.86,Processed
+RET-0389,ORD-00085,Valid FK,2023-10-15,Better price elsewhere,728.29,Rejected
+RET-0524,ORD-00087,Valid FK,2024-01-17,Quality issues,664.84,Processed
+RET-0461,ORD-00095,Valid FK,2020-09-15,Changed mind,360.20,Pending
+RET-0197,ORD-00096,Valid FK,2020-04-25,Product not as described,571.17,Processed
+RET-0152,ORD-00105,Valid FK,2020-08-03,Damaged in shipping,648.19,Pending
+RET-0072,ORD-00105,Valid FK,2023-08-24,Changed mind,640.85,Pending
+RET-0320,ORD-00107,Valid FK,2021-03-29,Damaged in shipping,543.42,Rejected
+RET-0798,ORD-00107,Valid FK,2023-04-08,Changed mind,172.36,Rejected
+RET-0341,ORD-00108,Valid FK,2023-05-28,Duplicate order,704.43,Processed
+RET-0175,ORD-00143,Valid FK,2020-06-26,Damaged in shipping,760.16,Processed
+RET-0664,ORD-00150,Valid FK,2021-02-01,Product not as described,420.00,Pending
+RET-0583,ORD-00154,Valid FK,2023-01-28,Duplicate order,708.67,Rejected
+RET-0721,ORD-00154,Valid FK,2021-04-07,Defective product,501.68,Processed
+RET-0301,ORD-00168,Valid FK,2022-09-16,Duplicate order,134.48,Pending
+RET-0515,ORD-00172,Valid FK,2024-02-01,Better price elsewhere,653.70,Processed
+RET-0277,ORD-00174,Valid FK,2023-09-19,Unknown,470.83,Rejected
+RET-0580,ORD-00176,Valid FK,2020-07-24,Better price elsewhere,587.17,Processed
+RET-0342,ORD-00180,Valid FK,2024-10-05,Damaged in shipping,26.89,Rejected
+RET-0544,ORD-00187,Valid FK,2021-11-13,Duplicate order,721.26,Processed
+RET-0413,ORD-00197,Valid FK,2022-05-03,Wrong item received,65.31,Pending
+RET-0542,ORD-00201,Valid FK,2024-04-24,Wrong item received,415.62,Rejected
+RET-0493,ORD-00205,Valid FK,2021-02-18,Changed mind,270.42,Pending
+RET-0144,ORD-00206,Valid FK,2020-04-21,Better price elsewhere,765.40,Pending
+RET-0679,ORD-00206,Valid FK,2023-05-23,Damaged in shipping,447.78,Pending
+RET-0523,ORD-00207,Valid FK,2022-04-18,Defective product,601.04,Rejected
+RET-0554,ORD-00208,Valid FK,2022-12-24,Product not as described,799.17,Rejected
+RET-0758,ORD-00212,Valid FK,2020-05-08,Product not as described,688.20,Processed
+RET-0084,ORD-00213,Valid FK,2024-04-11,Changed mind,464.89,Pending
+RET-0671,ORD-00226,Valid FK,2023-07-16,Defective product,427.97,Processed
+RET-0366,ORD-00228,Valid FK,2021-05-05,Unknown,323.48,Processed
+RET-0527,ORD-00239,Valid FK,2023-02-12,Duplicate order,772.60,Processed
+RET-0336,ORD-00240,Valid FK,2022-09-21,Better price elsewhere,708.25,Processed
+RET-0610,ORD-00240,Valid FK,2022-07-21,Changed mind,342.98,Rejected
+RET-0468,ORD-00257,Valid FK,2022-11-24,Better price elsewhere,278.00,Pending
+RET-0126,ORD-00259,Valid FK,2024-10-28,Unknown,637.96,Pending
+RET-0187,ORD-00277,Valid FK,2021-04-03,Quality issues,334.65,Rejected
+RET-0129,ORD-00296,Valid FK,2020-10-29,Defective product,273.45,Rejected
+RET-0047,ORD-00297,Valid FK,2021-04-13,Defective product,215.12,Pending
+RET-0767,ORD-00304,Valid FK,2024-10-06,Product not as described,156.91,Rejected
+RET-0648,ORD-00310,Valid FK,2020-04-06,Quality issues,521.77,Processed
+RET-0271,ORD-00310,Valid FK,2022-11-02,Changed mind,539.79,Processed
+RET-0185,ORD-00316,Valid FK,2021-10-25,Unknown,129.30,Pending
+RET-0113,ORD-00316,Valid FK,2021-04-22,Wrong item received,606.26,Processed
+RET-0444,ORD-00317,Valid FK,2023-08-26,Wrong item received,76.79,Processed
+RET-0711,ORD-00327,Valid FK,2021-05-30,Duplicate order,750.90,Rejected
+RET-0178,ORD-00329,Valid FK,2020-06-13,Unknown,456.48,Processed
+RET-0159,ORD-00330,Valid FK,2023-01-07,Product not as described,328.54,Pending
+RET-0420,ORD-00335,Valid FK,2022-03-03,Defective product,434.10,Rejected
+RET-0201,ORD-00338,Valid FK,2020-04-23,Changed mind,746.26,Pending
+RET-0771,ORD-00338,Valid FK,2023-01-29,Defective product,667.65,Pending
+RET-0127,ORD-00339,Valid FK,2021-03-18,Better price elsewhere,146.75,Pending
+RET-0048,ORD-00371,Valid FK,2023-01-28,Quality issues,214.49,Processed
+RET-0518,ORD-00393,Valid FK,2023-08-30,Defective product,484.69,Processed
+RET-0282,ORD-00396,Valid FK,2023-11-27,Product not as described,70.98,Processed
+RET-0672,ORD-00407,Valid FK,2024-04-11,Wrong item received,592.54,Rejected
+RET-0250,ORD-00408,Valid FK,2023-08-13,Defective product,233.40,Processed
+RET-0042,ORD-00408,Valid FK,2023-06-19,Defective product,354.38,Processed
+RET-0380,ORD-00409,Valid FK,2021-02-14,Better price elsewhere,244.11,Rejected
+RET-0421,ORD-00414,Valid FK,2023-07-23,Wrong item received,596.00,Processed
+RET-0755,ORD-00416,Valid FK,2023-01-08,Better price elsewhere,176.41,Processed
+RET-0748,ORD-00420,Valid FK,2022-06-22,Product not as described,13.81,Processed
+RET-0732,ORD-00424,Valid FK,2024-08-02,Duplicate order,475.60,Pending
+RET-0298,ORD-00440,Valid FK,2023-08-16,Defective product,581.21,Pending
+RET-0017,ORD-00454,Valid FK,2023-06-18,Quality issues,145.26,Pending
+RET-0736,ORD-00472,Valid FK,2022-02-09,Unknown,296.64,Rejected
+RET-0202,ORD-00490,Valid FK,2021-08-17,Changed mind,462.14,Pending
+RET-0520,ORD-00495,Valid FK,2024-10-01,Changed mind,746.91,Pending
+RET-0630,ORD-00495,Valid FK,2023-01-30,Product not as described,744.97,Pending
+RET-0570,ORD-00520,Valid FK,2023-02-22,Quality issues,489.40,Rejected
+RET-0680,ORD-00544,Valid FK,2022-05-26,Wrong item received,607.84,Pending
+RET-0350,ORD-00564,Valid FK,2020-05-05,Wrong item received,341.67,Rejected
+RET-0115,ORD-00576,Valid FK,2022-05-08,Wrong item received,605.52,Processed
+RET-0467,ORD-00582,Valid FK,2023-04-02,Defective product,395.15,Pending
+RET-0233,ORD-00584,Valid FK,2023-05-14,Changed mind,136.80,Pending
+RET-0026,ORD-00589,Valid FK,2024-10-22,Damaged in shipping,265.89,Rejected
+RET-0540,ORD-00593,Valid FK,2024-05-03,Unknown,319.04,Processed
+RET-0410,ORD-00595,Valid FK,2020-03-12,Quality issues,670.45,Rejected
+RET-0577,ORD-00625,Valid FK,2020-12-01,Changed mind,304.10,Pending
+RET-0661,ORD-00628,Valid FK,2020-09-11,Product not as described,62.62,Pending
+RET-0591,ORD-00638,Valid FK,2022-11-02,Wrong item received,790.27,Rejected
+RET-0345,ORD-00645,Valid FK,2023-07-17,Quality issues,22.24,Pending
+RET-0146,ORD-00645,Valid FK,2024-06-16,Defective product,346.74,Rejected
+RET-0022,ORD-00653,Valid FK,2023-11-25,Unknown,147.88,Rejected
+RET-0573,ORD-00655,Valid FK,2020-11-10,Wrong item received,165.70,Rejected
+RET-0645,ORD-00667,Valid FK,2024-02-29,Product not as described,255.15,Pending
+RET-0050,ORD-00686,Valid FK,2021-02-26,Duplicate order,70.34,Rejected
+RET-0400,ORD-00686,Valid FK,2021-07-17,Defective product,537.02,Rejected
+RET-0059,ORD-00693,Valid FK,2021-04-17,Product not as described,727.14,Processed
+RET-0751,ORD-00696,Valid FK,2022-01-16,Better price elsewhere,300.23,Processed
+RET-0156,ORD-00704,Valid FK,2020-04-05,Better price elsewhere,349.08,Rejected
+RET-0455,ORD-00707,Valid FK,2020-11-21,Duplicate order,25.13,Pending
+RET-0098,ORD-00712,Valid FK,2024-05-19,Duplicate order,350.29,Processed
+RET-0376,ORD-00719,Valid FK,2020-10-22,Defective product,758.39,Pending
+RET-0399,ORD-00725,Valid FK,2021-08-19,Wrong item received,43.26,Pending
+RET-0177,ORD-00728,Valid FK,2024-07-02,Quality issues,129.53,Pending
+RET-0254,ORD-00740,Valid FK,2020-09-12,Unknown,202.54,Processed
+RET-0674,ORD-00747,Valid FK,2022-04-13,Better price elsewhere,546.30,Pending
+RET-0164,ORD-00748,Valid FK,2023-02-19,Defective product,369.37,Pending
+RET-0632,ORD-00751,Valid FK,2024-06-05,Better price elsewhere,733.53,Processed
+RET-0229,ORD-00755,Valid FK,2024-03-15,Quality issues,565.32,Rejected
+RET-0403,ORD-00755,Valid FK,2024-06-18,Duplicate order,613.49,Processed
+RET-0079,ORD-00768,Valid FK,2020-03-04,Quality issues,363.14,Processed
+RET-0796,ORD-00768,Valid FK,2022-12-22,Product not as described,181.40,Processed
+RET-0100,ORD-00769,Valid FK,2024-08-26,Unknown,16.97,Pending
+RET-0328,ORD-00769,Valid FK,2022-11-07,Defective product,53.29,Rejected
+RET-0510,ORD-00769,Valid FK,2022-04-29,Damaged in shipping,468.54,Pending
+RET-0063,ORD-00777,Valid FK,2021-04-14,Damaged in shipping,378.38,Processed
+RET-0702,ORD-00778,Valid FK,2024-06-08,Quality issues,609.45,Pending
+RET-0766,ORD-00783,Valid FK,2021-09-07,Damaged in shipping,736.88,Pending
+RET-0300,ORD-00785,Valid FK,2023-01-01,Defective product,469.45,Processed
+RET-0046,ORD-00788,Valid FK,2021-03-09,Unknown,50.85,Processed
+RET-0352,ORD-00789,Valid FK,2020-03-07,Defective product,332.78,Rejected
+RET-0582,ORD-00800,Valid FK,2020-07-21,Better price elsewhere,487.54,Pending
+RET-0691,ORD-00804,Valid FK,2023-12-09,Changed mind,648.69,Rejected
+RET-0425,ORD-00804,Valid FK,2020-12-19,Duplicate order,402.69,Pending
+RET-0445,ORD-00808,Valid FK,2023-04-02,Damaged in shipping,96.94,Pending
+RET-0210,ORD-00808,Valid FK,2023-12-25,Quality issues,181.56,Rejected
+RET-0426,ORD-00824,Valid FK,2023-06-29,Wrong item received,523.79,Pending
+RET-0561,ORD-00860,Valid FK,2020-11-20,Unknown,201.35,Rejected
+RET-0640,ORD-00860,Valid FK,2020-07-06,Better price elsewhere,432.96,Rejected
+RET-0335,ORD-00862,Valid FK,2021-07-17,Unknown,85.65,Processed
+RET-0086,ORD-00867,Valid FK,2021-05-04,Defective product,343.27,Rejected
+RET-0117,ORD-00884,Valid FK,2022-08-02,Product not as described,671.52,Rejected
+RET-0777,ORD-00899,Valid FK,2022-05-14,Better price elsewhere,438.78,Processed
+RET-0169,ORD-00903,Valid FK,2022-03-21,Changed mind,605.39,Processed
+RET-0667,ORD-00919,Valid FK,2023-11-07,Better price elsewhere,668.29,Rejected
+RET-0183,ORD-00931,Valid FK,2023-04-10,Better price elsewhere,291.21,Processed
+RET-0687,ORD-00932,Valid FK,2023-05-03,Wrong item received,388.92,Pending
+RET-0471,ORD-00942,Valid FK,2021-09-19,Unknown,169.67,Rejected
+RET-0649,ORD-00944,Valid FK,2024-08-23,Wrong item received,798.14,Rejected
+RET-0244,ORD-00947,Valid FK,2020-07-23,Defective product,593.39,Pending
+RET-0451,ORD-00948,Valid FK,2024-09-17,Wrong item received,650.31,Pending
+RET-0302,ORD-00954,Valid FK,2021-11-26,Duplicate order,337.15,Processed
+RET-0469,ORD-00958,Valid FK,2020-07-07,Duplicate order,713.75,Pending
+RET-0055,ORD-00987,Valid FK,2021-04-26,Product not as described,584.76,Pending
+RET-0529,ORD-00992,Valid FK,2024-02-28,Quality issues,302.14,Rejected
+RET-0406,ORD-01000,Valid FK,2021-12-16,Changed mind,466.36,Pending
+RET-0074,ORD-01000,Valid FK,2023-12-18,Duplicate order,164.25,Pending
+RET-0255,ORD-01010,Valid FK,2023-11-29,Better price elsewhere,744.23,Rejected
+RET-0014,ORD-01013,Valid FK,2024-10-25,Damaged in shipping,286.01,Pending
+RET-0422,ORD-01013,Valid FK,2020-12-16,Changed mind,418.84,Processed
+RET-0221,ORD-01020,Valid FK,2021-07-22,Damaged in shipping,696.21,Rejected
+RET-0553,ORD-01026,Valid FK,2021-12-14,Defective product,462.96,Rejected
+RET-0589,ORD-01027,Valid FK,2022-01-29,Defective product,241.62,Rejected
+RET-0700,ORD-01031,Valid FK,2024-06-03,Wrong item received,551.20,Pending
+RET-0012,ORD-01032,Valid FK,2024-06-21,Product not as described,654.95,Rejected
+RET-0053,ORD-01069,Valid FK,2022-08-28,Product not as described,379.04,Processed
+RET-0409,ORD-01076,Valid FK,2021-10-01,Changed mind,158.15,Processed
+RET-0478,ORD-01088,Valid FK,2020-06-08,Better price elsewhere,624.88,Pending
+RET-0134,ORD-01088,Valid FK,2020-10-30,Better price elsewhere,503.20,Pending
+RET-0121,ORD-01094,Valid FK,2020-05-05,Damaged in shipping,149.50,Processed
+RET-0332,ORD-01114,Valid FK,2023-01-30,Duplicate order,245.37,Rejected
+RET-0535,ORD-01115,Valid FK,2021-03-22,Damaged in shipping,661.36,Rejected
+RET-0382,ORD-01121,Valid FK,2022-12-07,Better price elsewhere,120.39,Rejected
+RET-0077,ORD-01122,Valid FK,2021-02-08,Better price elsewhere,152.56,Pending
+RET-0794,ORD-01136,Valid FK,2023-03-08,Changed mind,324.22,Rejected
+RET-0200,ORD-01148,Valid FK,2021-05-16,Product not as described,231.41,Rejected
+RET-0351,ORD-01149,Valid FK,2022-04-07,Changed mind,546.56,Processed
+RET-0194,ORD-01156,Valid FK,2022-09-13,Product not as described,326.17,Pending
+RET-0484,ORD-01167,Valid FK,2020-05-20,Better price elsewhere,373.87,Processed
+RET-0482,ORD-01168,Valid FK,2022-03-10,Wrong item received,300.78,Pending
+RET-0225,ORD-01171,Valid FK,2021-04-01,Damaged in shipping,281.89,Pending
+RET-0289,ORD-01179,Valid FK,2020-09-20,Duplicate order,241.28,Pending
+RET-0717,ORD-01195,Valid FK,2020-04-15,Duplicate order,29.96,Pending
+RET-0279,ORD-01213,Valid FK,2022-05-17,Better price elsewhere,647.29,Pending
+RET-0571,ORD-01225,Valid FK,2023-02-20,Wrong item received,208.02,Rejected
+RET-0473,ORD-01233,Valid FK,2024-05-24,Better price elsewhere,425.10,Pending
+RET-0689,ORD-01241,Valid FK,2021-11-06,Unknown,448.55,Processed
+RET-0064,ORD-01251,Valid FK,2023-08-20,Wrong item received,407.17,Processed
+RET-0132,ORD-01257,Valid FK,2021-10-29,Quality issues,94.43,Pending
+RET-0154,ORD-01257,Valid FK,2021-01-14,Defective product,63.96,Pending
+RET-0049,ORD-01268,Valid FK,2022-12-16,Changed mind,173.50,Pending
+RET-0343,ORD-01286,Valid FK,2024-01-19,Product not as described,145.57,Rejected
+RET-0315,ORD-01291,Valid FK,2023-11-11,Unknown,688.12,Pending
+RET-0148,ORD-01296,Valid FK,2022-04-22,Defective product,63.97,Processed
+RET-0428,ORD-01317,Valid FK,2023-08-21,Better price elsewhere,285.25,Pending
+RET-0155,ORD-01318,Valid FK,2020-03-05,Changed mind,486.20,Pending
+RET-0031,ORD-01318,Valid FK,2023-02-18,Wrong item received,762.73,Pending
+RET-0749,ORD-01321,Valid FK,2021-04-01,Damaged in shipping,545.57,Pending
+RET-0314,ORD-01324,Valid FK,2020-09-08,Product not as described,368.90,Rejected
+RET-0519,ORD-01325,Valid FK,2021-06-15,Changed mind,258.01,Processed
+RET-0693,ORD-01331,Valid FK,2020-11-10,Product not as described,384.77,Processed
+RET-0698,ORD-01331,Valid FK,2021-10-12,Wrong item received,491.13,Rejected
+RET-0083,ORD-01332,Valid FK,2023-11-26,Damaged in shipping,395.44,Rejected
+RET-0266,ORD-01338,Valid FK,2021-03-08,Product not as described,381.85,Processed
+RET-0696,ORD-01345,Valid FK,2023-07-17,Product not as described,311.62,Pending
+RET-0374,ORD-01355,Valid FK,2021-01-21,Defective product,189.80,Processed
+RET-0746,ORD-01374,Valid FK,2020-06-23,Unknown,254.21,Processed
+RET-0114,ORD-01379,Valid FK,2022-01-24,Unknown,554.31,Processed
+RET-0005,ORD-01381,Valid FK,2023-10-12,Better price elsewhere,544.77,Rejected
+RET-0692,ORD-01385,Valid FK,2020-12-22,Better price elsewhere,598.93,Rejected
+RET-0624,ORD-01385,Valid FK,2020-09-01,Product not as described,227.05,Rejected
+RET-0102,ORD-01390,Valid FK,2020-05-13,Quality issues,579.00,Rejected
+RET-0355,ORD-01403,Valid FK,2023-05-25,Changed mind,591.86,Rejected
+RET-0191,ORD-01406,Valid FK,2022-02-03,Better price elsewhere,403.88,Processed
+RET-0296,ORD-01425,Valid FK,2023-10-15,Wrong item received,356.61,Pending
+RET-0112,ORD-01431,Valid FK,2023-12-15,Defective product,85.49,Processed
+RET-0157,ORD-01435,Valid FK,2020-06-28,Damaged in shipping,659.62,Processed
+RET-0230,ORD-01436,Valid FK,2023-01-27,Defective product,77.20,Pending
+RET-0239,ORD-01436,Valid FK,2020-03-19,Wrong item received,191.95,Rejected
+RET-0442,ORD-01439,Valid FK,2023-09-05,Defective product,153.42,Pending
+RET-0180,ORD-01455,Valid FK,2023-10-24,Better price elsewhere,45.03,Rejected
+RET-0503,ORD-01476,Valid FK,2022-12-21,Better price elsewhere,229.59,Processed
+RET-0706,ORD-01480,Valid FK,2020-09-26,Wrong item received,87.24,Rejected
+RET-0440,ORD-01490,Valid FK,2020-09-20,Wrong item received,663.35,Processed
+RET-0379,ORD-01491,Valid FK,2023-11-04,Defective product,180.60,Rejected
+RET-0372,ORD-01497,Valid FK,2023-02-21,Wrong item received,462.50,Rejected
+RET-0207,ORD-01499,Valid FK,2022-02-27,Better price elsewhere,583.01,Rejected
+RET-0623,ORD-01519,Valid FK,2024-11-25,Unknown,557.59,Pending
+RET-0744,ORD-01523,Valid FK,2021-07-04,Duplicate order,178.36,Pending
+RET-0006,ORD-01532,Valid FK,2022-10-06,Changed mind,203.44,Rejected
+RET-0401,ORD-01550,Valid FK,2022-10-16,Defective product,40.84,Pending
+RET-0190,ORD-01555,Valid FK,2020-03-25,Damaged in shipping,213.22,Rejected
+RET-0116,ORD-01571,Valid FK,2020-11-02,Duplicate order,370.93,Pending
+RET-0353,ORD-01574,Valid FK,2021-03-15,Defective product,712.32,Processed
+RET-0782,ORD-01575,Valid FK,2024-10-24,Unknown,763.35,Pending
+RET-0597,ORD-01583,Valid FK,2023-12-25,Damaged in shipping,721.82,Processed
+RET-0294,ORD-01584,Valid FK,2022-07-01,Defective product,771.00,Pending
+RET-0261,ORD-01586,Valid FK,2024-11-10,Duplicate order,239.16,Rejected
+RET-0057,ORD-01595,Valid FK,2022-11-20,Duplicate order,678.03,Rejected
+RET-0549,ORD-01598,Valid FK,2022-06-11,Wrong item received,187.60,Pending
+RET-0787,ORD-01598,Valid FK,2023-05-22,Quality issues,793.97,Pending
+RET-0362,ORD-01602,Valid FK,2020-11-02,Damaged in shipping,573.34,Pending
+RET-0465,ORD-01603,Valid FK,2023-02-28,Better price elsewhere,404.71,Pending
+RET-0723,ORD-01607,Valid FK,2022-11-23,Quality issues,592.17,Pending
+RET-0644,ORD-01617,Valid FK,2022-11-19,Quality issues,195.60,Pending
+RET-0694,ORD-01620,Valid FK,2024-02-04,Defective product,470.99,Pending
+RET-0434,ORD-01620,Valid FK,2020-09-15,Damaged in shipping,23.42,Pending
+RET-0795,ORD-01628,Valid FK,2021-07-08,Unknown,239.85,Rejected
+RET-0358,ORD-01647,Valid FK,2023-08-27,Better price elsewhere,762.00,Processed
+RET-0090,ORD-01651,Valid FK,2021-06-16,Damaged in shipping,274.17,Rejected
+RET-0457,ORD-01659,Valid FK,2021-03-04,Unknown,513.81,Rejected
+RET-0731,ORD-01659,Valid FK,2021-03-14,Changed mind,258.03,Pending
+RET-0618,ORD-01659,Valid FK,2024-12-10,Damaged in shipping,321.16,Pending
+RET-0275,ORD-01661,Valid FK,2022-11-17,Changed mind,624.64,Pending
+RET-0498,ORD-01665,Valid FK,2024-07-09,Damaged in shipping,698.90,Pending
+RET-0361,ORD-01687,Valid FK,2024-01-14,Damaged in shipping,678.34,Pending
+RET-0464,ORD-01689,Valid FK,2023-04-05,Product not as described,316.26,Pending
+RET-0158,ORD-01691,Valid FK,2023-12-14,Changed mind,237.80,Processed
+RET-0028,ORD-01691,Valid FK,2020-04-17,Wrong item received,313.72,Pending
+RET-0633,ORD-01704,Valid FK,2022-12-08,Better price elsewhere,471.36,Pending
+RET-0699,ORD-01704,Valid FK,2023-04-30,Changed mind,67.91,Rejected
+RET-0511,ORD-01707,Valid FK,2023-10-06,Damaged in shipping,637.50,Processed
+RET-0765,ORD-01713,Valid FK,2023-11-09,Quality issues,271.62,Rejected
+RET-0311,ORD-01721,Valid FK,2020-09-03,Damaged in shipping,255.03,Processed
+RET-0066,ORD-01721,Valid FK,2020-07-07,Duplicate order,44.97,Pending
+RET-0213,ORD-01756,Valid FK,2023-09-01,Damaged in shipping,291.48,Rejected
+RET-0283,ORD-01788,Valid FK,2020-09-10,Better price elsewhere,369.36,Processed
+RET-0097,ORD-01804,Valid FK,2020-04-30,Damaged in shipping,72.86,Pending
+RET-0546,ORD-01806,Valid FK,2024-08-12,Damaged in shipping,39.74,Pending
+RET-0431,ORD-01806,Valid FK,2023-10-10,Defective product,630.54,Processed
+RET-0684,ORD-01807,Valid FK,2023-04-23,Quality issues,352.05,Processed
+RET-0742,ORD-01831,Valid FK,2024-02-07,Better price elsewhere,717.69,Pending
+RET-0195,ORD-01831,Valid FK,2022-12-31,Unknown,548.91,Processed
+RET-0627,ORD-01833,Valid FK,2021-04-04,Unknown,332.12,Processed
+RET-0019,ORD-01853,Valid FK,2021-04-30,Changed mind,507.06,Pending
+RET-0243,ORD-01859,Valid FK,2021-06-27,Defective product,216.68,Processed
+RET-0678,ORD-01859,Valid FK,2020-03-02,Defective product,400.79,Processed
+RET-0652,ORD-01859,Valid FK,2022-01-03,Duplicate order,57.90,Rejected
+RET-0371,ORD-01868,Valid FK,2024-08-12,Product not as described,454.26,Processed
+RET-0785,ORD-01875,Valid FK,2023-01-12,Changed mind,420.11,Rejected
+RET-0607,ORD-01888,Valid FK,2022-07-23,Duplicate order,621.14,Pending
+RET-0418,ORD-01900,Valid FK,2024-11-13,Better price elsewhere,773.85,Rejected
+RET-0378,ORD-01909,Valid FK,2023-01-05,Quality issues,496.86,Pending
+RET-0670,ORD-01938,Valid FK,2022-04-03,Duplicate order,390.93,Processed
+RET-0108,ORD-01950,Valid FK,2021-07-17,Wrong item received,55.50,Processed
+RET-0319,ORD-01953,Valid FK,2020-12-24,Product not as described,750.74,Rejected
+RET-0327,ORD-01954,Valid FK,2022-01-09,Quality issues,687.52,Rejected
+RET-0734,ORD-01965,Valid FK,2024-02-14,Duplicate order,787.87,Rejected
+RET-0411,ORD-01974,Valid FK,2022-10-11,Wrong item received,553.85,Rejected
+RET-0747,ORD-01975,Valid FK,2024-07-06,Quality issues,231.47,Pending
+RET-0584,ORD-01983,Valid FK,2022-05-17,Damaged in shipping,213.00,Rejected
+RET-0045,ORD-01999,Valid FK,2022-08-14,Wrong item received,140.74,Processed
+RET-0198,ORD-02016,Valid FK,2023-06-18,Damaged in shipping,134.94,Rejected
+RET-0182,ORD-02022,Valid FK,2023-04-05,Duplicate order,545.68,Rejected
+RET-0660,ORD-02043,Valid FK,2024-11-11,Wrong item received,684.03,Processed
+RET-0150,ORD-02045,Valid FK,2023-08-20,Unknown,636.22,Processed
+RET-0199,ORD-02050,Valid FK,2022-03-30,Unknown,301.44,Processed
+RET-0058,ORD-02053,Valid FK,2021-06-02,Duplicate order,322.61,Pending
+RET-0474,ORD-02059,Valid FK,2022-11-29,Damaged in shipping,258.89,Pending
+RET-0052,ORD-02084,Valid FK,2021-07-14,Better price elsewhere,798.50,Pending
+RET-0145,ORD-02105,Valid FK,2020-05-27,Wrong item received,358.68,Pending
+RET-0536,ORD-02113,Valid FK,2024-01-16,Quality issues,134.03,Pending
+RET-0710,ORD-02126,Valid FK,2024-12-25,Better price elsewhere,20.46,Processed
+RET-0318,ORD-02127,Valid FK,2021-02-05,Changed mind,380.10,Processed
+RET-0712,ORD-02145,Valid FK,2020-10-17,Product not as described,384.66,Processed
+RET-0496,ORD-02160,Valid FK,2024-01-25,Product not as described,190.36,Rejected
+RET-0386,ORD-02166,Valid FK,2024-10-20,Changed mind,144.18,Pending
+RET-0286,ORD-02167,Valid FK,2020-08-01,Unknown,262.88,Rejected
+RET-0647,ORD-02167,Valid FK,2020-11-15,Better price elsewhere,707.79,Rejected
+RET-0636,ORD-02167,Valid FK,2020-12-20,Damaged in shipping,166.65,Rejected
+RET-0222,ORD-02169,Valid FK,2020-09-20,Wrong item received,356.88,Pending
+RET-0256,ORD-02169,Valid FK,2020-07-12,Defective product,796.30,Rejected
+RET-0110,ORD-02174,Valid FK,2023-04-18,Damaged in shipping,201.25,Rejected
+RET-0036,ORD-02178,Valid FK,2023-04-06,Wrong item received,739.19,Rejected
+RET-0027,ORD-02189,Valid FK,2020-07-06,Quality issues,677.46,Rejected
+RET-0080,ORD-02189,Valid FK,2020-09-11,Product not as described,713.22,Pending
+RET-0377,ORD-02193,Valid FK,2021-11-14,Better price elsewhere,372.04,Rejected
+RET-0349,ORD-02196,Valid FK,2022-11-19,Damaged in shipping,448.38,Rejected
+RET-0128,ORD-02196,Valid FK,2021-11-22,Duplicate order,574.32,Rejected
+RET-0659,ORD-02211,Valid FK,2021-07-01,Product not as described,290.56,Rejected
+RET-0404,ORD-02213,Valid FK,2021-02-22,Product not as described,199.10,Pending
+RET-0441,ORD-02219,Valid FK,2022-02-20,Duplicate order,559.07,Rejected
+RET-0299,ORD-02221,Valid FK,2023-03-26,Damaged in shipping,798.60,Pending
+RET-0082,ORD-02221,Valid FK,2020-07-01,Product not as described,721.35,Pending
+RET-0642,ORD-02227,Valid FK,2021-03-12,Damaged in shipping,545.34,Rejected
+RET-0715,ORD-02227,Valid FK,2021-04-03,Quality issues,120.30,Processed
+RET-0245,ORD-02238,Valid FK,2021-09-20,Changed mind,301.67,Pending
+RET-0565,ORD-02242,Valid FK,2024-03-24,Product not as described,452.80,Processed
+RET-0265,ORD-02254,Valid FK,2022-07-13,Defective product,72.59,Processed
+RET-0246,ORD-02254,Valid FK,2020-04-08,Wrong item received,162.94,Processed
+RET-0228,ORD-02256,Valid FK,2021-07-14,Wrong item received,631.55,Rejected
+RET-0209,ORD-02271,Valid FK,2021-09-23,Defective product,465.77,Processed
+RET-0558,ORD-02271,Valid FK,2021-11-25,Quality issues,40.48,Pending
+RET-0641,ORD-02272,Valid FK,2023-07-13,Changed mind,786.56,Processed
+RET-0278,ORD-02280,Valid FK,2023-10-13,Damaged in shipping,121.98,Rejected
+RET-0793,ORD-02288,Valid FK,2020-03-09,Damaged in shipping,663.82,Pending
+RET-0504,ORD-02291,Valid FK,2024-12-24,Better price elsewhere,623.46,Processed
+RET-0348,ORD-02291,Valid FK,2023-12-27,Product not as described,199.88,Pending
+RET-0492,ORD-02292,Valid FK,2021-07-24,Damaged in shipping,239.25,Processed
+RET-0056,ORD-02293,Valid FK,2024-05-12,Quality issues,11.24,Rejected
+RET-0720,ORD-02296,Valid FK,2023-07-04,Product not as described,783.27,Pending
+RET-0095,ORD-02335,Valid FK,2022-04-30,Changed mind,619.23,Processed
+RET-0563,ORD-02347,Valid FK,2024-10-11,Changed mind,459.15,Rejected
+RET-0186,ORD-02366,Valid FK,2021-10-13,Unknown,294.65,Pending
+RET-0364,ORD-02367,Valid FK,2023-05-13,Damaged in shipping,798.49,Rejected
+RET-0789,ORD-02370,Valid FK,2024-09-20,Better price elsewhere,297.43,Processed
+RET-0076,ORD-02373,Valid FK,2021-12-21,Unknown,462.12,Rejected
+RET-0181,ORD-02377,Valid FK,2020-06-07,Duplicate order,546.06,Processed
+RET-0039,ORD-02381,Valid FK,2022-05-03,Product not as described,684.26,Rejected
+RET-0111,ORD-02384,Valid FK,2022-11-12,Better price elsewhere,95.89,Rejected
+RET-0223,ORD-02387,Valid FK,2021-11-02,Changed mind,643.82,Pending
+RET-0466,ORD-02387,Valid FK,2024-09-01,Changed mind,536.27,Pending
+RET-0759,ORD-02404,Valid FK,2022-09-26,Product not as described,640.04,Processed
+RET-0550,ORD-02406,Valid FK,2020-08-21,Better price elsewhere,321.96,Pending
+RET-0625,ORD-02417,Valid FK,2021-07-13,Damaged in shipping,560.75,Processed
+RET-0172,ORD-02420,Valid FK,2023-01-22,Damaged in shipping,795.06,Pending
+RET-0346,ORD-02432,Valid FK,2021-12-10,Duplicate order,64.60,Rejected
+RET-0137,ORD-02436,Valid FK,2023-09-21,Unknown,293.30,Pending
+RET-0138,ORD-02447,Valid FK,2023-04-16,Defective product,372.33,Processed
+RET-0105,ORD-02456,Valid FK,2023-10-06,Quality issues,756.79,Pending
+RET-0585,ORD-02480,Valid FK,2023-05-10,Defective product,293.69,Processed
+RET-0770,ORD-02480,Valid FK,2022-06-29,Damaged in shipping,516.68,Rejected
+RET-0215,ORD-02490,Valid FK,2024-07-15,Damaged in shipping,195.59,Pending
+RET-0107,ORD-02495,Valid FK,2021-12-16,Changed mind,349.07,Rejected
+RET-0516,ORD-02500,Valid FK,2020-08-13,Quality issues,244.41,Pending
+RET-0778,ORD-02501,Valid FK,2023-08-17,Changed mind,629.99,Rejected
+RET-0269,ORD-02502,Valid FK,2021-03-17,Damaged in shipping,556.60,Processed
+RET-0415,ORD-02507,Valid FK,2024-01-30,Product not as described,211.71,Pending
+RET-0741,ORD-02520,Valid FK,2020-06-20,Product not as described,644.61,Processed
+RET-0004,ORD-02523,Valid FK,2022-08-07,Defective product,429.37,Processed
+RET-0750,ORD-02527,Valid FK,2023-02-05,Product not as described,685.80,Processed
+RET-0611,ORD-02530,Valid FK,2021-08-11,Damaged in shipping,394.22,Processed
+RET-0092,ORD-02539,Valid FK,2024-07-18,Duplicate order,215.50,Rejected
+RET-0387,ORD-02539,Valid FK,2024-10-25,Better price elsewhere,500.37,Rejected
+RET-0480,ORD-02542,Valid FK,2024-01-25,Wrong item received,714.95,Rejected
+RET-0029,ORD-02542,Valid FK,2021-01-06,Better price elsewhere,188.56,Rejected
+RET-0603,ORD-02542,Valid FK,2020-03-20,Product not as described,756.00,Pending
+RET-0590,ORD-02548,Valid FK,2021-02-23,Defective product,520.17,Processed
+RET-0754,ORD-02551,Valid FK,2021-07-19,Defective product,257.33,Rejected
+RET-0119,ORD-02558,Valid FK,2020-08-09,Unknown,204.91,Rejected
+RET-0475,ORD-02568,Valid FK,2021-01-28,Damaged in shipping,358.66,Pending
+RET-0067,ORD-02575,Valid FK,2020-07-04,Changed mind,105.37,Pending
+RET-0656,ORD-02584,Valid FK,2021-12-29,Damaged in shipping,373.95,Pending
+RET-0769,ORD-02585,Valid FK,2021-05-22,Quality issues,115.94,Pending
+RET-0231,ORD-02591,Valid FK,2024-08-19,Wrong item received,657.29,Rejected
+RET-0037,ORD-02601,Valid FK,2022-12-20,Duplicate order,11.24,Rejected
+RET-0001,ORD-02602,Valid FK,2023-12-17,Wrong item received,745.62,Processed
+RET-0241,ORD-02603,Valid FK,2023-08-13,Quality issues,513.98,Rejected
+RET-0612,ORD-02622,Valid FK,2022-02-24,Damaged in shipping,124.59,Pending
+RET-0338,ORD-02626,Valid FK,2024-01-11,Changed mind,346.86,Pending
+RET-0093,ORD-02656,Valid FK,2024-06-15,Wrong item received,84.47,Processed
+RET-0724,ORD-02656,Valid FK,2020-03-05,Unknown,114.01,Processed
+RET-0193,ORD-02670,Valid FK,2023-05-03,Damaged in shipping,195.23,Rejected
+RET-0179,ORD-02670,Valid FK,2023-09-19,Better price elsewhere,290.19,Rejected
+RET-0184,ORD-02673,Valid FK,2023-08-27,Changed mind,781.62,Rejected
+RET-0427,ORD-02682,Valid FK,2024-01-26,Damaged in shipping,560.17,Pending
+RET-0295,ORD-02698,Valid FK,2021-08-29,Wrong item received,340.18,Pending
+RET-0060,ORD-02698,Valid FK,2021-03-12,Damaged in shipping,603.13,Processed
+RET-0753,ORD-02706,Valid FK,2021-11-02,Wrong item received,799.27,Rejected
+RET-0166,ORD-02711,Valid FK,2022-12-07,Duplicate order,480.12,Processed
+RET-0432,ORD-02730,Valid FK,2024-03-22,Defective product,45.87,Processed
+RET-0551,ORD-02735,Valid FK,2021-02-10,Defective product,576.50,Processed
+RET-0639,ORD-02735,Valid FK,2023-06-25,Duplicate order,85.75,Processed
+RET-0654,ORD-02739,Valid FK,2020-07-28,Damaged in shipping,750.17,Processed
+RET-0768,ORD-02741,Valid FK,2024-08-02,Unknown,483.95,Processed
+RET-0435,ORD-02743,Valid FK,2020-10-18,Damaged in shipping,539.34,Pending
+RET-0608,ORD-02759,Valid FK,2022-10-24,Better price elsewhere,282.38,Pending
+RET-0713,ORD-02776,Valid FK,2021-05-02,Defective product,337.82,Pending
+RET-0013,ORD-02780,Valid FK,2021-09-15,Better price elsewhere,302.84,Processed
+RET-0325,ORD-02782,Valid FK,2022-03-31,Duplicate order,130.79,Rejected
+RET-0486,ORD-02783,Valid FK,2023-10-21,Better price elsewhere,291.88,Rejected
+RET-0760,ORD-02783,Valid FK,2020-04-26,Unknown,655.94,Processed
+RET-0564,ORD-02787,Valid FK,2022-12-31,Unknown,295.09,Processed
+RET-0340,ORD-02787,Valid FK,2024-08-24,Product not as described,441.44,Pending
+RET-0099,ORD-02787,Valid FK,2021-07-08,Changed mind,434.84,Processed
+RET-0326,ORD-02803,Valid FK,2020-05-19,Changed mind,114.01,Rejected
+RET-0587,ORD-02803,Valid FK,2024-08-05,Changed mind,38.31,Processed
+RET-0537,ORD-02805,Valid FK,2022-12-19,Wrong item received,460.94,Processed
+RET-0430,ORD-02808,Valid FK,2022-01-25,Quality issues,12.69,Pending
+RET-0304,ORD-02830,Valid FK,2020-12-27,Defective product,316.01,Pending
+RET-0040,ORD-02834,Valid FK,2021-08-06,Quality issues,648.35,Pending
+RET-0601,ORD-02835,Valid FK,2022-09-03,Damaged in shipping,754.80,Pending
+RET-0773,ORD-02835,Valid FK,2023-01-06,Defective product,403.12,Rejected
+RET-0522,ORD-02836,Valid FK,2021-07-06,Quality issues,439.10,Rejected
+RET-0142,ORD-02843,Valid FK,2024-05-04,Damaged in shipping,323.01,Processed
+RET-0369,ORD-02844,Valid FK,2022-08-31,Duplicate order,290.45,Rejected
+RET-0292,ORD-02853,Valid FK,2022-11-21,Better price elsewhere,371.93,Pending
+RET-0402,ORD-02863,Valid FK,2022-12-26,Changed mind,61.52,Pending
+RET-0123,ORD-02866,Valid FK,2023-07-20,Quality issues,657.55,Rejected
+RET-0334,ORD-02870,Valid FK,2024-09-18,Better price elsewhere,470.11,Rejected
+RET-0557,ORD-02872,Valid FK,2022-12-13,Wrong item received,198.22,Rejected
+RET-0096,ORD-02888,Valid FK,2023-05-19,Duplicate order,789.94,Rejected
+RET-0709,ORD-02910,Valid FK,2023-11-05,Product not as described,81.72,Rejected
+RET-0010,ORD-02911,Valid FK,2023-03-02,Damaged in shipping,201.29,Pending
+RET-0273,ORD-02918,Valid FK,2024-05-26,Unknown,242.45,Pending
+RET-0470,ORD-02918,Valid FK,2024-10-20,Changed mind,657.42,Pending
+RET-0638,ORD-02924,Valid FK,2021-03-15,Damaged in shipping,168.22,Processed
+RET-0316,ORD-02932,Valid FK,2024-09-13,Quality issues,697.40,Rejected
+RET-0227,ORD-02941,Valid FK,2021-09-15,Better price elsewhere,35.19,Processed
+RET-0685,ORD-02941,Valid FK,2022-02-17,Changed mind,790.58,Rejected
+RET-0718,ORD-02957,Valid FK,2024-06-09,Duplicate order,582.17,Rejected
+RET-0257,ORD-02957,Valid FK,2020-06-30,Defective product,247.16,Processed
+RET-0605,ORD-02966,Valid FK,2022-12-15,Wrong item received,105.29,Rejected
+RET-0168,ORD-02967,Valid FK,2021-03-05,Changed mind,752.35,Pending
+RET-0716,ORD-02978,Valid FK,2021-02-07,Damaged in shipping,138.26,Processed
+RET-0739,ORD-02983,Valid FK,2021-12-13,Defective product,116.25,Pending
+RET-0069,ORD-02987,Valid FK,2022-11-30,Wrong item received,99.52,Pending
+RET-0433,ORD-02988,Valid FK,2021-03-30,Damaged in shipping,607.87,Pending
+RET-0578,ORD-02988,Valid FK,2024-12-08,Better price elsewhere,696.11,Processed
+RET-0141,ORD-03002,Valid FK,2020-04-20,Changed mind,356.97,Processed
+RET-0333,ORD-03021,Valid FK,2022-07-16,Duplicate order,497.58,Rejected
+RET-0101,ORD-03022,Valid FK,2021-05-06,Better price elsewhere,413.87,Rejected
+RET-0454,ORD-03027,Valid FK,2020-10-24,Damaged in shipping,325.13,Rejected
+RET-0495,ORD-03034,Valid FK,2023-11-18,Product not as described,325.28,Processed
+RET-0032,ORD-03036,Valid FK,2021-08-16,Better price elsewhere,162.69,Pending
+RET-0288,ORD-03047,Valid FK,2022-04-20,Unknown,19.48,Rejected
+RET-0417,ORD-03047,Valid FK,2021-10-24,Damaged in shipping,544.18,Pending
+RET-0725,ORD-03056,Valid FK,2024-03-23,Changed mind,374.86,Rejected
+RET-0528,ORD-03067,Valid FK,2020-06-10,Product not as described,362.45,Rejected
+RET-0384,ORD-03079,Valid FK,2022-04-30,Defective product,689.32,Rejected
+RET-0262,ORD-03109,Valid FK,2020-12-22,Quality issues,712.71,Rejected
+RET-0781,ORD-03112,Valid FK,2024-05-25,Better price elsewhere,511.23,Rejected
+RET-0003,ORD-03115,Valid FK,2024-02-22,Defective product,322.05,Processed
+RET-0458,ORD-03118,Valid FK,2022-09-24,Changed mind,80.34,Processed
+RET-0347,ORD-03120,Valid FK,2022-01-27,Unknown,229.24,Pending
+RET-0446,ORD-03122,Valid FK,2020-06-16,Damaged in shipping,91.43,Pending
+RET-0669,ORD-03127,Valid FK,2022-01-16,Duplicate order,304.02,Processed
+RET-0593,ORD-03128,Valid FK,2021-07-18,Duplicate order,681.44,Processed
+RET-0394,ORD-03135,Valid FK,2021-08-27,Product not as described,166.95,Rejected
+RET-0487,ORD-03142,Valid FK,2023-10-26,Damaged in shipping,775.53,Pending
+RET-0657,ORD-03175,Valid FK,2021-01-12,Quality issues,426.51,Pending
+RET-0312,ORD-03180,Valid FK,2020-04-05,Better price elsewhere,434.42,Rejected
+RET-0061,ORD-03188,Valid FK,2020-04-18,Duplicate order,192.80,Pending
+RET-0081,ORD-03188,Valid FK,2023-06-02,Product not as described,690.53,Rejected
+RET-0131,ORD-03204,Valid FK,2024-01-24,Wrong item received,711.70,Processed
+RET-0051,ORD-03209,Valid FK,2023-04-19,Changed mind,654.91,Rejected
+RET-0020,ORD-03211,Valid FK,2022-08-20,Damaged in shipping,209.73,Processed
+RET-0555,ORD-03211,Valid FK,2023-04-06,Quality issues,405.00,Processed
+RET-0662,ORD-03215,Valid FK,2023-05-30,Wrong item received,264.14,Processed
+RET-0309,ORD-03242,Valid FK,2022-06-03,Duplicate order,443.25,Pending
+RET-0324,ORD-03251,Valid FK,2024-07-27,Duplicate order,227.75,Processed
+RET-0439,ORD-03251,Valid FK,2021-06-13,Better price elsewhere,137.24,Processed
+RET-0727,ORD-03258,Valid FK,2021-06-13,Wrong item received,73.23,Pending
+RET-0490,ORD-03266,Valid FK,2024-11-07,Quality issues,746.13,Rejected
+RET-0385,ORD-03275,Valid FK,2021-06-28,Damaged in shipping,127.64,Rejected
+RET-0390,ORD-03284,Valid FK,2022-10-10,Damaged in shipping,399.08,Pending
+RET-0448,ORD-03292,Valid FK,2020-07-09,Defective product,625.29,Rejected
+RET-0477,ORD-03294,Valid FK,2020-09-02,Defective product,298.37,Rejected
+RET-0533,ORD-03301,Valid FK,2024-02-22,Changed mind,593.97,Rejected
+RET-0253,ORD-03312,Valid FK,2023-11-24,Unknown,314.47,Pending
+RET-0395,ORD-03313,Valid FK,2021-07-23,Wrong item received,365.76,Pending
+RET-0614,ORD-03313,Valid FK,2024-05-20,Changed mind,790.85,Processed
+RET-0337,ORD-03317,Valid FK,2020-03-12,Defective product,716.93,Pending
+RET-0575,ORD-03318,Valid FK,2021-11-16,Better price elsewhere,16.35,Processed
+RET-0705,ORD-03329,Valid FK,2024-07-25,Better price elsewhere,61.90,Rejected
+RET-0041,ORD-03349,Valid FK,2021-12-26,Damaged in shipping,456.41,Processed
+RET-0581,ORD-03358,Valid FK,2021-10-17,Defective product,559.26,Pending
+RET-0313,ORD-03361,Valid FK,2024-01-06,Wrong item received,87.77,Processed
+RET-0091,ORD-03366,Valid FK,2020-11-25,Changed mind,162.91,Pending
+RET-0220,ORD-03367,Valid FK,2023-06-14,Duplicate order,712.78,Rejected
+RET-0007,ORD-03382,Valid FK,2021-08-29,Damaged in shipping,526.90,Rejected
+RET-0629,ORD-03389,Valid FK,2020-03-15,Defective product,389.97,Pending
+RET-0078,ORD-03394,Valid FK,2022-02-01,Unknown,759.06,Rejected
+RET-0730,ORD-03405,Valid FK,2023-09-17,Duplicate order,661.34,Processed
+RET-0449,ORD-03409,Valid FK,2024-05-10,Damaged in shipping,507.78,Pending
+RET-0310,ORD-03419,Valid FK,2024-11-24,Better price elsewhere,232.64,Rejected
+RET-0120,ORD-03419,Valid FK,2023-12-10,Damaged in shipping,687.41,Pending
+RET-0752,ORD-03424,Valid FK,2022-10-19,Changed mind,125.70,Pending
+RET-0160,ORD-03426,Valid FK,2023-09-06,Defective product,646.25,Rejected
+RET-0212,ORD-03433,Valid FK,2024-08-13,Wrong item received,46.98,Processed
+RET-0407,ORD-03437,Valid FK,2023-11-24,Duplicate order,111.14,Processed
+RET-0447,ORD-03439,Valid FK,2024-07-15,Unknown,689.61,Rejected
+RET-0226,ORD-03463,Valid FK,2024-11-05,Defective product,232.95,Rejected
+RET-0161,ORD-03469,Valid FK,2022-01-23,Duplicate order,252.29,Processed
+RET-0501,ORD-03469,Valid FK,2021-08-28,Product not as described,325.21,Rejected
+RET-0237,ORD-03474,Valid FK,2021-04-19,Wrong item received,736.36,Processed
+RET-0284,ORD-03477,Valid FK,2020-08-01,Defective product,439.27,Rejected
+RET-0260,ORD-03492,Valid FK,2022-03-12,Changed mind,769.19,Pending
+RET-0383,ORD-03500,Valid FK,2023-03-02,Unknown,788.79,Rejected
+RET-0163,ORD-03501,Valid FK,2023-03-12,Defective product,762.01,Rejected
+RET-0305,ORD-03502,Valid FK,2024-12-30,Wrong item received,30.89,Rejected
+RET-0054,ORD-03510,Valid FK,2024-11-25,Defective product,615.43,Pending
+RET-0574,ORD-03510,Valid FK,2024-03-25,Better price elsewhere,416.70,Pending
+RET-0034,ORD-03512,Valid FK,2024-07-13,Better price elsewhere,269.99,Pending
+RET-0088,ORD-03512,Valid FK,2020-07-29,Unknown,103.03,Processed
+RET-0103,ORD-03514,Valid FK,2024-02-13,Defective product,781.02,Processed
+RET-0291,ORD-03514,Valid FK,2024-12-22,Changed mind,521.78,Pending
+RET-0780,ORD-03514,Valid FK,2020-11-20,Defective product,780.21,Pending
+RET-0405,ORD-03515,Valid FK,2020-11-05,Wrong item received,399.38,Rejected
+RET-0756,ORD-03520,Valid FK,2024-01-12,Damaged in shipping,383.77,Processed
+RET-0743,ORD-03520,Valid FK,2023-03-09,Changed mind,387.36,Rejected
+RET-0414,ORD-03521,Valid FK,2021-02-16,Wrong item received,276.13,Processed
+RET-0488,ORD-03528,Valid FK,2023-12-24,Defective product,221.96,Pending
+RET-0532,ORD-03532,Valid FK,2022-04-14,Unknown,629.98,Pending
+RET-0631,ORD-03537,Valid FK,2022-01-22,Defective product,134.23,Processed
+RET-0236,ORD-03540,Valid FK,2024-06-13,Duplicate order,451.06,Rejected
+RET-0136,ORD-03549,Valid FK,2023-03-26,Damaged in shipping,409.09,Rejected
+RET-0567,ORD-03551,Valid FK,2024-09-11,Duplicate order,213.05,Rejected
+RET-0707,ORD-03552,Valid FK,2022-04-10,Wrong item received,58.92,Pending
+RET-0791,ORD-03555,Valid FK,2023-11-06,Changed mind,755.05,Rejected
+RET-0548,ORD-03558,Valid FK,2021-05-24,Better price elsewhere,263.85,Processed
+RET-0248,ORD-03564,Valid FK,2021-06-13,Better price elsewhere,658.09,Pending
+RET-0703,ORD-03573,Valid FK,2022-09-26,Changed mind,224.13,Pending
+RET-0075,ORD-03578,Valid FK,2024-07-17,Better price elsewhere,25.13,Rejected
+RET-0595,ORD-03579,Valid FK,2020-06-21,Quality issues,261.53,Rejected
+RET-0211,ORD-03611,Valid FK,2024-04-23,Unknown,438.19,Rejected
+RET-0526,ORD-03612,Valid FK,2022-07-19,Defective product,602.22,Processed
+RET-0505,ORD-03622,Valid FK,2024-07-30,Better price elsewhere,545.86,Pending
+RET-0637,ORD-03625,Valid FK,2023-08-26,Unknown,175.73,Pending
+RET-0408,ORD-03642,Valid FK,2023-05-19,Damaged in shipping,152.00,Pending
+RET-0188,ORD-03647,Valid FK,2021-10-29,Defective product,19.74,Pending
+RET-0109,ORD-03651,Valid FK,2021-08-31,Better price elsewhere,235.25,Pending
+RET-0030,ORD-03651,Valid FK,2022-11-22,Damaged in shipping,798.67,Rejected
+RET-0297,ORD-03652,Valid FK,2020-03-26,Defective product,591.89,Pending
+RET-0683,ORD-03656,Valid FK,2024-10-28,Product not as described,603.78,Rejected
+RET-0602,ORD-03659,Valid FK,2021-06-21,Quality issues,501.92,Rejected
+RET-0783,ORD-03665,Valid FK,2024-05-14,Wrong item received,548.00,Processed
+RET-0087,ORD-03666,Valid FK,2021-03-30,Product not as described,738.45,Rejected
+RET-0763,ORD-03673,Valid FK,2020-07-10,Product not as described,642.51,Pending
+RET-0663,ORD-03686,Valid FK,2021-10-08,Quality issues,43.57,Processed
+RET-0373,ORD-03716,Valid FK,2021-02-08,Changed mind,133.92,Processed
+RET-0106,ORD-03723,Valid FK,2023-05-08,Damaged in shipping,418.69,Processed
+RET-0356,ORD-03731,Valid FK,2023-01-20,Product not as described,10.74,Processed
+RET-0500,ORD-03738,Valid FK,2023-01-03,Unknown,102.35,Rejected
+RET-0617,ORD-03752,Valid FK,2022-05-29,Changed mind,384.89,Rejected
+RET-0658,ORD-03754,Valid FK,2024-04-13,Product not as described,253.67,Pending
+RET-0677,ORD-03754,Valid FK,2023-03-14,Better price elsewhere,227.68,Pending
+RET-0398,ORD-03761,Valid FK,2021-10-09,Better price elsewhere,177.45,Pending
+RET-0307,ORD-03779,Valid FK,2024-05-28,Unknown,359.89,Rejected
+RET-0790,ORD-03779,Valid FK,2020-05-18,Defective product,217.19,Pending
+RET-0635,ORD-03782,Valid FK,2023-01-05,Quality issues,87.30,Pending
+RET-0606,ORD-03793,Valid FK,2023-10-31,Damaged in shipping,495.29,Pending
+RET-0559,ORD-03798,Valid FK,2021-01-11,Wrong item received,355.43,Processed
+RET-0634,ORD-03809,Valid FK,2021-07-27,Unknown,197.44,Rejected
+RET-0621,ORD-03820,Valid FK,2024-03-30,Unknown,30.31,Pending
+RET-0483,ORD-03822,Valid FK,2021-02-23,Defective product,344.66,Rejected
+RET-0737,ORD-03837,Valid FK,2020-08-27,Damaged in shipping,175.99,Pending
+RET-0391,ORD-03839,Valid FK,2023-10-23,Better price elsewhere,722.70,Processed
+RET-0545,ORD-03846,Valid FK,2021-12-18,Damaged in shipping,499.19,Rejected
+RET-0147,ORD-03858,Valid FK,2022-07-12,Damaged in shipping,393.10,Processed
+RET-0761,ORD-03863,Valid FK,2021-07-23,Quality issues,424.09,Pending
+RET-0599,ORD-03863,Valid FK,2021-10-30,Wrong item received,741.09,Rejected
+RET-0247,ORD-03870,Valid FK,2020-05-19,Duplicate order,370.68,Processed
+RET-0375,ORD-03870,Valid FK,2023-09-25,Product not as described,450.39,Pending
+RET-0323,ORD-03877,Valid FK,2022-10-24,Damaged in shipping,196.30,Pending
+RET-0205,ORD-03881,Valid FK,2021-12-27,Better price elsewhere,402.75,Pending
+RET-0219,ORD-03897,Valid FK,2020-11-02,Duplicate order,582.81,Pending
+RET-0643,ORD-03906,Valid FK,2023-04-29,Better price elsewhere,698.53,Rejected
+RET-0735,ORD-03920,Valid FK,2021-06-15,Duplicate order,636.44,Rejected
+RET-0579,ORD-03925,Valid FK,2023-09-30,Defective product,559.66,Pending
+RET-0568,ORD-03928,Valid FK,2021-02-12,Better price elsewhere,508.30,Processed
+RET-0708,ORD-03928,Valid FK,2023-06-11,Product not as described,693.42,Processed
+RET-0280,ORD-03933,Valid FK,2022-09-26,Damaged in shipping,357.35,Processed
+RET-0609,ORD-03935,Valid FK,2023-03-16,Better price elsewhere,571.56,Rejected
+RET-0252,ORD-03958,Valid FK,2020-10-25,Better price elsewhere,477.20,Rejected
+RET-0270,ORD-03970,Valid FK,2023-05-08,Duplicate order,72.02,Pending
+RET-0566,ORD-03970,Valid FK,2020-11-27,Wrong item received,246.78,Pending
+RET-0344,ORD-03991,Valid FK,2022-02-06,Damaged in shipping,794.34,Pending
+RET-0089,ORD-03995,Valid FK,2023-08-10,Duplicate order,694.85,Rejected
+RET-0728,ORD-04010,Valid FK,2020-08-26,Product not as described,238.40,Processed
+RET-0218,ORD-04015,Valid FK,2024-02-20,Damaged in shipping,797.91,Processed
+RET-0217,ORD-04017,Valid FK,2024-02-29,Quality issues,280.93,Processed
+RET-0690,ORD-04023,Valid FK,2022-09-29,Product not as described,577.34,Rejected
+RET-0508,ORD-04024,Valid FK,2023-04-08,Duplicate order,692.12,Processed
+RET-0443,ORD-04030,Valid FK,2024-09-22,Better price elsewhere,637.71,Rejected
+RET-0023,ORD-04041,Valid FK,2024-07-26,Product not as described,306.78,Rejected
+RET-0073,ORD-04054,Valid FK,2024-07-29,Damaged in shipping,612.09,Processed
+RET-0170,ORD-04058,Valid FK,2020-08-12,Unknown,606.46,Pending
+RET-0494,ORD-04058,Valid FK,2022-05-02,Damaged in shipping,241.34,Processed
+RET-0569,ORD-04061,Valid FK,2022-05-19,Product not as described,316.49,Pending
+RET-0424,ORD-04070,Valid FK,2021-05-30,Damaged in shipping,636.73,Rejected
+RET-0681,ORD-04082,Valid FK,2023-06-16,Product not as described,150.99,Rejected
+RET-0513,ORD-04084,Valid FK,2021-07-23,Quality issues,329.85,Processed
+RET-0507,ORD-04090,Valid FK,2024-02-11,Better price elsewhere,415.25,Pending
+RET-0489,ORD-04097,Valid FK,2023-08-18,Wrong item received,55.96,Pending
+RET-0173,ORD-04120,Valid FK,2023-02-15,Changed mind,103.77,Rejected
+RET-0772,ORD-04124,Valid FK,2022-07-27,Product not as described,665.64,Processed
+RET-0604,ORD-04146,Valid FK,2021-11-05,Damaged in shipping,363.44,Rejected
+RET-0757,ORD-04148,Valid FK,2021-09-15,Defective product,451.41,Pending
+RET-0714,ORD-04153,Valid FK,2020-09-02,Defective product,756.24,Processed
+RET-0381,ORD-04157,Valid FK,2023-09-10,Better price elsewhere,734.15,Rejected
+RET-0576,ORD-04169,Valid FK,2020-04-12,Defective product,295.96,Rejected
+RET-0143,ORD-04171,Valid FK,2023-12-28,Damaged in shipping,524.14,Processed
+RET-0668,ORD-04191,Valid FK,2021-02-28,Wrong item received,155.11,Processed
+RET-0745,ORD-04191,Valid FK,2020-07-05,Changed mind,433.50,Pending
+RET-0249,ORD-04200,Valid FK,2023-03-06,Unknown,154.68,Processed
+RET-0460,ORD-04204,Valid FK,2023-12-13,Changed mind,726.90,Processed
+RET-0560,ORD-04204,Valid FK,2022-05-15,Defective product,184.36,Processed
+RET-0272,ORD-04211,Valid FK,2024-01-04,Changed mind,331.49,Rejected
+RET-0174,ORD-04223,Valid FK,2024-01-15,Wrong item received,487.91,Pending
+RET-0423,ORD-04234,Valid FK,2023-09-29,Quality issues,697.28,Processed
+RET-0514,ORD-04244,Valid FK,2023-12-29,Wrong item received,191.62,Pending
+RET-0476,ORD-04244,Valid FK,2022-04-09,Changed mind,632.10,Processed
+RET-0331,ORD-04248,Valid FK,2021-12-30,Defective product,699.80,Pending
+RET-0543,ORD-04254,Valid FK,2022-10-09,Better price elsewhere,735.00,Rejected
+RET-0104,ORD-04258,Valid FK,2024-06-16,Quality issues,202.91,Pending
+RET-0517,ORD-04271,Valid FK,2023-12-16,Unknown,381.25,Processed
+RET-0600,ORD-04271,Valid FK,2022-02-20,Damaged in shipping,384.86,Pending
+RET-0365,ORD-04276,Valid FK,2024-03-28,Product not as described,233.87,Pending
+RET-0124,ORD-04278,Valid FK,2023-08-07,Changed mind,741.33,Rejected
+RET-0616,ORD-04278,Valid FK,2024-06-02,Changed mind,148.23,Rejected
+RET-0216,ORD-04280,Valid FK,2020-05-21,Changed mind,671.72,Pending
+RET-0456,ORD-04280,Valid FK,2022-09-20,Unknown,673.04,Pending
+RET-0125,ORD-04292,Valid FK,2024-12-17,Changed mind,711.59,Rejected
+RET-0562,ORD-04297,Valid FK,2022-05-17,Changed mind,703.41,Processed
+RET-0287,ORD-04307,Valid FK,2022-09-20,Duplicate order,66.97,Processed
+RET-0235,ORD-04312,Valid FK,2021-07-28,Quality issues,741.86,Pending
+RET-0437,ORD-04326,Valid FK,2020-08-26,Better price elsewhere,128.01,Pending
+RET-0673,ORD-04346,Valid FK,2022-08-10,Unknown,757.63,Pending
+RET-0071,ORD-04355,Valid FK,2022-05-11,Better price elsewhere,127.79,Pending
+RET-0267,ORD-04357,Valid FK,2020-07-10,Defective product,572.44,Processed
+RET-0472,ORD-04364,Valid FK,2024-10-22,Quality issues,251.42,Processed
+RET-0534,ORD-04365,Valid FK,2022-02-15,Better price elsewhere,307.37,Processed
+RET-0479,ORD-04373,Valid FK,2024-04-29,Wrong item received,261.59,Rejected
+RET-0452,ORD-04373,Valid FK,2021-02-18,Duplicate order,191.55,Rejected
+RET-0797,ORD-04374,Valid FK,2020-12-05,Better price elsewhere,331.71,Pending
+RET-0189,ORD-04377,Valid FK,2021-08-15,Unknown,529.54,Pending
+RET-0214,ORD-04381,Valid FK,2024-01-24,Quality issues,630.25,Processed
+RET-0697,ORD-04381,Valid FK,2023-05-31,Wrong item received,779.20,Rejected
+RET-0676,ORD-04386,Valid FK,2022-07-30,Product not as described,632.43,Processed
+RET-0541,ORD-04392,Valid FK,2024-09-30,Unknown,258.23,Rejected
+RET-0370,ORD-04394,Valid FK,2024-12-23,Product not as described,96.33,Processed
+RET-0792,ORD-04407,Valid FK,2021-01-10,Changed mind,186.85,Processed
+RET-0538,ORD-04417,Valid FK,2020-03-05,Duplicate order,672.97,Processed
+RET-0552,ORD-04428,Valid FK,2024-01-17,Changed mind,799.08,Pending
+RET-0438,ORD-04429,Valid FK,2022-04-20,Unknown,752.30,Rejected
+RET-0393,ORD-04430,Valid FK,2024-02-14,Wrong item received,443.81,Processed
+RET-0497,ORD-04441,Valid FK,2020-03-12,Wrong item received,461.25,Pending
+RET-0203,ORD-04443,Valid FK,2023-08-26,Product not as described,647.20,Pending
+RET-0786,ORD-04443,Valid FK,2023-08-29,Product not as described,601.37,Pending
+RET-0171,ORD-04446,Valid FK,2022-08-26,Product not as described,262.29,Processed
+RET-0329,ORD-04462,Valid FK,2024-07-01,Wrong item received,769.14,Rejected
+RET-0775,ORD-04466,Valid FK,2020-09-23,Product not as described,206.08,Processed
+RET-0044,ORD-04474,Valid FK,2021-01-25,Wrong item received,372.09,Rejected
+RET-0695,ORD-04475,Valid FK,2022-01-26,Changed mind,600.32,Processed
+RET-0258,ORD-04477,Valid FK,2020-08-01,Changed mind,258.36,Rejected
+RET-0130,ORD-04490,Valid FK,2020-08-01,Duplicate order,722.07,Pending
+RET-0776,ORD-04511,Valid FK,2022-09-28,Product not as described,47.17,Pending
+RET-0140,ORD-04524,Valid FK,2023-11-21,Unknown,460.55,Processed
+RET-0122,ORD-04527,Valid FK,2021-02-19,Wrong item received,292.76,Pending
+RET-0065,ORD-04554,Valid FK,2024-09-18,Better price elsewhere,47.68,Pending
+RET-0556,ORD-04557,Valid FK,2023-04-05,Quality issues,118.58,Pending
+RET-0396,ORD-04562,Valid FK,2022-03-19,Better price elsewhere,477.90,Rejected
+RET-0276,ORD-04574,Valid FK,2021-09-17,Defective product,731.02,Pending
+RET-0596,ORD-04576,Valid FK,2024-10-03,Wrong item received,581.33,Rejected
+RET-0308,ORD-04587,Valid FK,2024-10-28,Unknown,228.11,Processed
+RET-0339,ORD-04591,Valid FK,2020-04-22,Better price elsewhere,200.66,Pending
+RET-0481,ORD-04614,Valid FK,2022-11-03,Better price elsewhere,247.96,Processed
+RET-0290,ORD-04616,Valid FK,2022-10-27,Better price elsewhere,97.99,Processed
+RET-0153,ORD-04616,Valid FK,2023-05-17,Wrong item received,714.87,Processed
+RET-0363,ORD-04644,Valid FK,2020-06-14,Defective product,352.58,Processed
+RET-0666,ORD-04645,Valid FK,2024-06-20,Product not as described,781.17,Rejected
+RET-0598,ORD-04655,Valid FK,2023-06-10,Damaged in shipping,273.84,Rejected
+RET-0070,ORD-04657,Valid FK,2021-07-23,Damaged in shipping,132.00,Rejected
+RET-0002,ORD-04660,Valid FK,2024-05-02,Product not as described,78.55,Pending
+RET-0009,ORD-04664,Valid FK,2023-08-03,Duplicate order,498.91,Processed
+RET-0592,ORD-04665,Valid FK,2024-06-28,Wrong item received,604.71,Pending
+RET-0686,ORD-04665,Valid FK,2023-07-14,Defective product,166.28,Processed
+RET-0530,ORD-04686,Valid FK,2023-08-10,Damaged in shipping,107.58,Pending
+RET-0651,ORD-04704,Valid FK,2024-07-29,Better price elsewhere,612.93,Rejected
+RET-0068,ORD-04716,Valid FK,2021-12-06,Wrong item received,649.17,Pending
+RET-0176,ORD-04735,Valid FK,2022-07-10,Quality issues,342.56,Rejected
+RET-0788,ORD-04735,Valid FK,2022-12-28,Changed mind,144.36,Processed
+RET-0774,ORD-04736,Valid FK,2020-01-09,Damaged in shipping,399.90,Rejected
+RET-0043,ORD-04753,Valid FK,2021-02-28,Defective product,32.61,Pending
+RET-0509,ORD-04754,Valid FK,2023-07-28,Wrong item received,91.45,Processed
+RET-0317,ORD-04754,Valid FK,2022-11-08,Wrong item received,344.95,Rejected
+RET-0726,ORD-04763,Valid FK,2020-09-16,Product not as described,29.06,Processed
+RET-0388,ORD-04770,Valid FK,2023-03-13,Product not as described,139.01,Pending
+RET-0139,ORD-04784,Valid FK,2023-07-04,Damaged in shipping,738.73,Processed
+RET-0330,ORD-04790,Valid FK,2022-09-11,Duplicate order,421.15,Rejected
+RET-0506,ORD-04791,Valid FK,2021-07-09,Product not as described,416.75,Rejected
+RET-0572,ORD-04806,Valid FK,2023-06-16,Quality issues,450.64,Pending
+RET-0238,ORD-04818,Valid FK,2021-08-14,Better price elsewhere,743.54,Rejected
+RET-0682,ORD-04822,Valid FK,2021-12-22,Changed mind,763.66,Processed
+RET-0192,ORD-04827,Valid FK,2023-06-28,Unknown,773.02,Rejected
+RET-0622,ORD-04830,Valid FK,2022-07-04,Changed mind,482.45,Processed
+RET-0740,ORD-04836,Valid FK,2021-07-18,Unknown,253.87,Processed
+RET-0491,ORD-04838,Valid FK,2022-06-12,Damaged in shipping,448.47,Processed
+RET-0799,ORD-04842,Valid FK,2023-11-28,Duplicate order,52.17,Pending
+RET-0038,ORD-04843,Valid FK,2023-10-21,Wrong item received,613.48,Pending
+RET-0531,ORD-04852,Valid FK,2022-10-18,Product not as described,448.23,Processed
+RET-0360,ORD-04852,Valid FK,2020-11-05,Wrong item received,76.81,Processed
+RET-0436,ORD-04855,Valid FK,2021-01-18,Changed mind,645.29,Processed
+RET-0242,ORD-04862,Valid FK,2022-04-24,Defective product,443.64,Pending
+RET-0462,ORD-04868,Valid FK,2023-01-03,Better price elsewhere,454.59,Processed
+RET-0162,ORD-04871,Valid FK,2024-05-03,Quality issues,432.65,Pending
+RET-0762,ORD-04888,Valid FK,2020-04-17,Defective product,110.63,Pending
+RET-0521,ORD-04890,Valid FK,2022-06-03,Quality issues,492.60,Rejected
+RET-0453,ORD-04896,Valid FK,2022-03-06,Duplicate order,653.15,Rejected
+RET-0628,ORD-04900,Valid FK,2024-12-10,Product not as described,389.06,Rejected
+RET-0392,ORD-04902,Valid FK,2022-06-03,Damaged in shipping,762.46,Processed
+RET-0165,ORD-04903,Valid FK,2020-09-01,Quality issues,286.98,Rejected
+RET-0764,ORD-04903,Valid FK,2022-02-16,Changed mind,699.22,Processed
+RET-0321,ORD-04904,Valid FK,2022-03-04,Changed mind,603.64,Rejected
+RET-0368,ORD-04907,Valid FK,2021-06-27,Better price elsewhere,654.55,Rejected
+RET-0033,ORD-04919,Valid FK,2021-10-09,Duplicate order,54.64,Pending
+RET-0512,ORD-04921,Valid FK,2024-01-16,Quality issues,166.90,Rejected
+RET-0281,ORD-04926,Valid FK,2021-08-13,Better price elsewhere,762.79,Rejected
+RET-0357,ORD-04931,Valid FK,2021-01-17,Duplicate order,186.58,Rejected
+RET-0018,ORD-04931,Valid FK,2021-12-08,Damaged in shipping,241.88,Processed
+RET-0274,ORD-04936,Valid FK,2024-03-12,Defective product,580.17,Processed
+RET-0619,ORD-04951,Valid FK,2020-07-24,Duplicate order,207.75,Pending
+RET-0586,ORD-04988,Valid FK,2024-06-06,Better price elsewhere,433.47,Rejected
+RET-0263,ORD-04989,Valid FK,2024-06-21,Wrong item received,20.29,Processed
+RET-0653,ORD-04991,Valid FK,2020-09-24,Duplicate order,336.94,Pending
+RET-0665,ORD-04996,Valid FK,2021-04-16,Defective product,558.91,Pending
+RET-0303,ORD-04997,Valid FK,2024-05-03,Wrong item received,356.01,Rejected
+RET-0419,ORD-05000,Valid FK,2023-11-17,Defective product,235.91,Processed
+RET-0459,ORD-05009,Invalid - Broken FK,2022-04-12,Quality issues,434.45,Pending
+RET-0719,ORD-05012,Invalid - Broken FK,2020-08-10,Changed mind,478.64,Pending
+RET-0722,ORD-05013,Invalid - Broken FK,2023-07-06,Wrong item received,347.17,Pending
+RET-0620,ORD-05013,Invalid - Broken FK,2021-05-10,Wrong item received,699.11,Processed
+RET-0015,ORD-05013,Invalid - Broken FK,2022-10-10,Unknown,553.67,Rejected
+RET-0204,ORD-05014,Invalid - Broken FK,2024-05-03,Wrong item received,528.21,Rejected
+RET-0149,ORD-05016,Invalid - Broken FK,2024-09-10,Defective product,624.27,Pending
+RET-0615,ORD-05028,Invalid - Broken FK,2024-11-21,Defective product,189.42,Processed
+RET-0035,ORD-05030,Invalid - Broken FK,2020-12-03,Damaged in shipping,611.14,Rejected
+RET-0240,ORD-05034,Invalid - Broken FK,2021-08-05,Quality issues,209.40,Pending
+RET-0779,ORD-05041,Invalid - Broken FK,2022-12-22,Defective product,132.97,Processed
+RET-0733,ORD-05046,Invalid - Broken FK,2022-02-15,Damaged in shipping,706.99,Pending
+RET-0024,ORD-05052,Invalid - Broken FK,2020-09-04,Unknown,666.00,Rejected
+RET-0354,ORD-05062,Invalid - Broken FK,2022-01-19,Better price elsewhere,733.24,Pending
+RET-0429,ORD-05064,Invalid - Broken FK,2021-01-09,Changed mind,272.80,Processed
+RET-0626,ORD-05064,Invalid - Broken FK,2023-02-27,Quality issues,44.39,Pending
+RET-0397,ORD-05065,Invalid - Broken FK,2020-10-23,Damaged in shipping,562.93,Processed
+RET-0800,ORD-05066,Invalid - Broken FK,2023-10-05,Product not as described,172.98,Pending
+RET-0416,ORD-05069,Invalid - Broken FK,2024-10-13,Changed mind,670.05,Rejected
+RET-0322,ORD-05070,Invalid - Broken FK,2023-11-27,Unknown,157.62,Pending
+RET-0655,ORD-05070,Invalid - Broken FK,2020-08-28,Better price elsewhere,679.25,Processed
+RET-0224,ORD-05071,Invalid - Broken FK,2020-12-17,Damaged in shipping,767.49,Processed
+RET-0208,ORD-05080,Invalid - Broken FK,2023-04-18,Quality issues,256.41,Pending
+RET-0547,ORD-05080,Invalid - Broken FK,2022-06-11,Quality issues,309.06,Rejected
+RET-0450,ORD-05081,Invalid - Broken FK,2024-11-28,Better price elsewhere,37.69,Pending
+RET-0463,ORD-05091,Invalid - Broken FK,2020-08-20,Defective product,37.65,Rejected
+RET-0234,ORD-05094,Invalid - Broken FK,2021-02-12,Quality issues,790.11,Processed
+RET-0016,ORD-05097,Invalid - Broken FK,2021-02-28,Wrong item received,479.25,Processed
+RET-0499,ORD-05100,Invalid - Broken FK,2023-10-15,Duplicate order,544.16,Processed
+RET-0525,ORD-05101,Invalid - Broken FK,2020-07-26,Better price elsewhere,689.79,Rejected
+RET-0539,ORD-05111,Invalid - Broken FK,2023-08-05,Better price elsewhere,582.58,Processed
+RET-0011,ORD-05114,Invalid - Broken FK,2021-03-08,Unknown,57.21,Processed
+RET-0412,ORD-05117,Invalid - Broken FK,2024-07-07,Changed mind,412.81,Pending
+RET-0485,ORD-05130,Invalid - Broken FK,2020-03-08,Damaged in shipping,612.18,Pending
+RET-0085,ORD-05130,Invalid - Broken FK,2022-02-23,Defective product,83.00,Rejected
+RET-0646,ORD-05130,Invalid - Broken FK,2020-10-26,Quality issues,292.22,Processed
+RET-0062,ORD-05134,Invalid - Broken FK,2022-01-01,Changed mind,424.26,Rejected
+RET-0232,ORD-05138,Invalid - Broken FK,2022-10-26,Damaged in shipping,68.41,Pending
+RET-0650,ORD-05138,Invalid - Broken FK,2021-09-29,Wrong item received,738.93,Pending
+RET-0151,ORD-05141,Invalid - Broken FK,2021-10-14,Better price elsewhere,32.09,Pending
+RET-0251,ORD-05143,Invalid - Broken FK,2020-06-08,Duplicate order,369.06,Processed
+RET-0025,ORD-05150,Invalid - Broken FK,2024-03-18,Better price elsewhere,183.02,Processed
+RET-0118,ORD-05154,Invalid - Broken FK,2021-10-19,Wrong item received,437.96,Processed
+RET-0784,ORD-05156,Invalid - Broken FK,2020-10-22,Defective product,96.86,Processed
+RET-0135,ORD-05159,Invalid - Broken FK,2021-07-17,Wrong item received,633.29,Processed
+RET-0738,ORD-05161,Invalid - Broken FK,2022-02-10,Damaged in shipping,543.53,Processed
+RET-0588,ORD-05163,Invalid - Broken FK,2021-06-27,Duplicate order,706.66,Rejected
+RET-0704,ORD-05164,Invalid - Broken FK,2022-02-01,Changed mind,260.43,Processed
+RET-0293,ORD-05167,Invalid - Broken FK,2024-11-03,Product not as described,160.06,Pending
+RET-0688,ORD-05171,Invalid - Broken FK,2021-06-12,Product not as described,460.86,Pending
+RET-0613,ORD-05173,Invalid - Broken FK,2022-10-09,Changed mind,410.40,Processed
+RET-0285,ORD-05175,Invalid - Broken FK,2023-04-16,Changed mind,630.79,Pending
+RET-0264,ORD-05179,Invalid - Broken FK,2022-10-11,Damaged in shipping,296.11,Pending
+RET-0594,ORD-05183,Invalid - Broken FK,2020-06-20,Quality issues,94.13,Pending
+RET-0306,ORD-05184,Invalid - Broken FK,2021-06-09,Unknown,49.34,Pending
+RET-0196,ORD-05189,Invalid - Broken FK,2021-01-05,Quality issues,170.58,Rejected
+RET-0008,ORD-05189,Invalid - Broken FK,2020-07-04,Unknown,435.56,Pending
+RET-0359,ORD-05191,Invalid - Broken FK,2022-04-14,Better price elsewhere,518.64,Processed
+RET-0367,ORD-05193,Invalid - Broken FK,2020-08-25,Wrong item received,408.86,Rejected
+RET-0268,ORD-05193,Invalid - Broken FK,2024-12-14,Duplicate order,646.29,Pending
+RET-0094,ORD-05195,Invalid - Broken FK,2023-09-23,Wrong item received,754.84,Pending
+RET-0502,ORD-05195,Invalid - Broken FK,2024-07-04,Duplicate order,198.91,Pending
+RET-0021,ORD-05196,Invalid - Broken FK,2022-06-23,Product not as described,16.69,Pending

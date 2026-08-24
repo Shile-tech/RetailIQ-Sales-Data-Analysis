@@ -1,0 +1,201 @@
+﻿product_id,product_name,category,unit_cost_USD,unit_price_USD,gross_margin_pct,data_entry_flag,stock_qty,stock_qty_flag,is_active
+PROD-0001,Wireless Headphones,Electronics,97.41,438.78,77.8,Complete Data,-43,Error - Review,No
+PROD-0002,Smart Watch,Electronics,748.54,1070.89,30.1,Complete Data,1147,valid,Yes
+PROD-0003,Bluetooth Speaker,Electronics,44.48,117.98,62.3,Complete Data,2847,valid,Yes
+PROD-0004,USB-C Hub,Electronics,663.2,2263.48,70.7,Complete Data,-46,Error - Review,Yes
+PROD-0005,Webcam HD,Electronics,227.39,695.08,67.3,Complete Data,3039,valid,Yes
+PROD-0006,Mechanical Keyboard,Electronics,370.17,1519.06,75.6,Complete Data,NULL,valid,Yes
+PROD-0007,Gaming Mouse,Electronics,679.58,1420.48,52.2,Complete Data,3833,valid,Yes
+PROD-0008,Monitor 27in,Electronics,55.44,142.28,61,Complete Data,4437,valid,Yes
+PROD-0009,Laptop Stand,Electronics,33.36,43.94,24.1,Complete Data,3280,valid,No
+PROD-0010,Portable Charger,Electronics,175.03,334.26,47.6,Complete Data,654,valid,Yes
+PROD-0011,Project Management Suite,Software,325.14,947.58,65.7,Complete Data,2770,valid,Yes
+PROD-0012,CRM Platform,Software,360.8,558.87,35.4,Complete Data,3212,valid,Yes
+PROD-0013,Analytics Tool,Software,580.09,2144.7,73,Complete Data,3932,valid,No
+PROD-0014,Accounting Software,Software,182.96,435.14,58,Complete Data,1729,valid,Yes
+PROD-0015,Email Marketing Tool,Software,292.32,998.5,70.7,Complete Data,4297,valid,Yes
+PROD-0016,HR Management System,Software,621.88,1657.97,62.5,Complete Data,3929,valid,No
+PROD-0017,Design Software,Software,600.04,820.18,26.8,Complete Data,2448,valid,No
+PROD-0018,Cloud Storage,Software,366.36,1469.36,75.1,Complete Data,1808,valid,No
+PROD-0019,Security Suite,Software,396.54,1657.49,76.1,Complete Data,2185,valid,Yes
+PROD-0020,Video Conferencing,Software,633.42,1856.04,65.9,Complete Data,2393,valid,Yes
+PROD-0021,Running Shoes,Apparel,149.64,467.88,68,Complete Data,NULL,valid,Yes
+PROD-0022,Casual T-Shirt,Apparel,174.01,263.31,33.9,Complete Data,2481,valid,Yes
+PROD-0023,Business Jacket,Apparel,286.19,1139.28,74.9,Complete Data,4726,valid,Yes
+PROD-0024,Winter Coat,Apparel,562.11,1532.34,63.3,Complete Data,969,valid,No
+PROD-0025,Sports Leggings,Apparel,341.8,1271.08,73.1,Complete Data,4391,valid,No
+PROD-0026,Polo Shirt,Apparel,136.49,247.08,44.8,Complete Data,3123,valid,Yes
+PROD-0027,Dress Shoes,Apparel,310.14,632.55,51,Complete Data,3958,valid,Yes
+PROD-0028,Backpack,Apparel,379.35,621.54,39,Complete Data,-13,Error - Review,Yes
+PROD-0029,Baseball Cap,Apparel,674.42,1309.75,48.5,Complete Data,1847,valid,No
+PROD-0030,Sunglasses,Apparel,290.52,685.59,57.6,Complete Data,4397,valid,Yes
+PROD-0031,Coffee Maker,Home and Garden,651.01,1969.09,66.9,Complete Data,1016,valid,Yes
+PROD-0032,Air Purifier,Home and Garden,573.02,2284.54,74.9,Complete Data,849,valid,No
+PROD-0033,Robot Vacuum,Home and Garden,434.23,1015.44,57.2,Complete Data,1683,valid,Yes
+PROD-0034,Smart Thermostat,Home and Garden,278.5,669.25,58.4,Complete Data,2448,valid,Yes
+PROD-0035,Garden Hose,Home and Garden,98.85,249.72,60.4,Complete Data,1931,valid,Yes
+PROD-0036,Cookware Set,Home and Garden,104.11,265.41,60.8,Complete Data,43,valid,No
+PROD-0037,Bed Sheets,Home and Garden,718.86,1097.77,34.5,Complete Data,2021,valid,No
+PROD-0038,Wall Art,Home and Garden,672.97,1162.37,42.1,Complete Data,1407,valid,No
+PROD-0039,Desk Lamp,Home and Garden,9.43,37.17,74.6,Complete Data,2398,valid,Yes
+PROD-0040,Storage Ottoman,Home and Garden,478.24,2047.31,76.6,Complete Data,1654,valid,No
+PROD-0041,Yoga Mat,Sports,371.74,1504.66,75.3,Complete Data,3998,valid,Yes
+PROD-0042,Resistance Bands,Sports,669.57,1476.84,54.7,Complete Data,1674,valid,Yes
+PROD-0043,Protein Powder,Sports,222.29,345.86,35.7,Complete Data,2922,valid,Yes
+PROD-0044,Jump Rope,Sports,62.61,129.22,51.5,Complete Data,3488,valid,Yes
+PROD-0045,Foam Roller,Sports,769.8,3163.25,75.7,Complete Data,NULL,valid,Yes
+PROD-0046,Water Bottle,Sports,529.71,1266.56,58.2,Complete Data,1675,valid,No
+PROD-0047,Gym Bag,Sports,118.67,247.35,52,Complete Data,2899,valid,No
+PROD-0048,Fitness Tracker,Sports,500.24,1613.42,69,Complete Data,3098,valid,Yes
+PROD-0049,Tennis Racket,Sports,42.29,64.19,34.1,Complete Data,1041,valid,Yes
+PROD-0050,Cycling Helmet,Sports,418.12,1183.14,64.7,Complete Data,4197,valid,Yes
+PROD-0051,Moisturiser SPF50,Beauty,664.28,1404.06,52.7,Complete Data,775,valid,Yes
+PROD-0052,Vitamin C Serum,Beauty,510.39,726.02,29.7,Complete Data,1338,valid,No
+PROD-0053,Hair Dryer,Beauty,441.97,1167.99,62.2,Complete Data,4782,valid,Yes
+PROD-0054,Electric Toothbrush,Beauty,577.49,1316.38,56.1,Complete Data,3293,valid,Yes
+PROD-0055,Perfume 50ml,Beauty,498.11,1467.64,66.1,Complete Data,2801,valid,Yes
+PROD-0056,Lip Balm Set,Beauty,145.58,238.75,39,Complete Data,2746,valid,Yes
+PROD-0057,Face Mask Kit,Beauty,561.25,1234.75,54.5,Complete Data,1503,valid,No
+PROD-0058,Nail Polish Set,Beauty,151.65,372.73,59.3,Complete Data,1261,valid,Yes
+PROD-0059,Shampoo & Conditioner,Beauty,633.52,1390.77,54.4,Complete Data,2062,valid,Yes
+PROD-0060,Makeup Brush Set,Beauty,732.82,2454.18,70.1,Complete Data,4795,valid,Yes
+PROD-0061,Data Analytics Guide,Books,461.84,705.72,34.6,Complete Data,31,valid,Yes
+PROD-0062,Python for Beginners,Books,262.41,997.79,73.7,Complete Data,NULL,valid,Yes
+PROD-0063,Marketing Mastery,Books,543.1,2082.49,73.9,Complete Data,33,valid,Yes
+PROD-0064,Leadership Principles,Books,454.58,805.51,43.6,Complete Data,NULL,valid,Yes
+PROD-0065,Financial Freedom,Books,593.87,1471.56,59.6,Complete Data,3921,valid,No
+PROD-0066,SQL Deep Dive,Books,687.44,2838.64,75.8,Complete Data,-23,Error - Review,Yes
+PROD-0067,Design Thinking,Books,575.9,866.02,33.5,Complete Data,642,valid,Yes
+PROD-0068,Product Management,Books,176.95,406.78,56.5,Complete Data,812,valid,No
+PROD-0069,Growth Hacking,Books,249.46,912.01,72.6,Complete Data,250,valid,Yes
+PROD-0070,AI Fundamentals,Books,48.39,197.99,75.6,Complete Data,4786,valid,Yes
+PROD-0071,Premium Coffee Beans,Food and Beverage,145.17,333.28,56.4,Complete Data,1146,valid,Yes
+PROD-0072,Protein Bars 12pk,Food and Beverage,663.4,1657.83,60,Complete Data,4886,valid,Yes
+PROD-0073,Green Tea Collection,Food and Beverage,219.93,482.11,54.4,Complete Data,4531,valid,Yes
+PROD-0074,Organic Honey,Food and Beverage,265.74,1182.8,77.5,Complete Data,3300,valid,Yes
+PROD-0075,Hot Sauce Bundle,Food and Beverage,368.38,1052.97,65,Complete Data,1390,valid,No
+PROD-0076,Smoothie Mix,Food and Beverage,291.45,643.33,54.7,Complete Data,3320,valid,Yes
+PROD-0077,Nuts & Seeds Mix,Food and Beverage,586.37,1002.94,41.5,Complete Data,2377,valid,Yes
+PROD-0078,Dark Chocolate Box,Food and Beverage,265.78,538.02,50.6,Complete Data,3947,valid,Yes
+PROD-0079,Energy Drink Pack,Food and Beverage,550.32,1873.06,70.6,Complete Data,681,valid,No
+PROD-0080,Herbal Tea Set,Food and Beverage,614.91,1313.82,53.2,Complete Data,1414,valid,Yes
+PROD-0081,Webcam HD Pro,Electronics,226.86,845.19,73.2,Complete Data,3039,valid,Yes
+PROD-0082,Dark Chocolate Box Pro,Food and Beverage,304.45,472.78,35.6,Complete Data,3947,valid,Yes
+PROD-0083,Lip Balm Set Pro,Beauty,170.26,310.91,45.2,Complete Data,2746,valid,Yes
+PROD-0084,SQL Deep Dive Pro,Books,563.52,3870.68,85.4,Complete Data,4776,valid,Yes
+PROD-0085,Data Analytics Guide Pro,Books,447.82,862.02,48,Complete Data,31,valid,Yes
+PROD-0086,Running Shoes Pro,Apparel,164.9,393.05,58,Complete Data,2473,valid,Yes
+PROD-0087,Hair Dryer Pro,Beauty,401.12,957.49,58.1,Complete Data,4782,valid,Yes
+PROD-0088,Leadership Principles Pro,Books,442.14,805.54,45.1,Complete Data,3395,valid,Yes
+PROD-0089,Design Software Pro,Software,705.75,820.83,14,Complete Data,NULL,valid,No
+PROD-0090,Winter Coat Pro,Apparel,519.09,1532.65,66.1,Complete Data,969,valid,No
+PROD-0091,Wall Art Pro,Home and Garden,650.09,1457.13,55.4,Complete Data,1407,valid,No
+PROD-0092,Vitamin C Serum Pro,Beauty,581.33,630.2,7.8,Complete Data,1338,valid,No
+PROD-0093,Financial Freedom Pro,Books,550.01,1357.28,59.5,Complete Data,3921,valid,No
+PROD-0094,Growth Hacking Pro,Books,219.59,1025.75,78.6,Complete Data,250,valid,Yes
+PROD-0095,Bed Sheets Pro,Home and Garden,834.63,1260.8,33.8,Complete Data,2021,valid,No
+PROD-0096,Robot Vacuum Pro,Home and Garden,438.36,1310.06,66.5,Complete Data,1683,valid,Yes
+PROD-0097,Hot Sauce Bundle Pro,Food and Beverage,367.35,1311.29,72,Complete Data,1390,valid,No
+PROD-0098,Moisturiser SPF50 Pro,Beauty,712.87,1270.18,43.9,Complete Data,775,valid,Yes
+PROD-0099,Premium Coffee Beans Pro,Food and Beverage,156.97,424.41,63,Complete Data,1146,valid,Yes
+PROD-0100,Dark Chocolate Box Pro,Food and Beverage,318.79,594.96,46.4,Complete Data,NULL,valid,Yes
+PROD-0101,Yoga Mat Pro,Sports,416.73,1958.97,78.7,Complete Data,3998,valid,Yes
+PROD-0102,Smart Thermostat Pro,Home and Garden,326.05,843.46,61.3,Complete Data,2448,valid,Yes
+PROD-0103,Analytics Tool Pro,Software,641.49,2265.69,71.7,Complete Data,3932,valid,No
+PROD-0104,Hot Sauce Bundle Pro,Food and Beverage,399.69,1316.91,69.6,Complete Data,1390,valid,No
+PROD-0105,Sunglasses Pro,Apparel,342.74,814.1,57.9,Complete Data,4397,valid,Yes
+PROD-0106,Cycling Helmet Pro,Sports,427.68,1256.91,66,Complete Data,4197,valid,Yes
+PROD-0107,Dress Shoes Pro,Apparel,248.2,822.38,69.8,Complete Data,3958,valid,Yes
+PROD-0108,Analytics Tool Pro,Software,493.96,1924.9,74.3,Complete Data,3932,valid,No
+PROD-0109,Financial Freedom Pro,Books,483.77,1601.89,69.8,Complete Data,3921,valid,No
+PROD-0110,Design Software Pro,Software,583.71,847.78,31.1,Complete Data,2448,valid,No
+PROD-0111,Product Management v2,Books,142.56,327.89,56.5,Complete Data,812,valid,No
+PROD-0112,Nuts & Seeds Mix Pro,Food and Beverage,584.14,1329.11,56.1,Complete Data,2377,valid,Yes
+PROD-0113,Protein Powder v2,Sports,242.43,446.94,45.8,Complete Data,NULL,valid,Yes
+PROD-0114,Moisturiser SPF50 Pro,Beauty,643.78,1899.65,66.1,Complete Data,775,valid,Yes
+PROD-0115,Smart Thermostat Pro,Home and Garden,306.63,617.6,50.4,Complete Data,NULL,valid,Yes
+PROD-0116,Email Marketing Tool Pro,Software,274.17,937.5,70.8,Complete Data,4297,valid,Yes
+PROD-0117,Running Shoes Pro,Apparel,138.32,493.75,72,Complete Data,2473,valid,Yes
+PROD-0118,Foam Roller Pro,Sports,891.47,4296.47,79.3,Complete Data,2788,valid,Yes
+PROD-0119,Baseball Cap Pro,Apparel,610.63,1471.39,58.5,Complete Data,1847,valid,No
+PROD-0120,Foam Roller Pro,Sports,750.35,3483.44,78.5,Complete Data,2788,valid,Yes
+PROD-0121,Analytics Tool Pro,Software,645.96,2840.75,77.3,Complete Data,3932,valid,No
+PROD-0122,Video Conferencing Pro,Software,734.3,2451.23,70,Complete Data,2393,valid,Yes
+PROD-0123,Laptop Stand Pro,Electronics,29.03,55.3,47.5,Complete Data,3280,valid,No
+PROD-0124,Growth Hacking Pro,Books,207.9,855.22,75.7,Complete Data,250,valid,Yes
+PROD-0125,Python for Beginners Pro,Books,282.41,933.81,69.8,Complete Data,777,valid,Yes
+PROD-0126,Wireless Headphones Pro,Electronics,116.61,425.58,72.6,Complete Data,NULL,valid,No
+PROD-0127,Desk Lamp Pro,Home and Garden,NULL,50.58,NULL,Missing Data,2398,valid,Yes
+PROD-0128,Leadership Principles Pro,Books,385.91,934.58,58.7,Complete Data,3395,valid,Yes
+PROD-0129,Baseball Cap Pro,Apparel,571.6,1239.59,53.9,Complete Data,1847,valid,No
+PROD-0130,Storage Ottoman Pro,Home and Garden,429.47,1863.65,77,Complete Data,1654,valid,No
+PROD-0131,Design Thinking Pro,Books,646.15,879.97,26.6,Complete Data,642,valid,Yes
+PROD-0132,Business Jacket Pro,Apparel,258.4,1510.47,82.9,Complete Data,4726,valid,Yes
+PROD-0133,Financial Freedom Pro,Books,699.46,1803.22,61.2,Complete Data,3921,valid,No
+PROD-0134,Nuts & Seeds Mix Pro,Food and Beverage,688.83,1260.64,45.4,Complete Data,2377,valid,Yes
+PROD-0135,Bed Sheets Pro,Home and Garden,844.35,1103.58,23.5,Complete Data,2021,valid,No
+PROD-0136,Cycling Helmet Pro,Sports,359.24,1097.31,67.3,Complete Data,4197,valid,Yes
+PROD-0137,Air Purifier Pro,Home and Garden,468.71,2334.58,79.9,Complete Data,849,valid,No
+PROD-0138,Perfume 50ml Pro,Beauty,535.59,1325.59,59.6,Complete Data,2801,valid,Yes
+PROD-0139,Moisturiser SPF50 Pro,Beauty,657.46,1862.5,64.7,Complete Data,775,valid,Yes
+PROD-0140,Bed Sheets Pro,Home and Garden,631.34,1071.43,41.1,Complete Data,2021,valid,No
+PROD-0141,Design Thinking Pro,Books,541.44,1077.67,49.8,Complete Data,642,valid,Yes
+PROD-0142,Cycling Helmet Pro,Sports,450.21,1067.75,57.8,Complete Data,4197,valid,Yes
+PROD-0143,Smoothie Mix Pro,Food and Beverage,311.25,840.35,63,Complete Data,3320,valid,Yes
+PROD-0144,Protein Bars 12pk v2,Food and Beverage,557.56,1596.33,65.1,Complete Data,4886,valid,Yes
+PROD-0145,Premium Coffee Beans Pro,Food and Beverage,143.16,464.46,69.2,Complete Data,1146,valid,Yes
+PROD-0146,Design Software Pro,Software,528.4,723.98,27,Complete Data,2448,valid,No
+PROD-0147,Monitor 27in Pro,Electronics,60.9,114.18,46.7,Complete Data,4437,valid,Yes
+PROD-0148,Wall Art Pro,Home and Garden,596.82,1318.36,54.7,Complete Data,1407,valid,No
+PROD-0149,Lip Balm Set Pro,Beauty,138.4,231.91,40.3,Complete Data,2746,valid,Yes
+PROD-0150,Mechanical Keyboard Pro,Electronics,315.39,1596.82,80.2,Complete Data,2648,valid,Yes
+PROD-0151,Bluetooth Speaker Pro,Electronics,44.46,118.53,62.5,Complete Data,2847,valid,Yes
+PROD-0152,Marketing Mastery Pro,Books,538.15,2538.42,78.8,Complete Data,33,valid,Yes
+PROD-0153,Analytics Tool Pro,Software,641.18,2914.31,78,Complete Data,3932,valid,No
+PROD-0154,Dress Shoes Pro,Apparel,279.16,559.38,50.1,Complete Data,3958,valid,Yes
+PROD-0155,CRM Platform Pro,Software,319.59,509.95,37.3,Complete Data,3212,valid,Yes
+PROD-0156,Protein Powder v2,Sports,NULL,335.04,NULL,Missing Data,2922,valid,Yes
+PROD-0157,Analytics Tool Pro,Software,641.42,1898.25,66.2,Complete Data,3932,valid,No
+PROD-0158,Wall Art Pro,Home and Garden,758.79,1236.45,38.6,Complete Data,1407,valid,No
+PROD-0159,USB-C Hub Pro,Electronics,549.62,2734.41,79.9,Complete Data,2816,valid,Yes
+PROD-0160,AI Fundamentals Pro,Books,42.07,225,81.3,Complete Data,4786,valid,Yes
+PROD-0161,Hot Sauce Bundle Pro,Food and Beverage,331.01,1006.11,67.1,Complete Data,1390,valid,No
+PROD-0162,Mechanical Keyboard Pro,Electronics,353.3,1224.62,71.2,Complete Data,2648,valid,Yes
+PROD-0163,Smart Thermostat Pro,Home and Garden,333.29,820.19,59.4,Complete Data,2448,valid,Yes
+PROD-0164,Jump Rope Pro,Sports,55.91,131.56,57.5,Complete Data,3488,valid,Yes
+PROD-0165,Energy Drink Pack Pro,Food and Beverage,462.63,1668.34,72.3,Complete Data,681,valid,No
+PROD-0166,Product Management v2,Books,198.59,557.81,64.4,Complete Data,812,valid,No
+PROD-0167,Makeup Brush Set Pro,Beauty,874.33,2628.62,66.7,Complete Data,4795,valid,Yes
+PROD-0168,Security Suite Pro,Software,439.99,1329,66.9,Complete Data,2185,valid,Yes
+PROD-0169,Portable Charger Pro,Electronics,205.91,410.66,49.9,Complete Data,654,valid,Yes
+PROD-0170,Vitamin C Serum Pro,Beauty,562.94,862.19,34.7,Complete Data,1338,valid,No
+PROD-0171,HR Management System Pro,Software,743.38,1930.86,61.5,Complete Data,3929,valid,No
+PROD-0172,Desk Lamp Pro,Home and Garden,11.04,46.3,76.2,Complete Data,2398,valid,Yes
+PROD-0173,Wireless Headphones Pro,Electronics,87.27,580.27,85,Complete Data,2956,valid,No
+PROD-0174,Gym Bag Pro,Sports,135.61,335.89,59.6,Complete Data,2899,valid,No
+PROD-0175,Moisturiser SPF50 Pro,Beauty,733.93,1344.07,45.4,Complete Data,775,valid,Yes
+PROD-0176,Video Conferencing Pro,Software,588.31,2260.85,74,Complete Data,2393,valid,Yes
+PROD-0177,Jump Rope Pro,Sports,54.47,135.21,59.7,Complete Data,3488,valid,Yes
+PROD-0178,Gym Bag Pro,Sports,99.9,229.01,56.4,Complete Data,2899,valid,No
+PROD-0179,Growth Hacking Pro,Books,257.46,1273.17,79.8,Complete Data,250,valid,Yes
+PROD-0180,Sunglasses Pro,Apparel,287.69,682.83,57.9,Complete Data,NULL,valid,Yes
+PROD-0181,Cloud Storage Pro,Software,368.79,1693.49,78.2,Complete Data,1808,valid,No
+PROD-0182,Coffee Maker Pro,Home and Garden,778.65,1791.77,56.5,Complete Data,1016,valid,Yes
+PROD-0183,Mechanical Keyboard Pro,Electronics,392.3,1364.77,71.3,Complete Data,2648,valid,Yes
+PROD-0184,Smart Watch Pro,Electronics,890.31,985.4,9.6,Complete Data,1147,valid,Yes
+PROD-0185,Green Tea Collection Pro,Food and Beverage,NULL,653.88,NULL,Missing Data,4531,valid,Yes
+PROD-0186,Security Suite Pro,Software,393.15,2019.44,80.5,Complete Data,2185,valid,Yes
+PROD-0187,SQL Deep Dive Pro,Books,767.37,3875.59,80.2,Complete Data,NULL,valid,Yes
+PROD-0188,CRM Platform Pro,Software,426.43,504.57,15.5,Complete Data,3212,valid,Yes
+PROD-0189,Coffee Maker Pro,Home and Garden,670.61,2621.8,74.4,Complete Data,1016,valid,Yes
+PROD-0190,Foam Roller Pro,Sports,902.48,2995.02,69.9,Complete Data,2788,valid,Yes
+PROD-0191,Garden Hose Pro,Home and Garden,95.56,339.29,71.8,Complete Data,-30,Error - Review,Yes
+PROD-0192,Nail Polish Set Pro,Beauty,123.1,469.85,73.8,Complete Data,1261,valid,Yes
+PROD-0193,Bed Sheets Pro,Home and Garden,750.06,1440.77,47.9,Complete Data,2021,valid,No
+PROD-0194,Robot Vacuum Pro,Home and Garden,521.85,1066.28,51.1,Complete Data,1683,valid,Yes
+PROD-0195,Robot Vacuum Pro,Home and Garden,361.21,1005.49,64.1,Complete Data,1683,valid,Yes
+PROD-0196,Jump Rope Pro,Sports,68.44,148.57,53.9,Complete Data,3488,valid,Yes
+PROD-0197,Tennis Racket Pro,Sports,43.85,71,38.2,Complete Data,1041,valid,Yes
+PROD-0198,Vitamin C Serum Pro,Beauty,498.48,826.25,39.7,Complete Data,NULL,valid,No
+PROD-0199,Makeup Brush Set Pro,Beauty,607.74,3407.53,82.2,Complete Data,4795,valid,Yes
+PROD-0200,Data Analytics Guide Pro,Books,408.38,672.52,39.3,Complete Data,31,valid,Yes
