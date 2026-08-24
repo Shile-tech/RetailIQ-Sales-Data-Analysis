@@ -1,0 +1,600 @@
+USE RetailIQ;
+GO
+
+--            CREATING SCHMA (clean)  -- to store cleaned data
+
+CREATE SCHEMA clean;
+GO
+
+
+-- Successfully imported all 6 raw tables in the database (RetailIQ).
+
+
+--                             DATA CLEANING
+
+/*==================================================================================================================
+1. CLEANING TABLE (dbo.customers)
+====================================================================================================================
+	PROCESS:
+
+- Duplicate records are inspected and handled using window functions and CTE.
+- String values are standardized using CASE WHEN statement,also trimmed for white spaces.
+- Messy dates are corrected and converted  date data_type.
+- NULLs were handled.
+- Data Manipulation (DML) is carried out to update necessary tables.
+- The cleaned data is inserted into a new table.
+
+
+raw table   -- dbo.customers
+clean table -- clean.customers
+====================================================================================================================*/
+
+--              CHECK FOR DUPLICATES 
+
+SELECT 
+	customer_id,
+	COUNT(*) AS occurence
+FROM dbo.customers
+GROUP BY customer_id
+HAVING COUNT(*) > 1                           -- DUPLICATES EXIST        
+
+
+--              INSPECTING DUPLICATES   
+
+SELECT 
+	*,
+	ROW_NUMBER() OVER (PARTITION BY customer_id ORDER BY lifetime_value_USD DESC) AS rn
+FROM dbo.customers
+WHERE customer_id IN 
+					(
+						SELECT 
+							customer_id
+						FROM dbo.customers
+						GROUP BY customer_id
+						HAVING COUNT(*) > 1
+					)                            --After inspecting, records with row number (rn) 1 stays, although they have the same lifetime_value, rn 1 has least missing values.               
+
+
+
+--                                     CLEANING TABLE
+
+WITH firt_step AS
+(
+	SELECT 
+		TRIM(customer_id)   AS customer_id,
+		TRIM(CONCAT(UPPER(LEFT(first_name,1)),LOWER(SUBSTRING(first_name,2,LEN(first_name))))) AS first_name,
+		TRIM(CONCAT(UPPER(LEFT(last_name,1)),LOWER(SUBSTRING(last_name,2,LEN(last_name)))))    AS last_name,
+		LOWER(TRIM(email))  AS email,
+		CASE
+			WHEN LOWER(TRIM(segment)) = 'enterprise'     THEN 'Enterprise'
+			WHEN LOWER(TRIM(segment)) = 'government'     THEN 'Government'
+			WHEN LOWER(TRIM(segment)) = 'individual'     THEN 'Individual'
+			WHEN LOWER(TRIM(segment)) = 'smb'            THEN 'SMB'
+			WHEN LOWER(TRIM(segment)) = 'startup'        THEN 'Startup'
+			ELSE TRIM(segment)
+		END                 AS segment,
+		CASE
+			WHEN LOWER(TRIM(region)) = 'africa'          THEN 'Africa'
+			WHEN LOWER(TRIM(region)) = 'african region'  THEN 'Africa'
+			WHEN LOWER(TRIM(region)) = 'asia pacific'    THEN 'Asia Pacific'
+			WHEN LOWER(TRIM(region)) = 'asia-pacific'    THEN 'Asia Pacific'
+			WHEN LOWER(TRIM(region)) = 'apac'            THEN 'Asia Pacific'
+			WHEN LOWER(TRIM(region)) = 'europe'          THEN 'Europe'
+			WHEN LOWER(TRIM(region)) = 'eur'             THEN 'Europe'
+			WHEN LOWER(TRIM(region)) = 'european region' THEN 'Europe'
+			WHEN LOWER(TRIM(region)) = 'latin america'   THEN 'Latin America'
+			WHEN LOWER(TRIM(region)) = 'latam'           THEN 'Latin America'
+			WHEN LOWER(TRIM(region)) = 'middle east'     THEN 'Middle East'
+			WHEN LOWER(TRIM(region)) = 'me'              THEN 'Middle East'
+			WHEN LOWER(TRIM(region)) = 'mid east'        THEN 'Middle East'
+			WHEN LOWER(TRIM(region)) = 'north america'   THEN 'North America'
+			WHEN LOWER(TRIM(region)) = 'n. america'      THEN 'North America'
+			ELSE TRIM(region)
+		END                                           AS region,
+		TRIM(country)                                 AS country,
+		TRIM(industry)                                AS industry,
+		TRIM(acquisition_channel)                     AS acquisition_channel,
+		COALESCE (
+					TRY_CONVERT(DATE,acquisition_date,23),   
+					TRY_CONVERT(DATE,acquisition_date,101),     -- source data is suppose to use this format.
+					TRY_CONVERT(DATE,acquisition_date,103),
+					TRY_CONVERT(DATE,acquisition_date,107),
+					TRY_CONVERT(DATE,acquisition_date,106)
+					)                                  AS acquisition_date,
+		COALESCE (
+					TRY_CONVERT(DATE,last_purchase_date,23),   
+					TRY_CONVERT(DATE,last_purchase_date,101),   -- source data is suppose to use this format.
+					TRY_CONVERT(DATE,last_purchase_date,103),
+					TRY_CONVERT(DATE,last_purchase_date,107),
+					TRY_CONVERT(DATE,last_purchase_date,106)
+					)                                  AS last_purchase_date,
+		TRIM(activity_status)                          AS activity_status,
+		TRY_CAST(lifetime_value_USD AS DECIMAL (18,2)) AS lifetime_value_USD,
+		ROW_NUMBER() OVER (PARTITION BY customer_id ORDER BY lifetime_value_USD DESC) AS rn
+	FROM dbo.customers
+)
+
+	SELECT
+		customer_id,
+		first_name,
+		last_name,
+		email,
+		segment,
+		region,
+		country,
+		industry,
+		acquisition_channel,
+		acquisition_date,
+		last_purchase_date,
+		activity_status,
+		lifetime_value_USD
+
+	INTO clean.customers               -- Inserting into clean table.
+	FROM firt_step
+	WHERE rn = 1                       -- Removing duplicates from the record.
+
+
+
+--                     Updating columns and filling in NULLs
+
+UPDATE clean.customers
+SET   industry    = 'Logistics'
+WHERE customer_id = 'CUST-0174'        -- Customer's industry record was obtained from the deleted duplictes.
+
+
+UPDATE clean.customers
+SET   industry = 'Unknown'
+WHERE industry IS NULL
+
+
+UPDATE clean.customers
+SET   acquisition_channel = 'Unknown'
+WHERE acquisition_channel IS NULL
+
+
+
+--           checks on date columns.  -- last_purchase_date older than acquisition_date (Impossible dates)
+SELECT
+	customer_id,
+	acquisition_date,
+	last_purchase_date,
+	DATEDIFF(MONTH,acquisition_date,last_purchase_date) AS diff
+FROM clean.customers
+WHERE DATEDIFF(MONTH,acquisition_date,last_purchase_date) < 0        -- Empty result set, therefore valid dates.
+
+
+
+
+
+/*==================================================================================================================
+2. CLEANING TABLE (dbo.products)
+====================================================================================================================
+	PROCESS:
+
+- Checks for duplicates. -- no duplicate record.
+- strings columns are standardized and also trimmed for whitespaces.
+- Columns are casted into the right data_types.
+- With the help of a CTE, mathematical calculations were carried out to enable data richness.
+- Data transformation was done as new columns were derived to flag necessary data entry.
+- The cleaned data is inserted into a new table.
+
+
+raw table   -- dbo.products
+clean table -- clean.products
+====================================================================================================================*/
+
+--                       Check for duplicates
+SELECT 
+	product_id,
+	COUNT(*) AS occurence
+FROM dbo.products
+GROUP BY product_id
+HAVING COUNT(*) > 1         -- No duplicates.
+
+
+--                     CLEANING TABLE 
+
+WITH standardization AS 
+(
+	SELECT 
+		TRIM(product_id)   AS product_id,
+		TRIM(product_name) AS product_name,
+		CASE
+			WHEN LOWER(TRIM(category)) = 'beauty'           THEN 'Beauty'
+			WHEN LOWER(TRIM(category)) = 'beuty'            THEN 'Beauty'
+			WHEN LOWER(TRIM(category)) = 'books'            THEN 'Books'
+			WHEN LOWER(TRIM(category)) = 'electronics'      THEN 'Electronics'
+			WHEN LOWER(TRIM(category)) = 'food & beverages' THEN 'Food and Beverage'
+			WHEN LOWER(TRIM(category)) = 'food & beverage'  THEN 'Food and Beverage'
+			WHEN LOWER(TRIM(category)) = 'home & garden'    THEN 'Home and Garden'
+			WHEN LOWER(TRIM(category)) = 'home&garden'      THEN 'Home and Garden'
+			WHEN LOWER(TRIM(category)) = 'softwre'          THEN 'Software'
+			WHEN LOWER(TRIM(category)) = 'sports'           THEN 'Sports'
+			ELSE TRIM(category)
+		END                                                          AS category,
+		TRY_CAST(REPLACE(unit_cost_USD,'$','')  AS DECIMAL(18,2))    AS unit_cost_USD,
+		TRY_CAST(REPLACE(unit_price_USD,'$','') AS DECIMAL(18,2))    AS unit_price_USD,
+		ROUND(gross_margin_pct,1)                                    AS gross_margin_pct,
+		TRY_CAST(stock_qty AS INT)                                   AS stock_qty,
+		TRY_CAST(CASE
+			        WHEN is_active = 0 THEN 'No'
+			        WHEN is_active = 1 THEN 'Yes'
+		         END AS VARCHAR(5))                                  AS is_active
+	FROM dbo.products
+)
+
+	SELECT 
+		product_id,
+		product_name,
+		category,
+		CASE 
+			WHEN unit_price_USD IS NOT NULL AND gross_margin_pct IS NOT NULL THEN ROUND(unit_price_USD - ((gross_margin_pct * unit_price_USD) / 100.0),2)
+			ELSE unit_cost_USD
+		END                       AS unit_cost_USD,
+		CASE 
+			WHEN unit_cost_USD IS NOT NULL AND gross_margin_pct IS NOT NULL  THEN ROUND((100.0 * unit_cost_USD) / (100 - gross_margin_pct),2)
+			ELSE unit_price_USD
+		END                       AS unit_price_USD,
+		CASE 
+			WHEN unit_price_USD IS NOT NULL AND unit_cost_USD IS NOT NULL    THEN ROUND((((unit_price_USD - unit_cost_USD) / unit_price_USD) * 100.0),1)
+			ELSE gross_margin_pct
+		END                       AS gross_margin_pct,
+		CASE
+			WHEN unit_cost_USD IS NULL AND  gross_margin_pct IS NULL THEN 'Missing Data'
+			ELSE                                                          'Complete Data'
+		END                       AS data_entry_flag,
+		stock_qty,
+		CASE
+			WHEN stock_qty < 0 THEN 'Error - Review'
+			ELSE                    'valid'
+		END                       AS stock_qty_flag,               --Inventory cant have a negative value.
+		is_active
+
+	INTO clean.products             -- Inserting into clean table.
+	FROM standardization
+
+
+
+
+
+/*==================================================================================================================
+3. CLEANING TABLE (dbo.orders)
+====================================================================================================================
+	PROCESS:
+
+- Checks are carried out. -- checks for duplicates,broken foreign keys using JOINS.
+- String values are standardized and trimmed for whitespaces.
+- Columns are casted into the right data_types.
+- Data were flagged using CASE WHEN statement.
+- The cleaned data is inserted into a new table.
+
+
+raw table   -- dbo.orders
+clean table -- clean.orders
+====================================================================================================================*/
+
+--                       Check for duplicates
+SELECT 
+	order_id,
+	COUNT(*) AS occurence
+FROM dbo.orders
+GROUP BY order_id
+HAVING COUNT(*) > 1                -- No duplicates record exist.
+
+
+--                         Check for broken Foreign key (FK).     
+SELECT 
+	o.customer_id
+FROM dbo.orders o
+LEFT JOIN clean.customers c
+ON o.customer_id = c.customer_id
+WHERE c.customer_id IS NULL        -- no result set, therefore no broken foreign keys.
+
+
+--                      CLEANING TABLE
+
+SELECT
+	TRIM(order_id)    AS order_id,
+	TRIM(customer_id) AS customer_id,
+	COALESCE (
+				TRY_CONVERT(DATE,order_date,23),
+				TRY_CONVERT(DATE,order_date,101),     -- source data is suppose to use this format.
+				TRY_CONVERT(DATE,order_date,103),
+				TRY_CONVERT(DATE,order_date,107),
+				TRY_CONVERT(DATE,order_date,106)
+			 )        AS order_date,
+	TRIM(CONCAT(UPPER(LEFT(order_status,1)),LOWER(SUBSTRING(order_status,2,LEN(order_status))))) AS order_status,
+	CASE
+		WHEN sales_channel IS NULL THEN 'Unknown'
+		ELSE TRIM(sales_channel)
+	END               AS sales_channel,
+	TRY_CAST(REPLACE(shipping_cost_USD,'$','') AS DECIMAL(18,2)) AS shipping_cost_USD,
+	TRY_CAST(ROUND((discount_pct * 100.0),0) AS INT)             AS discount_pct,
+	CASE
+		WHEN TRY_CAST(ROUND((discount_pct * 100.0),0) AS INT)  < 50  THEN 'Acceptable'
+		WHEN TRY_CAST(ROUND((discount_pct * 100.0),0) AS INT)  < 100 THEN 'Extreme discounts'
+		ELSE                                                              'Review Recommended'
+	END               AS discount_pct_flag,
+	CASE
+		WHEN LOWER(TRIM(region)) = 'africa'          THEN 'Africa'
+		WHEN LOWER(TRIM(region)) = 'african region'  THEN 'Africa'
+		WHEN LOWER(TRIM(region)) = 'asia pacific'    THEN 'Asia Pacific'
+		WHEN LOWER(TRIM(region)) = 'asia-pacific'    THEN 'Asia Pacific'
+		WHEN LOWER(TRIM(region)) = 'apac'            THEN 'Asia Pacific'
+		WHEN LOWER(TRIM(region)) = 'europe'          THEN 'Europe'
+		WHEN LOWER(TRIM(region)) = 'eur'             THEN 'Europe'
+		WHEN LOWER(TRIM(region)) = 'european region' THEN 'Europe'
+		WHEN LOWER(TRIM(region)) = 'latin america'   THEN 'Latin America'
+		WHEN LOWER(TRIM(region)) = 'latam'           THEN 'Latin America'
+		WHEN LOWER(TRIM(region)) = 'middle east'     THEN 'Middle East'
+		WHEN LOWER(TRIM(region)) = 'me'              THEN 'Middle East'
+		WHEN LOWER(TRIM(region)) = 'mid east'        THEN 'Middle East'
+		WHEN LOWER(TRIM(region)) = 'north america'   THEN 'North America'
+		WHEN LOWER(TRIM(region)) = 'n. america'      THEN 'North America'
+		ELSE TRIM(region)
+	END              AS region,
+	TRIM(country)    AS country
+
+INTO clean.orders           -- Inserting into clean table.
+FROM dbo.orders
+
+
+
+
+/*==================================================================================================================
+4. CLEANING TABLE (dbo.order_items)
+====================================================================================================================
+	PROCESS:
+
+- Checks are carried out. -- checks for duplicates,broken foreign keys using JOINS.
+- String values are standardized and trimmed for whitespaces.
+- Columns are casted into the right data_types.
+- Data were flagged using CASE WHEN statement.
+- The cleaned data is inserted into a new table.
+
+
+raw table   -- dbo.order_items
+clean table -- clean.order_items
+====================================================================================================================*/
+
+--                    Check for duplicates 
+SELECT
+	item_id,
+	COUNT(*) AS occurence
+FROM dbo.order_items
+GROUP BY item_id
+HAVING COUNT(*) > 1         -- No duplicate records.
+
+
+
+--                     Check for broken foreign key.
+SELECT
+	oi.order_id
+FROM dbo.order_items oi
+LEFT JOIN dbo.orders o
+ON oi.order_id = o.order_id
+WHERE o.order_id IS NULL          -- Empty result set, therefore no broken foreign key (order_id).
+
+
+SELECT
+	o.product_id
+FROM dbo.order_items o
+LEFT JOIN dbo.products p
+ON o.product_id = p.product_id
+WHERE p.product_id IS NULL         -- Empty result set, therefore no broken foreign key (product_id). 
+
+
+
+--                              CLEANING TABLE
+SELECT
+	TRIM(item_id)      AS item_id,
+	TRIM(order_id)     AS order_id,
+	TRIM(product_id)   AS product_id,
+	TRIM(product_name) AS product_name,
+	CASE
+		WHEN LOWER(TRIM(category)) = 'beauty'           THEN 'Beauty'
+		WHEN LOWER(TRIM(category)) = 'beuty'            THEN 'Beauty'
+		WHEN LOWER(TRIM(category)) = 'books'            THEN 'Books'
+		WHEN LOWER(TRIM(category)) = 'electronics'      THEN 'Electronics'
+		WHEN LOWER(TRIM(category)) = 'food & beverages' THEN 'Food and Beverage'
+		WHEN LOWER(TRIM(category)) = 'food & beverage'  THEN 'Food and Beverage'
+		WHEN LOWER(TRIM(category)) = 'home & garden'    THEN 'Home and Garden'
+		WHEN LOWER(TRIM(category)) = 'home&garden'      THEN 'Home and Garden'
+		WHEN LOWER(TRIM(category)) = 'softwre'          THEN 'Software'
+		WHEN LOWER(TRIM(category)) = 'sports'           THEN 'Sports'
+		ELSE TRIM(category)
+	END                        AS category,
+	TRY_CAST(quantity AS INT)  AS quantity,
+	CASE
+		WHEN TRY_CAST(quantity AS INT) < 1 THEN 'Entry Error - Review'        -- Quantity of items cant be a negative value.
+		ELSE                                    'Valid entry'
+	END                        AS quantity_flag,
+	TRY_CAST(REPLACE(unit_price_USD,'$','') AS DECIMAL(18,2)) AS unit_price_USD,
+	TRY_CAST(ROUND((discount_pct * 100.0),0) AS INT)          AS discount_pct,
+	CASE
+		WHEN TRY_CAST(ROUND((discount_pct * 100.0),0) AS INT)  < 50  THEN 'Acceptable'
+		WHEN TRY_CAST(ROUND((discount_pct * 100.0),0) AS INT)  < 100 THEN 'Extreme discounts'
+		ELSE                                                              'Review Recommended'
+	END                                                       AS discount_pct_flag,
+	TRY_CAST(REPLACE(line_total_USD,'$','') AS DECIMAL(18,2)) AS line_total_USD
+
+
+INTO clean.order_items                -- Inserting into clean table.
+FROM dbo.order_items
+
+
+
+
+/*==================================================================================================================
+5. CLEANING TABLE (dbo.returns)
+====================================================================================================================
+	PROCESS:
+
+- Checks are carried out. -- checks for duplicates,broken foreign keys using JOINS.
+- String values are standardized and trimmed for whitespaces.
+- Columns are casted into the right data_types.
+- Data were flagged using CASE WHEN statement.
+- The cleaned data is inserted into a new table.
+
+
+raw table   -- dbo.returns
+clean table -- clean.returns
+====================================================================================================================*/
+
+--                     Check for duplicates.
+SELECT
+	return_id,
+	COUNT(*) AS occurence
+FROM dbo.returns
+GROUP BY return_id
+HAVING COUNT(*) > 1          -- No duplicate records.
+
+
+
+--                     Check for broken foreign keys.
+
+SELECT
+ r.order_id
+FROM dbo.returns r
+LEFT JOIN clean.orders o
+ON r.order_id = o.order_id         
+WHERE o.order_id IS NULL           -- Missing order_id's in the order's table 
+                                   -- Meaning some returned orders does not have a record in the order's table.
+
+
+
+--                       CLEANING TABLE 
+SELECT
+	TRIM(return_id) AS return_id,
+	TRIM(r.order_id)  AS order_id,
+	CASE
+		WHEN o.order_id IS NULL THEN 'Invalid - Broken FK'     -- Tables cant be joined with this keys.
+		ELSE                         'Valid FK'
+	END             AS order_id_flag,
+	COALESCE (
+				TRY_CONVERT(DATE,return_date,23),
+				TRY_CONVERT(DATE,return_date,101),     -- source data is suppose to use this format.
+				TRY_CONVERT(DATE,return_date,103),
+				TRY_CONVERT(DATE,return_date,107),
+				TRY_CONVERT(DATE,return_date,106)
+				)   AS return_date,
+	CASE
+		WHEN TRIM(return_reason) IS NULL THEN 'Unknown'
+		ELSE TRIM(return_reason)
+	END             AS return_reason,
+	TRY_CAST(REPLACE(refund_amount_USD,'$','') AS DECIMAL(18,2)) AS refund_amount_USD,
+	TRIM(CONCAT(UPPER(LEFT(return_status,1)),LOWER(SUBSTRING(return_status,2,LEN(return_status))))) AS return_status
+
+INTO clean.returns               -- Inserting into clean table.
+FROM dbo.returns r
+LEFT JOIN clean.orders o
+ON r.order_id = o.order_id
+
+
+
+
+
+/*==================================================================================================================
+6. CLEANING TABLE (dbo.subscriptions)
+====================================================================================================================
+	PROCESS:
+
+- Checks are carried out. -- checks for duplicates,broken foreign keys using JOINS.
+- String values are standardized and trimmed for whitespaces.
+- Columns are casted into the right data_types.
+- Data were flagged using CASE WHEN statement.
+- Staging table was used to conduct data quality checks before inserting into final table.
+- The cleaned data is inserted into a new table.
+
+
+raw table     -- dbo.subscriptions
+staging table -- clean.subs
+clean table   -- clean.subscriptions
+====================================================================================================================*/
+
+--                     Check for duplicates
+SELECT
+	subscription_id,
+	COUNT(*) AS occurence
+FROM dbo.subscriptions
+GROUP BY subscription_id
+HAVING COUNT(*) > 1                -- No duplicate records.
+
+
+--                     Check for broken FK.
+SELECT
+	s.customer_id
+FROM dbo.subscriptions s
+LEFT JOIN clean.customers c
+ON s.customer_id = c.customer_id
+WHERE c.customer_id IS NULL        -- Empty result set, therefore no broken FK.
+
+
+
+--                               CLEANING TABLE
+SELECT
+	TRIM(subscription_id) AS subscription_id,
+	TRIM(customer_id)     AS customer_id,
+	TRIM(CONCAT(UPPER(LEFT(plan_name,1)),LOWER(SUBSTRING(plan_name,2,LEN(plan_name))))) AS plan_name,
+	TRY_CAST(REPLACE(monthly_fee_USD,'$','') AS DECIMAL(18,0))                          AS monthly_fee_USD,
+	COALESCE (
+				TRY_CONVERT(DATE,subscription_start,23),
+				TRY_CONVERT(DATE,subscription_start,101),     -- source data is suppose to use this format.
+				TRY_CONVERT(DATE,subscription_start,103),
+				TRY_CONVERT(DATE,subscription_start,107),
+				TRY_CONVERT(DATE,subscription_start,106)
+				)   AS subscription_start,
+	COALESCE (
+				TRY_CONVERT(DATE,subscription_end,23),
+				TRY_CONVERT(DATE,subscription_end,101),       -- source data is suppose to use this format.
+				TRY_CONVERT(DATE,subscription_end,103),
+				TRY_CONVERT(DATE,subscription_end,107),
+				TRY_CONVERT(DATE,subscription_end,106)
+				)   AS subscription_end,
+	TRY_CAST(tenure_months AS DECIMAL(18,2))                     AS tenure_months,
+	TRY_CAST(REPLACE(total_revenue_USD,'$','') AS DECIMAL(18,0)) AS total_revenue_USD,
+	TRIM(CONCAT(UPPER(LEFT(subscription_status,1)),LOWER(SUBSTRING(subscription_status,2,LEN(subscription_status))))) AS subscription_status,
+	CASE
+		WHEN TRIM(cancellation_reason) IS NULL THEN 'Unknown'
+		ELSE TRIM(cancellation_reason)
+	END                  AS cancellation_reason,
+	TRIM(payment_method) AS payment_method
+
+INTO clean.subs
+FROM dbo.subscriptions
+
+
+--          Checks on date columns. Using datediff command to validate the tenure_months column data.
+SELECT
+	subscription_id,
+	subscription_start,
+	subscription_end,
+	DATEDIFF(MONTH,subscription_start,subscription_end) AS diff,
+	tenure_months,
+	DATEDIFF(MONTH,subscription_start,subscription_end) - tenure_months AS check_
+FROM clean.subscriptions
+WHERE ABS(DATEDIFF(MONTH,subscription_start,subscription_end) - tenure_months) > 1
+
+
+-- After reviewing, i will be deriving a new tenure_months column as it will contain a more complete information.
+
+SELECT 
+subscription_id,
+customer_id,
+plan_name,
+monthly_fee_USD,
+subscription_start,
+subscription_end,
+DATEDIFF(MONTH,subscription_start,subscription_end) AS derived_tenure_months,
+total_revenue_USD,
+subscription_status,
+cancellation_reason,
+payment_method
+
+INTO clean.subscriptions
+FROM clean.subs
+
+
+-- Dropping staging table
+
+DROP TABLE clean.subs           -- Table dropped from the database.
