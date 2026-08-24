@@ -1,5 +1,5 @@
 # RetailIQ Sales Data Analysis
-End-to-end SQL retail analytics project: cleaning and validating messy business data, then answering key business questions to generate actionable insights.
+End-to-end SQL retail analytics project -- cleaning and validating messy business data, then answering key business questions to generate actionable insights.
 
 The project begins with comprehensive data cleaning and quality validation across the customers, products, orders, order items, returns, and subscriptions tables. This includes handling missing values, duplicates, inconsistent data formats, invalid records, currency and date standardization, and also referential integrity issues.
 
