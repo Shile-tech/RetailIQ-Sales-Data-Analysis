@@ -385,6 +385,7 @@ WHERE p.product_id IS NULL         -- Empty result set, therefore no broken fore
 
 
 
+
 --                              CLEANING TABLE
 SELECT
 	TRIM(item_id)      AS item_id,
@@ -394,14 +395,20 @@ SELECT
 	CASE
 		WHEN LOWER(TRIM(category)) = 'beauty'           THEN 'Beauty'
 		WHEN LOWER(TRIM(category)) = 'beuty'            THEN 'Beauty'
+		WHEN LOWER(TRIM(category)) = 'book'             THEN 'Books'
 		WHEN LOWER(TRIM(category)) = 'books'            THEN 'Books'
+		WHEN LOWER(TRIM(category)) = 'electroncs'       THEN 'Electronics'
 		WHEN LOWER(TRIM(category)) = 'electronics'      THEN 'Electronics'
+		WHEN LOWER(TRIM(category)) = 'F&B'              THEN 'Food and Beverage'
 		WHEN LOWER(TRIM(category)) = 'food & beverages' THEN 'Food and Beverage'
 		WHEN LOWER(TRIM(category)) = 'food & beverage'  THEN 'Food and Beverage'
 		WHEN LOWER(TRIM(category)) = 'home & garden'    THEN 'Home and Garden'
 		WHEN LOWER(TRIM(category)) = 'home&garden'      THEN 'Home and Garden'
 		WHEN LOWER(TRIM(category)) = 'softwre'          THEN 'Software'
 		WHEN LOWER(TRIM(category)) = 'sports'           THEN 'Sports'
+		WHEN LOWER(TRIM(category)) = 'sport'            THEN 'Sports'
+		WHEN LOWER(TRIM(category)) = 'apparrel'         THEN 'Apparel'
+		WHEN LOWER(TRIM(category)) = 'apparel'          THEN 'Apparel'
 		ELSE TRIM(category)
 	END                        AS category,
 	TRY_CAST(quantity AS INT)  AS quantity,
@@ -421,6 +428,7 @@ SELECT
 
 INTO clean.order_items                -- Inserting into clean table.
 FROM dbo.order_items
+
 
 
 
@@ -598,3 +606,4 @@ FROM clean.subs
 -- Dropping staging table
 
 DROP TABLE clean.subs           -- Table dropped from the database.
+
