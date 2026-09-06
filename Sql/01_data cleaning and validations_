@@ -52,7 +52,7 @@ WHERE customer_id IN
 						FROM dbo.customers
 						GROUP BY customer_id
 						HAVING COUNT(*) > 1
-					)                            --After inspecting, records with row number (rn) 1 stays, although they have the same lifetime_value, rn 1 has least missing values.               
+					)                           -- After inspecting, records with row number (rn) 1 stays, although they have the same lifetime_value, rn 1 has least missing values.               
 
 
 
@@ -131,7 +131,7 @@ WITH firt_step AS
 
 	INTO clean.customers               -- Inserting into clean table.
 	FROM firt_step
-	WHERE rn = 1                       -- Removing duplicates from the record.
+	WHERE rn = 1                       -- Removing duplicates from the record -- Already determined records with row number 1 stays.
 
 
 
@@ -144,12 +144,12 @@ WHERE customer_id = 'CUST-0174'        -- Customer's industry record was obtaine
 
 UPDATE clean.customers
 SET   industry = 'Unknown'
-WHERE industry IS NULL
+WHERE industry IS NULL                  -- Handles nulls.
 
 
 UPDATE clean.customers
 SET   acquisition_channel = 'Unknown'
-WHERE acquisition_channel IS NULL
+WHERE acquisition_channel IS NULL       -- Handles nulls.
 
 
 
@@ -222,6 +222,7 @@ WITH standardization AS
 		         END AS VARCHAR(5))                                  AS is_active
 	FROM dbo.products
 )
+-- mathematical calculations done to ensure data richness -- Using available numeric columns.
 
 	SELECT 
 		product_id,
@@ -399,7 +400,7 @@ SELECT
 		WHEN LOWER(TRIM(category)) = 'books'            THEN 'Books'
 		WHEN LOWER(TRIM(category)) = 'electroncs'       THEN 'Electronics'
 		WHEN LOWER(TRIM(category)) = 'electronics'      THEN 'Electronics'
-		WHEN LOWER(TRIM(category)) = 'F&B'              THEN 'Food and Beverage'
+		WHEN LOWER(TRIM(category)) = 'f&b'              THEN 'Food and Beverage'
 		WHEN LOWER(TRIM(category)) = 'food & beverages' THEN 'Food and Beverage'
 		WHEN LOWER(TRIM(category)) = 'food & beverage'  THEN 'Food and Beverage'
 		WHEN LOWER(TRIM(category)) = 'home & garden'    THEN 'Home and Garden'
@@ -413,7 +414,7 @@ SELECT
 	END                        AS category,
 	TRY_CAST(quantity AS INT)  AS quantity,
 	CASE
-		WHEN TRY_CAST(quantity AS INT) < 1 THEN 'Entry Error - Review'        -- Quantity of items cant be a negative value.
+		WHEN TRY_CAST(quantity AS INT) < 1 THEN 'Entry Error - Review'                          -- Quantity of items cant be a negative value.
 		ELSE                                    'Valid entry'
 	END                        AS quantity_flag,
 	TRY_CAST(REPLACE(unit_price_USD,'$','') AS DECIMAL(18,2)) AS unit_price_USD,
@@ -421,7 +422,7 @@ SELECT
 	CASE
 		WHEN TRY_CAST(ROUND((discount_pct * 100.0),0) AS INT)  < 50  THEN 'Acceptable'
 		WHEN TRY_CAST(ROUND((discount_pct * 100.0),0) AS INT)  < 100 THEN 'Extreme discounts'
-		ELSE                                                              'Review Recommended'
+		ELSE                                                              'Review Recommended'   -- A discount of 100 and above means the business start running at a loss on that order.
 	END                                                       AS discount_pct_flag,
 	TRY_CAST(REPLACE(line_total_USD,'$','') AS DECIMAL(18,2)) AS line_total_USD
 
@@ -472,6 +473,7 @@ WHERE o.order_id IS NULL           -- Missing order_id's in the order's table
 
 
 --                       CLEANING TABLE 
+
 SELECT
 	TRIM(return_id) AS return_id,
 	TRIM(r.order_id)  AS order_id,
@@ -540,11 +542,12 @@ WHERE c.customer_id IS NULL        -- Empty result set, therefore no broken FK.
 
 
 --                               CLEANING TABLE
+
 SELECT
 	TRIM(subscription_id) AS subscription_id,
 	TRIM(customer_id)     AS customer_id,
 	TRIM(CONCAT(UPPER(LEFT(plan_name,1)),LOWER(SUBSTRING(plan_name,2,LEN(plan_name))))) AS plan_name,
-	TRY_CAST(REPLACE(monthly_fee_USD,'$','') AS DECIMAL(18,0))                          AS monthly_fee_USD,
+	TRY_CAST(REPLACE(monthly_fee_USD,'$','') AS DECIMAL(18,2))                          AS monthly_fee_USD,
 	COALESCE (
 				TRY_CONVERT(DATE,subscription_start,23),
 				TRY_CONVERT(DATE,subscription_start,101),     -- source data is suppose to use this format.
@@ -560,7 +563,7 @@ SELECT
 				TRY_CONVERT(DATE,subscription_end,106)
 				)   AS subscription_end,
 	TRY_CAST(tenure_months AS DECIMAL(18,2))                     AS tenure_months,
-	TRY_CAST(REPLACE(total_revenue_USD,'$','') AS DECIMAL(18,0)) AS total_revenue_USD,
+	TRY_CAST(REPLACE(total_revenue_USD,'$','') AS DECIMAL(18,2)) AS total_revenue_USD,
 	TRIM(CONCAT(UPPER(LEFT(subscription_status,1)),LOWER(SUBSTRING(subscription_status,2,LEN(subscription_status))))) AS subscription_status,
 	CASE
 		WHEN TRIM(cancellation_reason) IS NULL THEN 'Unknown'
@@ -568,11 +571,12 @@ SELECT
 	END                  AS cancellation_reason,
 	TRIM(payment_method) AS payment_method
 
-INTO clean.subs
+INTO clean.subs                        -- Inserting into staging table.
 FROM dbo.subscriptions
 
 
 --          Checks on date columns. Using datediff command to validate the tenure_months column data.
+
 SELECT
 	subscription_id,
 	subscription_start,
@@ -580,30 +584,29 @@ SELECT
 	DATEDIFF(MONTH,subscription_start,subscription_end) AS diff,
 	tenure_months,
 	DATEDIFF(MONTH,subscription_start,subscription_end) - tenure_months AS check_
-FROM clean.subscriptions
+FROM clean.subs
 WHERE ABS(DATEDIFF(MONTH,subscription_start,subscription_end) - tenure_months) > 1
 
 
 -- After reviewing, i will be deriving a new tenure_months column as it will contain a more complete information.
 
 SELECT 
-subscription_id,
-customer_id,
-plan_name,
-monthly_fee_USD,
-subscription_start,
-subscription_end,
-DATEDIFF(MONTH,subscription_start,subscription_end) AS derived_tenure_months,
-total_revenue_USD,
-subscription_status,
-cancellation_reason,
-payment_method
+	subscription_id,
+	customer_id,
+	plan_name,
+	monthly_fee_USD,
+	subscription_start,
+	subscription_end,
+	DATEDIFF(MONTH,subscription_start,subscription_end) AS derived_tenure_months,
+	total_revenue_USD,
+	subscription_status,
+	cancellation_reason,
+	payment_method
 
-INTO clean.subscriptions
+INTO clean.subscriptions        -- Inserting into clean table.
 FROM clean.subs
 
 
 -- Dropping staging table
 
 DROP TABLE clean.subs           -- Table dropped from the database.
-
